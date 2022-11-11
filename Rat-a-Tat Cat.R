@@ -26,6 +26,10 @@ draw.pile <-
   shuffled.deck[-1:(-4*players),] %>%
   mutate(card_order = rank(card_order))
 
+#######
+
+#######
+
 final.power.cards <-
   hands %>%
   select(id, card_type, card_value) %>%
@@ -36,6 +40,19 @@ count.final.power.cards <- as.numeric(nrow(final.power.cards))
 replacement.numbered.cards <-
   draw.pile %>%
   filter(card_type == "Numbered Card") %>%
-  top_n(n = -count.final.power.cards, wt = card_order)
+  top_n(n = -count.final.power.cards, wt = card_order) %>%
+  rename(card_id = id)
+
+power.replacements <- data.frame(id = final.power.cards$id,
+                                 replacement_card_value = replacement.numbered.cards$card_value)
+
+final.hands <-
+  hands %>%
+  left_join(power.replacements, by = "id") %>%
+  mutate(card_value = ifelse(card_type == "Power Card", replacement_card_value, card_value)) %>%
+  select(-replacement_card_value)
 
 hand.evaluations <-
+  final.hands %>%
+  group_by(player_id) %>%
+  summarize(score = sum(as.numeric(card_value)))
