@@ -15,18 +15,42 @@ shuffled.deck <-
          card_order = rank(rand)) %>%
   arrange(card_order)
 
-hands <- data.frame(id = c(1:(4*players)),
-                    player_id = c(rep(1:players, each = 4)),
-                    hand_position = c(rep(c("outer left", "inner left", "inner right", "outer right"), players)),
-                    card_id = shuffled.deck$id[1:(4*players)],
-                    card_type = shuffled.deck$card_type[1:(4*players)],
-                    card_value = shuffled.deck$card_value[1:(4*players)])
+hands <-
+  data.frame(id = c(1:(4*players)),
+             player_id = c(rep(1:players, each = 4)),
+             hand_position = c(rep(c("outer left", "inner left", "inner right", "outer right"), players)),
+             card_id = shuffled.deck$id[1:(4*players)],
+             card_type = shuffled.deck$card_type[1:(4*players)],
+             card_value = shuffled.deck$card_value[1:(4*players)]) %>%
+  mutate(expected_card_value = ifelse(hand_position %in% c("inner left", "inner right"), 5,
+                                      ifelse(card_type == "Power Card", 5, card_value)))
 
 draw.pile <-
   shuffled.deck[-1:(-4*players),] %>%
   mutate(card_order = rank(card_order))
 
 #######
+
+player.turn <- 1
+
+# take the top card from the draw pile
+draw.card <-
+  draw.pile %>%
+  filter(card_order == 1) %>%
+  select(id, card_type, card_value) %>%
+  rename(card_id = id)
+
+# remove card from the draw pile
+draw.pile <-
+  draw.pile %>%
+  filter(card_order > 1) %>%
+  mutate(card_order = card_order - 1)
+
+# evaluate whether to keep or discard drawn card
+
+hands %>%
+  filter(player_id == player.turn) %>%
+  arrange(desc(expected_card_value), desc(hand_position))
 
 #######
 
