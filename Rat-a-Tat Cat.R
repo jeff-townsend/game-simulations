@@ -26,30 +26,53 @@ hands <-
                                                  ifelse(card_type == "Power Card", 5, card_value))))
 original.hands <- hands
 
+faceup.card <- data.frame(card_id = shuffled.deck$id[players*4+1],
+                          card_type = shuffled.deck$card_type[players*4+1],
+                          card_value = shuffled.deck$card_value[players*4+1])
+faceup.card <-
+  faceup.card %>%
+  mutate(expected_card_value = ifelse(card_type == "Power Card", NA, as.numeric(card_value)))
+
 draw.pile <-
-  shuffled.deck[-1:(-4*players),] %>%
-  mutate(card_order = rank(card_order))
+  shuffled.deck[-1:(-4*players - 1),] %>%
+  select(-rand) %>%
+  mutate(card_order = rank(card_order)) %>%
+  rename(card_id = id)
 
 #######
 
 player.turn <- 1
 turn <- 1
-total.turns <- ifelse(players == 5, 35, 36)
+total.turns <- floor((nrow(draw.pile) - players) / players) * players
 
 for(turn in 1:total.turns){
   # take the top card from the draw pile
   draw.card <-
     draw.pile %>%
     filter(card_order == 1) %>%
-    select(id, card_type, card_value) %>%
-    rename(card_id = id) %>%
+    select(card_id, card_type, card_value) %>%
     mutate(expected_card_value = as.numeric(ifelse(card_type == "Power Card", 5, card_value)))
   
-  # remove card from the draw pile
+  taken.card <- data.frame(card_id = ifelse(faceup.card$card_type == "Power Card", draw.card$card_id,
+                                            ifelse(faceup.card$expected_card_value >= 5, draw.card$card_id,
+                                                   faceup.card$card_id)),
+                           card_type = ifelse(faceup.card$card_type == "Power Card", draw.card$card_type,
+                                              ifelse(faceup.card$expected_card_value >= 5, draw.card$card_type,
+                                                     faceup.card$card_type)),
+                           card_value = ifelse(faceup.card$card_type == "Power Card", draw.card$card_value,
+                                               ifelse(faceup.card$expected_card_value >= 5, draw.card$card_value,
+                                                      faceup.card$card_value)),
+                           expected_card_value = ifelse(faceup.card$card_type == "Power Card", draw.card$expected_card_value,
+                                                        ifelse(faceup.card$expected_card_value >= 5, draw.card$expected_card_value,
+                                                               faceup.card$expected_card_value)))
+  
+  # remove card from the draw pile, if applicable
   draw.pile <-
     draw.pile %>%
-    filter(card_order > 1) %>%
-    mutate(card_order = card_order - 1)
+    left_join(taken.card, by = c("card_id", "card_type", "card_value")) %>%
+    filter(is.na(expected_card_value)) %>%
+    select(card_id, card_type, card_value, card_order) %>%
+    mutate(card_order = rank(card_order))
   
   # evaluate whether to keep or discard drawn card
   
@@ -60,15 +83,16 @@ for(turn in 1:total.turns){
     mutate(card_replacement_order = c(1:4)) %>%
     top_n(n = -1, wt = card_replacement_order) %>%
     select(id, card_id, card_type, card_value, expected_card_value) %>%
-    union_all(draw.card) %>%
+    union_all(taken.card) %>%
     mutate(id = max(id, na.rm = TRUE)) %>%
     arrange(expected_card_value) %>%
     mutate(evaluation_order = c(1:2))
   
-  discarded.card <-
+  faceup.card <-
     discard.evaluation %>%
     filter(evaluation_order == 2) %>%
-    select(card_id, card_type, card_value, expected_card_value)
+    select(card_id, card_type, card_value, expected_card_value) %>%
+    mutate(expected_card_value = ifelse(card_type == "Power Card", NA, as.numeric(card_value)))
   
   hands <-
     hands %>%
@@ -95,8 +119,7 @@ count.final.power.cards <- as.numeric(nrow(final.power.cards))
 replacement.numbered.cards <-
   draw.pile %>%
   filter(card_type == "Numbered Card") %>%
-  top_n(n = -count.final.power.cards, wt = card_order) %>%
-  rename(card_id = id)
+  top_n(n = -count.final.power.cards, wt = card_order)
 
 power.replacements <- data.frame(id = final.power.cards$id,
                                  replacement_card_value = replacement.numbered.cards$card_value)
