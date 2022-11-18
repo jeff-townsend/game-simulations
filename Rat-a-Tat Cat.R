@@ -37,45 +37,50 @@ turn <- 1
 total.turns <- ifelse(players == 5, 35, 36)
 
 for(turn in 1:total.turns){
-# take the top card from the draw pile
-draw.card <-
-  draw.pile %>%
-  filter(card_order == 1) %>%
-  select(id, card_type, card_value) %>%
-  rename(card_id = id) %>%
-  mutate(expected_card_value = as.numeric(ifelse(card_type == "Power Card", 5, card_value)))
-
-# remove card from the draw pile
-draw.pile <-
-  draw.pile %>%
-  filter(card_order > 1) %>%
-  mutate(card_order = card_order - 1)
-
-# evaluate whether to keep or discard drawn card
-
-discard.evaluation <-
-  hands %>%
-  filter(player_id == player.turn) %>%
-  arrange(desc(expected_card_value), desc(hand_position)) %>%
-  mutate(card_replacement_order = c(1:4)) %>%
-  top_n(n = -1, wt = card_replacement_order) %>%
-  select(id, card_id, card_type, card_value, expected_card_value) %>%
-  union_all(draw.card) %>%
-  mutate(id = max(id, na.rm = TRUE)) %>%
-  arrange(expected_card_value) %>%
-  mutate(evaluation_order = c(1:2))
-
-hands <-
-  hands %>%
-  left_join(discard.evaluation %>% filter(evaluation_order == 1), by = "id") %>%
-  mutate(card_id = ifelse(is.na(card_id.y), card_id.x, card_id.y),
-         card_type = ifelse(is.na(card_id.y), card_type.x, card_type.y),
-         card_value = ifelse(is.na(card_id.y), card_value.x, card_value.y),
-         expected_card_value = ifelse(is.na(card_id.y), expected_card_value.x, expected_card_value.y)) %>%
-  select(id, player_id, hand_position, card_id, card_type, card_value, expected_card_value)
-
-player.turn <- ifelse(player.turn == players, 1, player.turn + 1)
-turn <- turn + 1
+  # take the top card from the draw pile
+  draw.card <-
+    draw.pile %>%
+    filter(card_order == 1) %>%
+    select(id, card_type, card_value) %>%
+    rename(card_id = id) %>%
+    mutate(expected_card_value = as.numeric(ifelse(card_type == "Power Card", 5, card_value)))
+  
+  # remove card from the draw pile
+  draw.pile <-
+    draw.pile %>%
+    filter(card_order > 1) %>%
+    mutate(card_order = card_order - 1)
+  
+  # evaluate whether to keep or discard drawn card
+  
+  discard.evaluation <-
+    hands %>%
+    filter(player_id == player.turn) %>%
+    arrange(desc(expected_card_value), desc(hand_position)) %>%
+    mutate(card_replacement_order = c(1:4)) %>%
+    top_n(n = -1, wt = card_replacement_order) %>%
+    select(id, card_id, card_type, card_value, expected_card_value) %>%
+    union_all(draw.card) %>%
+    mutate(id = max(id, na.rm = TRUE)) %>%
+    arrange(expected_card_value) %>%
+    mutate(evaluation_order = c(1:2))
+  
+  discarded.card <-
+    discard.evaluation %>%
+    filter(evaluation_order == 2) %>%
+    select(card_id, card_type, card_value, expected_card_value)
+  
+  hands <-
+    hands %>%
+    left_join(discard.evaluation %>% filter(evaluation_order == 1), by = "id") %>%
+    mutate(card_id = ifelse(is.na(card_id.y), card_id.x, card_id.y),
+           card_type = ifelse(is.na(card_id.y), card_type.x, card_type.y),
+           card_value = ifelse(is.na(card_id.y), card_value.x, card_value.y),
+           expected_card_value = ifelse(is.na(card_id.y), expected_card_value.x, expected_card_value.y)) %>%
+    select(id, player_id, hand_position, card_id, card_type, card_value, expected_card_value)
+  
+  player.turn <- ifelse(player.turn == players, 1, player.turn + 1)
+  turn <- turn + 1
 }
 
 #######
