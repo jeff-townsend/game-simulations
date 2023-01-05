@@ -3,16 +3,22 @@ library(tidyverse)
 ####### set up the game
 ## create a standard deck of cards
 # ignoring suit because it doesn't matter for this game
-deck <- data.frame(id = c(1:52),
-                   card_value = c(rep(c(2:10), each = 4), rep("J", 4), rep("Q", 4), rep("K", 4), rep("A", 4)))
-deck$card_points <- as.numeric(ifelse(deck$card_value == "A", 11,
-                                      ifelse(deck$card_value %in% c("J", "Q", "K"), 10, deck$card_value)))
+cards <- data.frame(id = c(1:52),
+                    card_value = c(rep(c(2:10), each = 4), rep("J", 4), rep("Q", 4), rep("K", 4), rep("A", 4)))
+cards$card_points <- as.numeric(ifelse(deck$card_value == "A", 11,
+                                       ifelse(deck$card_value %in% c("J", "Q", "K"), 10, deck$card_value)))
+
+decks <- data.frame(id = rep(c(1:10), each = 52),
+                    card_id = cards$id,
+                    card_value = cards$card_value,
+                    card_points = cards$card_points)
 
 num.players <- 6
 
 # shuffle the deck
 shuffled.deck <-
-  deck %>%
+  decks %>%
+  filter(id == 1) %>%
   mutate(rand = runif(52),
          card_order = rank(rand)) %>%
   arrange(card_order)
