@@ -5,8 +5,8 @@ library(tidyverse)
 # ignoring suit because it doesn't matter for this game
 cards <- data.frame(id = c(1:52),
                     card_value = c(rep(c(2:10), each = 4), rep("J", 4), rep("Q", 4), rep("K", 4), rep("A", 4)))
-cards$card_points <- as.numeric(ifelse(deck$card_value == "A", 11,
-                                       ifelse(deck$card_value %in% c("J", "Q", "K"), 10, deck$card_value)))
+cards$card_points <- as.numeric(ifelse(cards$card_value == "A", 11,
+                                       ifelse(cards$card_value %in% c("J", "Q", "K"), 10, cards$card_value)))
 
 decks <- data.frame(id = rep(c(1:10), each = 52),
                     card_id = cards$id,
@@ -27,7 +27,7 @@ shuffled.deck <-
 player.cards <-
   data.frame(id = c(1:(3*num.players)),
              player_id = c(rep(1:num.players, each = 3)),
-             card_id = shuffled.deck$id[1:(3*num.players)],
+             card_id = shuffled.deck$card_id[1:(3*num.players)],
              card_value = shuffled.deck$card_value[1:(3*num.players)],
              card_points = shuffled.deck$card_points[1:(3*num.players)])
 
@@ -41,6 +41,15 @@ players <-
             total_points = sum(card_points)) %>%
   rename(id = player_id)
 
+active.standings <- pivot_wider(players %>% select(id, total_points),
+                                names_from = id,
+                                names_glue = "player_{id}",
+                                values_from = total_points)
+
+standings.audit <-
+  active.standings %>%
+  mutate(turns_taken = 0)
+
 # the first player can choose either a faceup card or a new card at random
 # faceup.card <- data.frame(card_id = shuffled.deck$id[num.players*3+1],
 #                           card_value = shuffled.deck$card_value[num.players*3+1],
@@ -53,8 +62,7 @@ players <-
 draw.pile <-
   shuffled.deck[-1:(-3*num.players),] %>%
   select(-rand) %>%
-  mutate(card_order = rank(card_order)) %>%
-  rename(card_id = id)
+  mutate(card_order = rank(card_order))
 
 ####### now we play
 
@@ -111,6 +119,14 @@ for(round.turn in 1:total.turns){
               card_points3 = max(card_points),
               total_points = sum(card_points)) %>%
     rename(id = player_id)
+  
+  active.standings <- pivot_wider(players %>% select(id, total_points),
+                                  names_from = id,
+                                  names_glue = "player_{id}",
+                                  values_from = total_points)
+  
+  standings.audit <- rbind(standings.audit, active.standings %>%
+                                            mutate(turns_taken = round.turn))
   
   player.turn <- ifelse(player.turn == num.players, 1, player.turn + 1)
   round.turn <- round.turn + 1
