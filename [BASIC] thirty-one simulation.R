@@ -8,42 +8,43 @@ cards <- data.frame(id = c(1:52),
 cards$card_points <- as.numeric(ifelse(cards$card_value == "A", 11,
                                        ifelse(cards$card_value %in% c("J", "Q", "K"), 10, cards$card_value)))
 
-decks <- data.frame(id = rep(c(1:10), each = 52),
+simulations <- 10
+num.players <- 6
+
+decks <- data.frame(id = rep(c(1:simulations), each = 52),
                     card_id = cards$id,
                     card_value = cards$card_value,
                     card_points = cards$card_points)
 
-num.players <- 6
-
 # shuffle the deck
-shuffled.deck <-
+shuffled.decks <-
   decks %>%
-  filter(id == 1) %>%
-  mutate(rand = runif(52),
-         card_order = rank(rand)) %>%
-  arrange(card_order)
+  mutate(rand = runif(52*simulations)) %>%
+  group_by(id) %>%
+  mutate(card_order = rank(rand)) %>%
+  ungroup() %>%
+  arrange(id, card_order)
 
 # deal the cards
 player.cards <-
-  data.frame(id = c(1:(3*num.players)),
-             player_id = c(rep(1:num.players, each = 3)),
-             card_id = shuffled.deck$card_id[1:(3*num.players)],
-             card_value = shuffled.deck$card_value[1:(3*num.players)],
-             card_points = shuffled.deck$card_points[1:(3*num.players)])
+  shuffled.decks %>%
+  filter(card_order <= 3*num.players) %>%
+  mutate(player_id = rep(rep(1:num.players, each = 3), simulations)) %>%
+  select(id, player_id, card_id, card_value, card_points) %>%
+  rename(game_id = id)
 
 # keep score
-players <-
+player.scores <-
   player.cards %>%
-  group_by(player_id) %>%
+  group_by(game_id, player_id) %>%
   summarize(card_points1 = min(card_points),
             card_points2 = median(card_points),
             card_points3 = max(card_points),
-            total_points = sum(card_points)) %>%
-  rename(id = player_id)
+            total_points = sum(card_points))
 
-active.standings <- pivot_wider(players %>% select(id, total_points),
-                                names_from = id,
-                                names_glue = "player_{id}",
+active.standings <- pivot_wider(player.scores %>% select(game_id, player_id, total_points),
+                                names_from = player_id,
+                                names_glue = "player_{player_id}",
                                 values_from = total_points)
 
 standings.audit <-
@@ -59,57 +60,63 @@ standings.audit <-
 #   mutate(expected_card_value = ifelse(card_type == "Power Card", NA, as.numeric(card_value)))
 
 # the remaining cards
-draw.pile <-
-  shuffled.deck[-1:(-3*num.players),] %>%
+draw.piles <-
+  shuffled.decks %>%
+  filter(card_order > 3*num.players) %>%
   select(-rand) %>%
-  mutate(card_order = rank(card_order))
+  group_by(id) %>%
+  mutate(card_order = rank(card_order)) %>%
+  ungroup()
 
 ####### now we play
 
 player.turn <- 1
 round.turn <- 1
-total.turns <- floor(nrow(draw.pile) / num.players) * num.players
+total.turns <- floor((52-3*num.players) / num.players) * num.players
 
 for(round.turn in 1:total.turns){
   # take the top card from the draw pile
-  draw.card <-
-    draw.pile %>%
+  draw.cards <-
+    draw.piles %>%
     filter(card_order == 1) %>%
-    select(card_id, card_value, card_points)
+    mutate(game_id = c(1:simulations)) %>%
+    select(game_id, card_id, card_value, card_points)
   
-  taken.card <- draw.card
+  taken.cards <- draw.cards
   # taken.card <- data.frame(card_id = ifelse(faceup.card$card_points >= 8, faceup.card$card_id, draw.card$card_id)),
   #                          card_value = ifelse(faceup.card$card_points >= 8, faceup.card$card_value, draw.card$card_value)),
   #                          card_points = ifelse(faceup.card$card_points >= 8, faceup.card$card_points, draw.card$card_points)))
   
   
   # remove card from the draw pile, if applicable
-  draw.pile <-
-    draw.pile %>%
+  draw.piles <-
+    draw.piles %>%
     filter(card_order >= 2) %>%
     mutate(card_order = card_order - 1)
   
   # evaluate whether to keep or discard drawn card
   
-  discard.evaluation <-
+  discard.evaluations <-
     player.cards %>%
     filter(player_id == player.turn) %>%
-    arrange(card_points) %>%
-    mutate(card_replacement_order = c(1:3)) %>%
+    arrange(game_id, card_points) %>%
+    mutate(card_replacement_order = rep(c(1:3), simulations)) %>%
+    group_by(game_id) %>%
     top_n(n = -1, wt = card_replacement_order) %>%
-    select(id, card_id, card_value, card_points) %>%
-    union_all(taken.card) %>%
-    mutate(id = max(id, na.rm = TRUE)) %>%
-    arrange(desc(card_points)) %>%
-    mutate(evaluation_order = c(1:2))
+    ungroup() %>%
+    select(game_id, player_id, card_id, card_value, card_points) %>%
+    union_all(taken.cards) %>%
+    mutate(player_id = max(player_id, na.rm = TRUE)) %>%
+    arrange(game_id, desc(card_points)) %>%
+    mutate(evaluation_order = rep(c(1:2), simulations))
   
   player.cards <-
     player.cards %>%
-    left_join(discard.evaluation %>% filter(evaluation_order == 1), by = "id") %>%
+    left_join(discard.evaluations %>% filter(evaluation_order == 1), by = c("game_id", "player_id", "card_id")) %>%
     mutate(card_id = ifelse(is.na(card_id.y), card_id.x, card_id.y),
            card_value = ifelse(is.na(card_id.y), card_value.x, card_value.y),
            card_points = ifelse(is.na(card_id.y), card_points.x, card_points.y)) %>%
-    select(id, player_id, card_id, card_value, card_points)
+    select(game_id, player_id, card_id, card_value, card_points)
   
   players <-
     player.cards %>%
@@ -126,7 +133,7 @@ for(round.turn in 1:total.turns){
                                   values_from = total_points)
   
   standings.audit <- rbind(standings.audit, active.standings %>%
-                                            mutate(turns_taken = round.turn))
+                             mutate(turns_taken = round.turn))
   
   player.turn <- ifelse(player.turn == num.players, 1, player.turn + 1)
   round.turn <- round.turn + 1
