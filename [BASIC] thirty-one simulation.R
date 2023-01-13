@@ -3,12 +3,13 @@ library(tidyverse)
 ####### set up the game
 ## create a standard deck of cards
 # ignoring suit because it doesn't matter for this game
+start.time <- Sys.time()
 cards <- data.frame(id = c(1:52),
                     card_value = c(rep(c(2:10), each = 4), rep("J", 4), rep("Q", 4), rep("K", 4), rep("A", 4)))
 cards$card_points <- as.numeric(ifelse(cards$card_value == "A", 11,
                                        ifelse(cards$card_value %in% c("J", "Q", "K"), 10, cards$card_value)))
 
-simulations <- 10
+simulations <- 5000
 num.players <- 6
 
 decks <- data.frame(id = rep(c(1:simulations), each = 52),
@@ -41,7 +42,8 @@ player.scores <-
   summarize(card_points1 = min(card_points),
             card_points2 = median(card_points),
             card_points3 = max(card_points),
-            total_points = sum(card_points))
+            total_points = sum(card_points),
+            .groups = "drop")
 
 active.standings <- pivot_wider(player.scores %>% select(game_id, player_id, total_points),
                                 names_from = player_id,
@@ -128,7 +130,8 @@ for(round.turn in 1:total.turns){
     summarize(card_points1 = min(card_points),
               card_points2 = median(card_points),
               card_points3 = max(card_points),
-              total_points = sum(card_points))
+              total_points = sum(card_points),
+              .groups = "drop")
   
   active.standings <- pivot_wider(player.scores %>% select(game_id, player_id, total_points),
                                   names_from = player_id,
@@ -141,3 +144,36 @@ for(round.turn in 1:total.turns){
   player.turn <- ifelse(player.turn == num.players, 1, player.turn + 1)
   round.turn <- round.turn + 1
 }
+end.time <- Sys.time()
+run.time <- end.time - start.time
+run.time
+
+# these values should all be the same
+# active.standings %>%
+#   pivot_longer(cols = c("player_1", "player_2", "player_3", "player_4", "player_5", "player_6"),
+#                names_to = "player_id",
+#                values_to = "total_points") %>%
+#   group_by(player_id) %>%
+#   summarize(avg_score = mean(total_points))
+
+# let's start by testing what would've happened if P1 knocked on T1
+
+p1t1.knock.results <-
+  standings.audit %>%
+  filter(turns_taken == 0) %>%
+  inner_join(y = standings.audit %>% filter(turns_taken == 6), by = "game_id") %>%
+  select(game_id, player_1.x, player_2.y, player_3.y, player_4.y, player_5.y, player_6.y)
+colnames(p1t1.knock.results) <- c("game_id", "player_1", "player_2", "player_3", "player_4", "player_5", "player_6")
+p1t1.knock.results <-
+  p1t1.knock.results %>%
+  mutate(p1_survive = ifelse(player_1 <= player_2 &
+                               player_1 <= player_3 &
+                               player_1 <= player_4 &
+                               player_1 <= player_5 &
+                               player_1 <= player_6,
+                             0, 1))
+
+p1t1.knock.survival <-
+  p1t1.knock.results %>%
+  group_by(player_1) %>%
+  summarize(survival_rate = mean(p1_survive))
