@@ -28,10 +28,11 @@ shuffled.decks <-
 # deal the cards
 player.cards <-
   shuffled.decks %>%
+  rename(game_id = id) %>%
   filter(card_order <= 3*num.players) %>%
-  mutate(player_id = rep(rep(1:num.players, each = 3), simulations)) %>%
-  select(id, player_id, card_id, card_value, card_points) %>%
-  rename(game_id = id)
+  mutate(player_id = rep(rep(1:num.players, each = 3), simulations),
+         id = c(1:(3*num.players*simulations))) %>%
+  select(id, game_id, player_id, card_id, card_value, card_points)
 
 # keep score
 player.scores <-
@@ -79,8 +80,9 @@ for(round.turn in 1:total.turns){
   draw.cards <-
     draw.piles %>%
     filter(card_order == 1) %>%
-    mutate(game_id = c(1:simulations)) %>%
-    select(game_id, card_id, card_value, card_points)
+    mutate(game_id = c(1:simulations),
+           player_id = player.turn) %>%
+    select(game_id, player_id, card_id, card_value, card_points)
   
   taken.cards <- draw.cards
   # taken.card <- data.frame(card_id = ifelse(faceup.card$card_points >= 8, faceup.card$card_id, draw.card$card_id)),
@@ -104,32 +106,33 @@ for(round.turn in 1:total.turns){
     group_by(game_id) %>%
     top_n(n = -1, wt = card_replacement_order) %>%
     ungroup() %>%
-    select(game_id, player_id, card_id, card_value, card_points) %>%
+    select(id, game_id, player_id, card_id, card_value, card_points) %>%
     union_all(taken.cards) %>%
-    mutate(player_id = max(player_id, na.rm = TRUE)) %>%
+    group_by(game_id) %>%
+    mutate(id = max(id, na.rm = TRUE)) %>%
+    ungroup() %>%
     arrange(game_id, desc(card_points)) %>%
     mutate(evaluation_order = rep(c(1:2), simulations))
   
   player.cards <-
     player.cards %>%
-    left_join(discard.evaluations %>% filter(evaluation_order == 1), by = c("game_id", "player_id", "card_id")) %>%
+    left_join(discard.evaluations %>% filter(evaluation_order == 1), by = c("id", "game_id", "player_id")) %>%
     mutate(card_id = ifelse(is.na(card_id.y), card_id.x, card_id.y),
            card_value = ifelse(is.na(card_id.y), card_value.x, card_value.y),
            card_points = ifelse(is.na(card_id.y), card_points.x, card_points.y)) %>%
-    select(game_id, player_id, card_id, card_value, card_points)
+    select(id, game_id, player_id, card_id, card_value, card_points)
   
-  players <-
+  player.scores <-
     player.cards %>%
-    group_by(player_id) %>%
+    group_by(game_id, player_id) %>%
     summarize(card_points1 = min(card_points),
               card_points2 = median(card_points),
               card_points3 = max(card_points),
-              total_points = sum(card_points)) %>%
-    rename(id = player_id)
+              total_points = sum(card_points))
   
-  active.standings <- pivot_wider(players %>% select(id, total_points),
-                                  names_from = id,
-                                  names_glue = "player_{id}",
+  active.standings <- pivot_wider(player.scores %>% select(game_id, player_id, total_points),
+                                  names_from = player_id,
+                                  names_glue = "player_{player_id}",
                                   values_from = total_points)
   
   standings.audit <- rbind(standings.audit, active.standings %>%
