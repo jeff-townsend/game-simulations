@@ -156,7 +156,23 @@ run.time
 #   group_by(player_id) %>%
 #   summarize(avg_score = mean(total_points))
 
-# let's start by testing what would've happened if P1 knocked on T1
+# plot the average scores after each set of turns
+
+average.scores <-
+  standings.audit %>%
+  filter(turns_taken %% num.players == 0) %>%
+  pivot_longer(cols = c("player_1", "player_2", "player_3", "player_4", "player_5", "player_6"),
+               names_to = "player_id",
+               values_to = "total_points") %>%
+  mutate(completed_rotations = turns_taken / 6) %>%
+  group_by(game_id, completed_rotations) %>%
+  mutate(last_place = min(total_points)) %>%
+  ungroup() %>%
+  group_by(completed_rotations) %>%
+  summarize(avg_score = mean(total_points),
+            avg_loser = mean(last_place))
+
+# what would've happened if P1 knocked on T1
 
 p1t1.knock.results <-
   standings.audit %>%
@@ -177,3 +193,33 @@ p1t1.knock.survival <-
   p1t1.knock.results %>%
   group_by(player_1) %>%
   summarize(survival_rate = mean(p1_survive))
+
+# what about P6?
+
+p6t1.knock.results <-
+  standings.audit %>%
+  filter(turns_taken == 5) %>%
+  inner_join(y = standings.audit %>% filter(turns_taken == 11), by = "game_id") %>%
+  select(game_id, player_1.y, player_2.y, player_3.y, player_4.y, player_5.y, player_6.x)
+colnames(p6t1.knock.results) <- c("game_id", "player_1", "player_2", "player_3", "player_4", "player_5", "player_6")
+p6t1.knock.results <-
+  p6t1.knock.results %>%
+  mutate(p6_survive = ifelse(player_6 <= player_2 &
+                               player_6 <= player_3 &
+                               player_6 <= player_4 &
+                               player_6 <= player_5 &
+                               player_6 <= player_1,
+                             0, 1))
+
+p6t1.knock.survival <-
+  p6t1.knock.results %>%
+  group_by(player_6) %>%
+  summarize(survival_rate = mean(p6_survive))
+
+# generalize to any player, any given turn
+
+knock.results <-
+  standings.audit %>%
+  inner_join(y = standings.audit, by = "game_id") %>%
+  filter(turns.taken.x == turns.taken.y - 6) %>%
+  select(game)
