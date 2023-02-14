@@ -9,7 +9,7 @@ cards <- data.frame(id = c(1:52),
 cards$card_points <- as.numeric(ifelse(cards$card_value == "A", 11,
                                        ifelse(cards$card_value %in% c("J", "Q", "K"), 10, cards$card_value)))
 
-simulations <- 5000
+simulations <- 10000
 num.players <- 6
 
 decks <- data.frame(id = rep(c(1:simulations), each = 52),
@@ -52,7 +52,8 @@ active.standings <- pivot_wider(player.scores %>% select(game_id, player_id, tot
 
 standings.audit <-
   active.standings %>%
-  mutate(turns_taken = 0)
+  mutate(turns_taken = 0,
+         player_turn = 1)
 
 # the first player can choose either a faceup card or a new card at random
 # faceup.card <- data.frame(card_id = shuffled.deck$id[num.players*3+1],
@@ -138,11 +139,12 @@ for(round.turn in 1:total.turns){
                                   names_glue = "player_{player_id}",
                                   values_from = total_points)
   
-  standings.audit <- rbind(standings.audit, active.standings %>%
-                             mutate(turns_taken = round.turn))
-  
   player.turn <- ifelse(player.turn == num.players, 1, player.turn + 1)
   round.turn <- round.turn + 1
+  
+  standings.audit <- rbind(standings.audit, active.standings %>%
+                             mutate(turns_taken = round.turn,
+                                    player_turn = player.turn))
 }
 end.time <- Sys.time()
 run.time <- end.time - start.time
@@ -221,5 +223,5 @@ p6t1.knock.survival <-
 knock.results <-
   standings.audit %>%
   inner_join(y = standings.audit, by = "game_id") %>%
-  filter(turns.taken.x == turns.taken.y - 6) %>%
+  filter(turns_taken.x == turns_taken.y - 6) %>%
   select(game)
