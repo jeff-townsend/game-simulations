@@ -34,7 +34,7 @@ results <-
 
 daily.performance <-
   results %>%
-  filter(date == as.Date("2024-01-20")) %>%
+  filter(date == as.Date("2024-01-21")) %>%
   group_by(competitor) %>%
   summarize(points = sum(points),
             points_per_question = mean(points),
@@ -64,7 +64,7 @@ ggplot(daily.performance, aes(x = year_points, y = location_points)) +
   theme_fivethirtyeight() +
   theme(legend.position = "none",
         axis.title = element_text()) +
-  ggtitle("1/20 Scoring Breakdown")
+  ggtitle("Today's Scoring Breakdown")
 
 question.average <- mean(questions$question_points)
 overall.performance <-
@@ -79,7 +79,8 @@ overall.performance <-
             relative_points = (mean(relative_points)+question.average)*5)
 
 # Performance
-ggplot(overall.performance, aes(x = year_points, y = location_points)) +
+ggplot(overall.performance %>% filter(competitor != "Dan"),
+       aes(x = year_points, y = location_points)) +
   geom_point() +
   geom_text_repel(aes(label = competitor)) +
   geom_abline(intercept = 0, slope = 1,
@@ -98,3 +99,32 @@ ggplot(overall.performance, aes(x = year_points, y = location_points)) +
   theme(legend.position = "none",
         axis.title = element_text()) +
   ggtitle("Overall Performance Breakdown")
+
+View(
+  results %>%
+    group_by(competitor) %>%
+    summarize(location_4800 = mean(ifelse(location_points >= 4800, 1, 0)),
+              location_4900 = mean(ifelse(location_points >= 4900, 1, 0)),
+              location_5000 = mean(ifelse(location_points >= 4995, 1, 0)),
+              year_within5 = mean(ifelse(years_off <= 5, 1, 0)),
+              year_within2 = mean(ifelse(years_off <= 2, 1, 0)),
+              year_exact = mean(ifelse(years_off == 0, 1, 0)),
+              median_year = median(years_off),
+              median_distance = median(distance_away))
+)
+
+ggplot(data = results %>% filter(competitor %in% c("Andrew", "David", "Jeff")),
+       aes(x = years_off)) +
+  geom_density(aes(fill = competitor),
+               alpha = 0.5) +
+  theme_fivethirtyeight() +
+  theme(legend.title = element_blank()) +
+  ggtitle("Years Off Distribution")
+
+ggplot(data = results %>% filter(competitor %in% c("Andrew", "Casey", "David", "Jeff", "Matt")),
+       aes(x = location_points)) +
+  geom_density(aes(fill = competitor),
+               alpha = 0.5) +
+  theme_fivethirtyeight() +
+  theme(legend.title = element_blank()) +
+  ggtitle("Location Points Distribution")
