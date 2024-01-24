@@ -25,11 +25,17 @@ questions <-
 results <-
   results.import %>%
   inner_join(questions %>% select(-id), by = c("date", "question")) %>%
+  group_by(date, question) %>%
+  mutate(placement = rank(desc(points), ties.method = "average"),
+         placement_points = rank(points, ties.method = "average"),
+         participants = placement + placement_points - 1) %>%
+  ungroup() %>%
   mutate(relative_points = points - question_points,
          relative_year_points = year_points - question_year_points,
          relative_location_points = location_points - question_location_points) %>%
   select(id, date, competitor, question, points,
          years_off, distance_away, year_points, location_points,
+         placement, placement_points, participants,
          relative_points, relative_year_points, relative_location_points)
 
 daily.performance <-
@@ -79,26 +85,24 @@ overall.performance <-
             relative_points = (mean(relative_points)+question.average)*5)
 
 # Performance
-ggplot(overall.performance %>% filter(competitor != "Dan"),
+ggplot(overall.performance %>% filter(competitor != ""),
        aes(x = year_points, y = location_points)) +
   geom_point() +
   geom_text_repel(aes(label = competitor)) +
   geom_abline(intercept = 0, slope = 1,
               linetype = "dotted", color = "red2") +
-  geom_textabline(label = "46,000", intercept = 9200, slope = -1,
-                  linetype = "dashed", hjust = 0.45) +
   geom_textabline(label = "42,000", intercept = 8400, slope = -1,
                   linetype = "dashed", hjust = 0.5) +
+  geom_textabline(label = "40,000", intercept = 8000, slope = -1,
+                  linetype = "dashed") +
   geom_textabline(label = "38,000", intercept = 7600, slope = -1,
                   linetype = "dashed") +
-  geom_textabline(label = "34,000", intercept = 6800, slope = -1,
-                  linetype = "dashed") +
-  scale_x_continuous(limits = c(3000, 5000), name = "Year Points") +
-  scale_y_continuous(limits = c(3000, 5000), name = "Location Points") +
+  scale_x_continuous(limits = c(3500, 4500), name = "Year Points") +
+  scale_y_continuous(limits = c(3500, 4500), name = "Location Points") +
   theme_fivethirtyeight() +
   theme(legend.position = "none",
         axis.title = element_text()) +
-  ggtitle("Overall Performance Breakdown")
+  ggtitle("Scoring Breakdown")
 
 View(
   results %>%
@@ -121,10 +125,15 @@ ggplot(data = results %>% filter(competitor %in% c("Andrew", "David", "Jeff")),
   theme(legend.title = element_blank()) +
   ggtitle("Years Off Distribution")
 
-ggplot(data = results %>% filter(competitor %in% c("Andrew", "Casey", "David", "Jeff", "Matt")),
-       aes(x = location_points)) +
-  geom_density(aes(fill = competitor),
-               alpha = 0.5) +
-  theme_fivethirtyeight() +
-  theme(legend.title = element_blank()) +
-  ggtitle("Location Points Distribution")
+# placement by question
+
+placement <-
+  results %>%
+  group_by(competitor) %>%
+  summarize(questions = n(),
+            question_wins = sum(ifelse(placement <= 1.5, 1,0)),
+            question_losses = sum(ifelse(placement_points <= 1.5, 1, 0)),
+            placement_points = sum(placement_points),
+            available_points = sum(participants)) %>%
+  mutate(question_win_rate = question_wins / questions,
+         placement_point_pct = placement_points / available_points)
