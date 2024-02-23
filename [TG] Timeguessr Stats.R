@@ -114,16 +114,30 @@ View(
               year_within2 = mean(ifelse(years_off <= 2, 1, 0)),
               year_exact = mean(ifelse(years_off == 0, 1, 0)),
               median_year = median(years_off),
-              median_distance = median(distance_away))
+              median_distance = median(distance_away),
+              points_9000 = mean(ifelse(points >= 9000, 1, 0)),
+              points_9500 = mean(ifelse(points >= 9500, 1, 0)),
+              points_9800 = mean(ifelse(points >= 9800, 1, 0)),
+              avg_points = mean(points),
+              median_points = median(points),
+              median_year_points = median(year_points),
+              median_location_points = median(location_points))
 )
 
-ggplot(data = results %>% filter(competitor %in% c("Andrew", "David", "Jeff")),
-       aes(x = years_off)) +
+ggplot(data = results %>% filter(competitor %in% c("Matt")),
+       aes(x = location_points)) +
   geom_density(aes(fill = competitor),
-               alpha = 0.5) +
+                 alpha = 0.5) +
   theme_fivethirtyeight() +
   theme(legend.title = element_blank()) +
-  ggtitle("Years Off Distribution")
+  ggtitle("Points Distribution")
+
+View(results %>%
+       filter(location_points >= 4700) %>%
+       group_by(competitor) %>%
+       summarize(questions = n(),
+                 distance_away = mean(distance_away),
+                 years_off = mean(years_off)))
 
 # placement by question
 
@@ -137,3 +151,8 @@ placement <-
             available_points = sum(participants)) %>%
   mutate(question_win_rate = question_wins / questions,
          placement_point_pct = placement_points / available_points)
+
+# location point scoring
+
+ggplot(results, aes(x = distance_away, y = location_points)) +
+  geom_point()
