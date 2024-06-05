@@ -1,0 +1,31 @@
+id,ticket_name,ticket_points,ticket_departure,ticket_arrival
+1,Denver - El Paso,4,Denver ,El Paso
+2,Kansas City - Houston,5,Kansas City ,Houston
+3,New York - Atlanta,6,New York ,Atlanta
+4,Calgary - Salt Lake City,7,Calgary ,Salt Lake City
+5,Chicago - New Orleans,7,Chicago ,New Orleans
+6,Duluth - Houston,8,Duluth ,Houston
+7,Helena - Los Angeles,8,Helena ,Los Angeles
+8,Sault St. Marie - Nashville,8,Sault St. Marie ,Nashville
+9,Chicago - Santa Fe,9,Chicago ,Santa Fe
+10,Montreal - Atlanta,9,Montreal ,Atlanta
+11,Sault St. Marie - Oklahoma City,9,Sault St. Marie ,Oklahoma City
+12,Seattle - Los Angeles,9,Seattle ,Los Angeles
+13,Duluth - El Paso,10,Duluth ,El Paso
+14,Toronto - Miami,10,Toronto ,Miami
+15,Dallas - New York,11,Dallas ,New York
+16,Denver - Pittsburgh,11,Denver ,Pittsburgh
+17,Portland - Phoenix,11,Portland ,Phoenix
+18,Winnipeg - Little Rock,11,Winnipeg ,Little Rock
+19,Boston - Miami,12,Boston ,Miami
+20,Winnipeg - Houston,12,Winnipeg ,Houston
+21,Calgary - Phoenix,13,Calgary ,Phoenix
+22,Montreal - New Orleans,13,Montreal ,New Orleans
+23,Vancouver - Santa Fe,13,Vancouver ,Santa Fe
+24,Los Angeles - Chicago,16,Los Angeles ,Chicago
+25,Portland - Nashville,17,Portland ,Nashville
+26,San Francisco - Atlanta,17,San Francisco ,Atlanta
+27,Los Angeles - Miami,20,Los Angeles ,Miami
+28,Vancouver - Montreal,20,Vancouver ,Montreal
+29,Los Angeles - New York,21,Los Angeles ,New York
+30,Seattle - New York,22,Seattle ,New York

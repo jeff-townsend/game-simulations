@@ -1,0 +1,201 @@
+id,starting_city,starting_city_id,ending_city,ending_city_id,route_name,route_length,color,color_specific
+1,Atlanta,1,Nashville,18,Atlanta-Nashville,1,Grey,0
+2,Atlanta,1,Charleston,4,Atlanta-Charleston,2,Grey,0
+3,Atlanta,1,Raleigh,26,Atlanta-Raleigh,2,Grey,0
+4,Atlanta,1,Raleigh,26,Atlanta-Raleigh,2,Grey,0
+5,Atlanta,1,New Orleans,19,Atlanta-New Orleans,4,Orange,1
+6,Atlanta,1,New Orleans,19,Atlanta-New Orleans,4,Yellow,1
+7,Atlanta,1,Miami,16,Atlanta-Miami,5,Blue,1
+8,Boston,2,Montreal,17,Boston-Montreal,2,Grey,0
+9,Boston,2,Montreal,17,Boston-Montreal,2,Grey,0
+10,Boston,2,New York,20,Boston-New York,2,Red,1
+11,Boston,2,New York,20,Boston-New York,2,Yellow,1
+12,Calgary,3,Vancouver,34,Calgary-Vancouver,3,Grey,0
+13,Calgary,3,Helena,10,Calgary-Helena,4,Grey,0
+14,Calgary,3,Seattle,32,Calgary-Seattle,4,Grey,0
+15,Calgary,3,Winnipeg,36,Calgary-Winnipeg,6,White,1
+16,Charleston,4,Atlanta,1,Atlanta-Charleston,2,Grey,0
+17,Charleston,4,Raleigh,26,Charleston-Raleigh,2,Grey,0
+18,Charleston,4,Miami,16,Charleston-Miami,4,Pink,1
+19,Chicago,5,Saint Louis,27,Chicago-Saint Louis,2,Green,1
+20,Chicago,5,Saint Louis,27,Chicago-Saint Louis,2,White,1
+21,Chicago,5,Duluth,8,Chicago-Duluth,3,Red,1
+22,Chicago,5,Pittsburgh,24,Chicago-Pittsburgh,3,Black,1
+23,Chicago,5,Pittsburgh,24,Chicago-Pittsburgh,3,Orange,1
+24,Chicago,5,Omaha,22,Chicago-Omaha,4,Blue,1
+25,Chicago,5,Toronto,33,Chicago-Toronto,4,White,1
+26,Dallas,6,Houston,11,Dallas-Houston,1,Grey,0
+27,Dallas,6,Houston,11,Dallas-Houston,1,Grey,0
+28,Dallas,6,Little Rock,14,Dallas-Little Rock,2,Grey,0
+29,Dallas,6,Oklahoma City,21,Dallas-Oklahoma City,2,Grey,0
+30,Dallas,6,Oklahoma City,21,Dallas-Oklahoma City,2,Grey,0
+31,Dallas,6,El Paso,9,Dallas-El Paso,4,Red,1
+32,Denver,7,Santa Fe,30,Denver-Santa Fe,2,Grey,0
+33,Denver,7,Salt Lake City,28,Denver-Salt Lake City,3,Red,1
+34,Denver,7,Salt Lake City,28,Denver-Salt Lake City,3,Yellow,1
+35,Denver,7,Helena,10,Denver-Helena,4,Green,1
+36,Denver,7,Kansas City,12,Denver-Kansas City,4,Black,1
+37,Denver,7,Kansas City,12,Denver-Kansas City,4,Orange,1
+38,Denver,7,Oklahoma City,21,Denver-Oklahoma City,4,Red,1
+39,Denver,7,Omaha,22,Denver-Omaha,4,Pink,1
+40,Denver,7,Phoenix,23,Denver-Phoenix,5,White,1
+41,Duluth,8,Omaha,22,Duluth-Omaha,2,Grey,0
+42,Duluth,8,Omaha,22,Duluth-Omaha,2,Grey,0
+43,Duluth,8,Chicago,5,Chicago-Duluth,3,Red,1
+44,Duluth,8,Sault St. Marie,31,Duluth-Sault St. Marie,3,Grey,0
+45,Duluth,8,Winnipeg,36,Duluth-Winnipeg,4,Black,1
+46,Duluth,8,Helena,10,Duluth-Helena,6,Orange,1
+47,Duluth,8,Toronto,33,Duluth-Toronto,6,Pink,1
+48,El Paso,9,Santa Fe,30,El Paso-Santa Fe,2,Grey,0
+49,El Paso,9,Phoenix,23,El Paso-Phoenix,3,Grey,0
+50,El Paso,9,Dallas,6,Dallas-El Paso,4,Red,1
+51,El Paso,9,Oklahoma City,21,El Paso-Oklahoma City,5,Yellow,1
+52,El Paso,9,Houston,11,El Paso-Houston,6,Green,1
+53,El Paso,9,Los Angeles,15,El Paso-Los Angeles,6,Black,1
+54,Helena,10,Salt Lake City,28,Helena-Salt Lake City,3,Pink,1
+55,Helena,10,Calgary,3,Calgary-Helena,4,Grey,0
+56,Helena,10,Denver,7,Denver-Helena,4,Green,1
+57,Helena,10,Winnipeg,36,Helena-Winnipeg,4,Blue,1
+58,Helena,10,Omaha,22,Helena-Omaha,5,Red,1
+59,Helena,10,Duluth,8,Duluth-Helena,6,Orange,1
+60,Helena,10,Seattle,32,Helena-Seattle,6,Yellow,1
+61,Houston,11,Dallas,6,Dallas-Houston,1,Grey,0
+62,Houston,11,Dallas,6,Dallas-Houston,1,Grey,0
+63,Houston,11,New Orleans,19,Houston-New Orleans,2,Grey,0
+64,Houston,11,El Paso,9,El Paso-Houston,6,Green,1
+65,Kansas City,12,Omaha,22,Kansas City-Omaha,1,Grey,0
+66,Kansas City,12,Omaha,22,Kansas City-Omaha,1,Grey,0
+67,Kansas City,12,Oklahoma City,21,Kansas City-Oklahoma City,2,Grey,0
+68,Kansas City,12,Oklahoma City,21,Kansas City-Oklahoma City,2,Grey,0
+69,Kansas City,12,Saint Louis,27,Kansas City-Saint Louis,2,Blue,1
+70,Kansas City,12,Saint Louis,27,Kansas City-Saint Louis,2,Pink,1
+71,Kansas City,12,Denver,7,Denver-Kansas City,4,Black,1
+72,Kansas City,12,Denver,7,Denver-Kansas City,4,Orange,1
+73,Las Vegas,13,Los Angeles,15,Las Vegas-Los Angeles,2,Grey,0
+74,Las Vegas,13,Salt Lake City,28,Las Vegas-Salt Lake City,3,Orange,1
+75,Little Rock,14,Dallas,6,Dallas-Little Rock,2,Grey,0
+76,Little Rock,14,Oklahoma City,21,Little Rock-Oklahoma City,2,Grey,0
+77,Little Rock,14,Saint Louis,27,Little Rock-Saint Louis,2,Grey,0
+78,Little Rock,14,Nashville,18,Little Rock-Nashville,3,White,1
+79,Little Rock,14,New Orleans,19,Little Rock-New Orleans,3,Green,1
+80,Los Angeles,15,Las Vegas,13,Las Vegas-Los Angeles,2,Grey,0
+81,Los Angeles,15,Phoenix,23,Los Angeles-Phoenix,3,Grey,0
+82,Los Angeles,15,San Francisco,29,Los Angeles-San Francisco,3,Pink,1
+83,Los Angeles,15,San Francisco,29,Los Angeles-San Francisco,3,Yellow,1
+84,Los Angeles,15,El Paso,9,El Paso-Los Angeles,6,Black,1
+85,Miami,16,Charleston,4,Charleston-Miami,4,Pink,1
+86,Miami,16,Atlanta,1,Atlanta-Miami,5,Blue,1
+87,Miami,16,New Orleans,19,Miami-New Orleans,6,Red,1
+88,Montreal,17,Boston,2,Boston-Montreal,2,Grey,0
+89,Montreal,17,Boston,2,Boston-Montreal,2,Grey,0
+90,Montreal,17,New York,20,Montreal-New York,3,Blue,1
+91,Montreal,17,Toronto,33,Montreal-Toronto,3,Grey,0
+92,Montreal,17,Sault St. Marie,31,Montreal-Sault St. Marie,5,Black,1
+93,Nashville,18,Atlanta,1,Atlanta-Nashville,1,Grey,0
+94,Nashville,18,Saint Louis,27,Nashville-Saint Louis,2,Grey,0
+95,Nashville,18,Little Rock,14,Little Rock-Nashville,3,White,1
+96,Nashville,18,Raleigh,26,Nashville-Raleigh,3,Black,1
+97,Nashville,18,Pittsburgh,24,Nashville-Pittsburgh,4,Yellow,1
+98,New Orleans,19,Houston,11,Houston-New Orleans,2,Grey,0
+99,New Orleans,19,Little Rock,14,Little Rock-New Orleans,3,Green,1
+100,New Orleans,19,Atlanta,1,Atlanta-New Orleans,4,Orange,1
+101,New Orleans,19,Atlanta,1,Atlanta-New Orleans,4,Yellow,1
+102,New Orleans,19,Miami,16,Miami-New Orleans,6,Red,1
+103,New York,20,Boston,2,Boston-New York,2,Red,1
+104,New York,20,Boston,2,Boston-New York,2,Yellow,1
+105,New York,20,Pittsburgh,24,New York-Pittsburgh,2,Green,1
+106,New York,20,Pittsburgh,24,New York-Pittsburgh,2,White,1
+107,New York,20,Washington,35,New York-Washington,2,Black,1
+108,New York,20,Washington,35,New York-Washington,2,Orange,1
+109,New York,20,Montreal,17,Montreal-New York,3,Blue,1
+110,Oklahoma City,21,Dallas,6,Dallas-Oklahoma City,2,Grey,0
+111,Oklahoma City,21,Dallas,6,Dallas-Oklahoma City,2,Grey,0
+112,Oklahoma City,21,Kansas City,12,Kansas City-Oklahoma City,2,Grey,0
+113,Oklahoma City,21,Kansas City,12,Kansas City-Oklahoma City,2,Grey,0
+114,Oklahoma City,21,Little Rock,14,Little Rock-Oklahoma City,2,Grey,0
+115,Oklahoma City,21,Santa Fe,30,Oklahoma City-Santa Fe,3,Blue,1
+116,Oklahoma City,21,Denver,7,Denver-Oklahoma City,4,Red,1
+117,Oklahoma City,21,El Paso,9,El Paso-Oklahoma City,5,Yellow,1
+118,Omaha,22,Kansas City,12,Kansas City-Omaha,1,Grey,0
+119,Omaha,22,Kansas City,12,Kansas City-Omaha,1,Grey,0
+120,Omaha,22,Duluth,8,Duluth-Omaha,2,Grey,0
+121,Omaha,22,Duluth,8,Duluth-Omaha,2,Grey,0
+122,Omaha,22,Chicago,5,Chicago-Omaha,4,Blue,1
+123,Omaha,22,Denver,7,Denver-Omaha,4,Pink,1
+124,Omaha,22,Helena,10,Helena-Omaha,5,Red,1
+125,Phoenix,23,El Paso,9,El Paso-Phoenix,3,Grey,0
+126,Phoenix,23,Los Angeles,15,Los Angeles-Phoenix,3,Grey,0
+127,Phoenix,23,Santa Fe,30,Phoenix-Santa Fe,3,Grey,0
+128,Phoenix,23,Denver,7,Denver-Phoenix,5,White,1
+129,Pittsburgh,24,New York,20,New York-Pittsburgh,2,Green,1
+130,Pittsburgh,24,New York,20,New York-Pittsburgh,2,White,1
+131,Pittsburgh,24,Raleigh,26,Pittsburgh-Raleigh,2,Grey,0
+132,Pittsburgh,24,Toronto,33,Pittsburgh-Toronto,2,Grey,0
+133,Pittsburgh,24,Washington,35,Pittsburgh-Washington,2,Grey,0
+134,Pittsburgh,24,Chicago,5,Chicago-Pittsburgh,3,Black,1
+135,Pittsburgh,24,Chicago,5,Chicago-Pittsburgh,3,Orange,1
+136,Pittsburgh,24,Nashville,18,Nashville-Pittsburgh,4,Yellow,1
+137,Pittsburgh,24,Saint Louis,27,Pittsburgh-Saint Louis,5,Green,1
+138,Portland,25,Seattle,32,Portland-Seattle,1,Grey,0
+139,Portland,25,Seattle,32,Portland-Seattle,1,Grey,0
+140,Portland,25,San Francisco,29,Portland-San Francisco,5,Green,1
+141,Portland,25,San Francisco,29,Portland-San Francisco,5,Pink,1
+142,Portland,25,Salt Lake City,28,Portland-Salt Lake City,6,Blue,1
+143,Raleigh,26,Atlanta,1,Atlanta-Raleigh,2,Grey,0
+144,Raleigh,26,Atlanta,1,Atlanta-Raleigh,2,Grey,0
+145,Raleigh,26,Charleston,4,Charleston-Raleigh,2,Grey,0
+146,Raleigh,26,Pittsburgh,24,Pittsburgh-Raleigh,2,Grey,0
+147,Raleigh,26,Washington,35,Raleigh-Washington,2,Grey,0
+148,Raleigh,26,Washington,35,Raleigh-Washington,2,Grey,0
+149,Raleigh,26,Nashville,18,Nashville-Raleigh,3,Black,1
+150,Saint Louis,27,Chicago,5,Chicago-Saint Louis,2,Green,1
+151,Saint Louis,27,Chicago,5,Chicago-Saint Louis,2,White,1
+152,Saint Louis,27,Kansas City,12,Kansas City-Saint Louis,2,Blue,1
+153,Saint Louis,27,Kansas City,12,Kansas City-Saint Louis,2,Pink,1
+154,Saint Louis,27,Little Rock,14,Little Rock-Saint Louis,2,Grey,0
+155,Saint Louis,27,Nashville,18,Nashville-Saint Louis,2,Grey,0
+156,Saint Louis,27,Pittsburgh,24,Pittsburgh-Saint Louis,5,Green,1
+157,Salt Lake City,28,Denver,7,Denver-Salt Lake City,3,Red,1
+158,Salt Lake City,28,Denver,7,Denver-Salt Lake City,3,Yellow,1
+159,Salt Lake City,28,Helena,10,Helena-Salt Lake City,3,Pink,1
+160,Salt Lake City,28,Las Vegas,13,Las Vegas-Salt Lake City,3,Orange,1
+161,Salt Lake City,28,San Francisco,29,Salt Lake City-San Francisco,5,Orange,1
+162,Salt Lake City,28,San Francisco,29,Salt Lake City-San Francisco,5,White,1
+163,Salt Lake City,28,Portland,25,Portland-Salt Lake City,6,Blue,1
+164,San Francisco,29,Los Angeles,15,Los Angeles-San Francisco,3,Pink,1
+165,San Francisco,29,Los Angeles,15,Los Angeles-San Francisco,3,Yellow,1
+166,San Francisco,29,Portland,25,Portland-San Francisco,5,Green,1
+167,San Francisco,29,Portland,25,Portland-San Francisco,5,Pink,1
+168,San Francisco,29,Salt Lake City,28,Salt Lake City-San Francisco,5,Orange,1
+169,San Francisco,29,Salt Lake City,28,Salt Lake City-San Francisco,5,White,1
+170,Santa Fe,30,Denver,7,Denver-Santa Fe,2,Grey,0
+171,Santa Fe,30,El Paso,9,El Paso-Santa Fe,2,Grey,0
+172,Santa Fe,30,Oklahoma City,21,Oklahoma City-Santa Fe,3,Blue,1
+173,Santa Fe,30,Phoenix,23,Phoenix-Santa Fe,3,Grey,0
+174,Sault St. Marie,31,Toronto,33,Sault St. Marie-Toronto,2,Grey,0
+175,Sault St. Marie,31,Duluth,8,Duluth-Sault St. Marie,3,Grey,0
+176,Sault St. Marie,31,Montreal,17,Montreal-Sault St. Marie,5,Black,1
+177,Sault St. Marie,31,Winnipeg,36,Sault St. Marie-Winnipeg,6,Grey,0
+178,Seattle,32,Portland,25,Portland-Seattle,1,Grey,0
+179,Seattle,32,Portland,25,Portland-Seattle,1,Grey,0
+180,Seattle,32,Vancouver,34,Seattle-Vancouver,1,Grey,0
+181,Seattle,32,Vancouver,34,Seattle-Vancouver,1,Grey,0
+182,Seattle,32,Calgary,3,Calgary-Seattle,4,Grey,0
+183,Seattle,32,Helena,10,Helena-Seattle,6,Yellow,1
+184,Toronto,33,Pittsburgh,24,Pittsburgh-Toronto,2,Grey,0
+185,Toronto,33,Sault St. Marie,31,Sault St. Marie-Toronto,2,Grey,0
+186,Toronto,33,Montreal,17,Montreal-Toronto,3,Grey,0
+187,Toronto,33,Chicago,5,Chicago-Toronto,4,White,1
+188,Toronto,33,Duluth,8,Duluth-Toronto,6,Pink,1
+189,Vancouver,34,Seattle,32,Seattle-Vancouver,1,Grey,0
+190,Vancouver,34,Seattle,32,Seattle-Vancouver,1,Grey,0
+191,Vancouver,34,Calgary,3,Calgary-Vancouver,3,Grey,0
+192,Washington,35,New York,20,New York-Washington,2,Black,1
+193,Washington,35,New York,20,New York-Washington,2,Orange,1
+194,Washington,35,Pittsburgh,24,Pittsburgh-Washington,2,Grey,0
+195,Washington,35,Raleigh,26,Raleigh-Washington,2,Grey,0
+196,Washington,35,Raleigh,26,Raleigh-Washington,2,Grey,0
+197,Winnipeg,36,Duluth,8,Duluth-Winnipeg,4,Black,1
+198,Winnipeg,36,Helena,10,Helena-Winnipeg,4,Blue,1
+199,Winnipeg,36,Calgary,3,Calgary-Winnipeg,6,White,1
+200,Winnipeg,36,Sault St. Marie,31,Sault St. Marie-Winnipeg,6,Grey,0
