@@ -16,8 +16,8 @@ calculatePath <- function(departure, arrival){
   ### use dijkstra's algorithm to find shortest possible route
   
   # set up the data
-  departure <- "Los Angeles"
-  arrival <- "Miami"
+  # departure <- "Duluth"
+  # arrival <- "El Paso"
   
   priority.queue <- data.frame(city = departure,
                                via = NA,
@@ -107,28 +107,36 @@ calculatePath <- function(departure, arrival){
     routes %>%
     inner_join(collect.route, by = c("starting_city" = "via", "ending_city" = "city")) %>%
     arrange(desc(order)) %>%
-    distinct(starting_city, ending_city, route_length, route_points)
+    mutate(ticket_name = paste0(departure," - ",arrival)) %>%
+    distinct(ticket_name, starting_city, ending_city, route_length, route_points) %>%
+    mutate(order = row_number())
   
-  return(c(sum(ticket.route$route_length), sum(ticket.route$route_points)))
+  return(ticket.route)
+  #return(c(sum(ticket.route$route_length), sum(ticket.route$route_points)))
 }
 
 # test a ticket
-calculatePath(departure = "Los Angeles",
-              arrival = "Miami")[2]
+calculatePath(departure = "Duluth",
+              arrival = "El Paso")
 
-ticket.paths <-
-  tickets %>%
-  mutate(trains = NA,
-         train_points = NA)
+ticket.routes <- matrix(nrow = 0, ncol = 6)
+col.names <- c("ticket_name", "starting_city", "ending_city", "route_length", "route_points", "order")
+colnames(ticket.routes) <- col.names
 
 t <- 1
-for(t in 1:nrow(ticket.paths)){
-  ticket.paths$trains[t] = calculatePath(departure = ticket.paths$ticket_departure[t],
-                                         arrival = ticket.paths$ticket_arrival[t])[1]
-  ticket.paths$train_points[t] = calculatePath(departure = ticket.paths$ticket_departure[t],
-                                               arrival = ticket.paths$ticket_arrival[t])[2]
+for(t in 1:nrow(tickets)){
+  ticket.route <- calculatePath(tickets$ticket_departure[t], tickets$ticket_arrival[t])
+  
+  ticket.routes <- rbind(ticket.routes, ticket.route)
   t <- t + 1
 }
 
-ticket.paths$total_points <- with(ticket.paths, ticket_points + train_points)
-ticket.paths$points_per_train <- with(ticket.paths, total_points / trains)
+ticket.paths <-
+  tickets %>%
+  inner_join(ticket.routes, by = "ticket_name") %>%
+  group_by(id, ticket_name, ticket_points) %>%
+  summarize(trains = sum(route_length),
+            train_points = sum(route_points)) %>%
+  ungroup() %>%
+  mutate(total_points = ticket_points + train_points,
+         points_per_train = total_points / trains)
