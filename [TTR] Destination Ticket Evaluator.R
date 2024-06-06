@@ -17,6 +17,9 @@ calculatePath <- function(departure, arrival){
   ### use dijkstra's algorithm to find shortest possible route
   
   # set up the data
+  # departure <- "Los Angeles"
+  # arrival <- "Chicago"
+  
   priority.queue <- data.frame(city = departure,
                                via = NA,
                                total_trains = 0,
@@ -30,7 +33,7 @@ calculatePath <- function(departure, arrival){
     new.queue <-
       priority.queue %>%
       filter(completed == 0) %>%
-      filter(row_number()==1) %>%
+      filter(row_number() == 1) %>%
       inner_join(routes, by = c("city" = "starting_city")) %>%
       distinct(city, total_trains, ending_city, route_length) %>%
       mutate(route_total = total_trains + route_length) %>%
@@ -44,8 +47,7 @@ calculatePath <- function(departure, arrival){
       mutate(completed = 0)
     
     # add to queue and re-prioritize
-    priority.queue <- rbind(priority.queue, new.queue)
-    priority.queue <- priority.queue %>% arrange(desc(completed), total_trains)
+    priority.queue <- rbind(priority.queue, new.queue) %>% arrange(desc(completed), total_trains)
     
     # mark city as completed
     priority.queue[iteration, 4] = 1
@@ -56,6 +58,7 @@ calculatePath <- function(departure, arrival){
       filter(completed == 0) %>%
       filter(row_number() == 1) %>%
       select(city)
+    
     if(next.city == arrival){
       break
     }
@@ -66,9 +69,10 @@ calculatePath <- function(departure, arrival){
   collect.route <-
     priority.queue %>%
     filter(completed == 0) %>%
-    filter(row_number()==1) %>%
+    filter(row_number() == 1) %>%
     select(city, via) %>%
     mutate(order = 1)
+  
   iteration <- 1
   
   repeat{
@@ -76,7 +80,11 @@ calculatePath <- function(departure, arrival){
     next.route <-
       collect.route %>%
       filter(order == iteration - 1) %>%
-      inner_join(priority.queue, by = c("via" = "city")) %>%
+      inner_join(priority.queue %>%
+                   group_by(city) %>%
+                   mutate(path_rank = rank(total_trains)) %>%
+                   filter(path_rank == 1),
+                 by = c("via" = "city")) %>%
       select(via, via.y) %>%
       rename(city = via,
              via = via.y) %>%
@@ -99,23 +107,21 @@ calculatePath <- function(departure, arrival){
     inner_join(collect.route, by = c("starting_city" = "via", "ending_city" = "city")) %>%
     arrange(desc(order)) %>%
     distinct(starting_city, ending_city, route_length)
-  return(priority.queue)
-  #return(sum(ticket.route$route_length))
+
+  return(sum(ticket.route$route_length))
 }
 
-# grab random ticket
-destination.ticket <-
+# test a ticket
+calculatePath(departure = "Los Angeles",
+              arrival = "Chicago")
+
+ticket.paths <-
   tickets %>%
-  mutate(rng = runif(nrow(tickets))) %>%
-  top_n(1, wt = rng) %>%
-  select(-rng)
+  mutate(fastest_path = NA)
 
-calculatePath(departure = destination.ticket$ticket_departure,
-              arrival = destination.ticket$ticket_arrival)
-
-ticket.info <-
-  tickets %>%
-  group_by(id, ticket_name, ticket_points, ticket_departure, ticket_arrival) %>%
-  summarize(fastest_route = calculatePath(ticket_departure, ticket_arrival))
-
-## note: I need to fix the collect route table; it's duplicating cities and I need the one with the minimum total_trains
+t <- 1
+for(t in 1:nrow(ticket.paths)){
+  ticket.paths$fastest_path[t] = calculatePath(departure = ticket.paths$ticket_departure[t],
+                                               arrival = ticket.paths$ticket_arrival[t])
+  t <- t + 1
+}
