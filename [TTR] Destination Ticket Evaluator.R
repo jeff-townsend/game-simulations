@@ -1,9 +1,13 @@
 library(tidyverse)
-library(readxl)
+library(readr)
 
-cities <- read_excel("Game Simulations/Ticket to Ride.xlsx", sheet = "Cities")
-routes <- read_excel("Game Simulations/Ticket to Ride.xlsx", sheet = "Routes")
-tickets <- read_excel("Game Simulations/Ticket to Ride.xlsx", sheet = "Tickets")
+cities.file <- "https://raw.githubusercontent.com/jeff-townsend/game-simulations/main/data/Ticket%20to%20Ride%20Cities.csv"
+routes.file <- "https://raw.githubusercontent.com/jeff-townsend/game-simulations/main/data/Ticket%20to%20Ride%20Routes.csv"
+tickets.file <- "https://raw.githubusercontent.com/jeff-townsend/game-simulations/main/data/Ticket%20to%20Ride%20Tickets.csv"
+
+cities <- read.csv(cities.file)
+routes <- read.csv(routes.file)
+tickets <- read.csv(tickets.file)
 
 route.points <- data.frame(id = c(1:6),
                            route_length = c(1:6),
