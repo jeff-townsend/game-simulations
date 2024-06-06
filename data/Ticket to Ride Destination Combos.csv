@@ -1,0 +1,2690 @@
+"destination_name","starting_city","ending_city","route_length","route_points","order"
+"Atlanta - Boston","Atlanta","Raleigh",2,2,1
+"Atlanta - Boston","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Boston","Pittsburgh","New York",2,2,3
+"Atlanta - Boston","New York","Boston",2,2,4
+"Atlanta - Calgary","Atlanta","Nashville",1,1,1
+"Atlanta - Calgary","Nashville","Saint Louis",2,2,2
+"Atlanta - Calgary","Saint Louis","Kansas City",2,2,3
+"Atlanta - Calgary","Kansas City","Omaha",1,1,4
+"Atlanta - Calgary","Omaha","Helena",5,10,5
+"Atlanta - Calgary","Helena","Calgary",4,7,6
+"Atlanta - Charleston","Atlanta","Charleston",2,2,1
+"Atlanta - Chicago","Atlanta","Nashville",1,1,1
+"Atlanta - Chicago","Nashville","Saint Louis",2,2,2
+"Atlanta - Chicago","Saint Louis","Chicago",2,2,3
+"Atlanta - Dallas","Atlanta","Nashville",1,1,1
+"Atlanta - Dallas","Nashville","Little Rock",3,4,2
+"Atlanta - Dallas","Little Rock","Dallas",2,2,3
+"Atlanta - Boston","Atlanta","Raleigh",2,2,1
+"Atlanta - Boston","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Boston","Pittsburgh","New York",2,2,3
+"Atlanta - Boston","New York","Boston",2,2,4
+"Atlanta - Calgary","Atlanta","Nashville",1,1,1
+"Atlanta - Calgary","Nashville","Saint Louis",2,2,2
+"Atlanta - Calgary","Saint Louis","Kansas City",2,2,3
+"Atlanta - Calgary","Kansas City","Omaha",1,1,4
+"Atlanta - Calgary","Omaha","Helena",5,10,5
+"Atlanta - Calgary","Helena","Calgary",4,7,6
+"Atlanta - Charleston","Atlanta","Charleston",2,2,1
+"Atlanta - Chicago","Atlanta","Nashville",1,1,1
+"Atlanta - Chicago","Nashville","Saint Louis",2,2,2
+"Atlanta - Chicago","Saint Louis","Chicago",2,2,3
+"Atlanta - Dallas","Atlanta","Nashville",1,1,1
+"Atlanta - Dallas","Nashville","Little Rock",3,4,2
+"Atlanta - Dallas","Little Rock","Dallas",2,2,3
+"Atlanta - Denver","Atlanta","Nashville",1,1,1
+"Atlanta - Denver","Nashville","Saint Louis",2,2,2
+"Atlanta - Denver","Saint Louis","Kansas City",2,2,3
+"Atlanta - Denver","Kansas City","Denver",4,7,4
+"Atlanta - Duluth","Atlanta","Nashville",1,1,1
+"Atlanta - Duluth","Nashville","Saint Louis",2,2,2
+"Atlanta - Duluth","Saint Louis","Chicago",2,2,3
+"Atlanta - Duluth","Chicago","Duluth",3,4,4
+"Atlanta - El Paso","Atlanta","Nashville",1,1,1
+"Atlanta - El Paso","Nashville","Little Rock",3,4,2
+"Atlanta - El Paso","Little Rock","Dallas",2,2,3
+"Atlanta - El Paso","Dallas","El Paso",4,7,4
+"Atlanta - Helena","Atlanta","Nashville",1,1,1
+"Atlanta - Helena","Nashville","Saint Louis",2,2,2
+"Atlanta - Helena","Saint Louis","Kansas City",2,2,3
+"Atlanta - Helena","Kansas City","Omaha",1,1,4
+"Atlanta - Helena","Omaha","Helena",5,10,5
+"Atlanta - Houston","Atlanta","New Orleans",4,7,1
+"Atlanta - Houston","New Orleans","Houston",2,2,2
+"Atlanta - Boston","Atlanta","Raleigh",2,2,1
+"Atlanta - Boston","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Boston","Pittsburgh","New York",2,2,3
+"Atlanta - Boston","New York","Boston",2,2,4
+"Atlanta - Calgary","Atlanta","Nashville",1,1,1
+"Atlanta - Calgary","Nashville","Saint Louis",2,2,2
+"Atlanta - Calgary","Saint Louis","Kansas City",2,2,3
+"Atlanta - Calgary","Kansas City","Omaha",1,1,4
+"Atlanta - Calgary","Omaha","Helena",5,10,5
+"Atlanta - Calgary","Helena","Calgary",4,7,6
+"Atlanta - Charleston","Atlanta","Charleston",2,2,1
+"Atlanta - Chicago","Atlanta","Nashville",1,1,1
+"Atlanta - Chicago","Nashville","Saint Louis",2,2,2
+"Atlanta - Chicago","Saint Louis","Chicago",2,2,3
+"Atlanta - Dallas","Atlanta","Nashville",1,1,1
+"Atlanta - Dallas","Nashville","Little Rock",3,4,2
+"Atlanta - Dallas","Little Rock","Dallas",2,2,3
+"Atlanta - Denver","Atlanta","Nashville",1,1,1
+"Atlanta - Denver","Nashville","Saint Louis",2,2,2
+"Atlanta - Denver","Saint Louis","Kansas City",2,2,3
+"Atlanta - Denver","Kansas City","Denver",4,7,4
+"Atlanta - Duluth","Atlanta","Nashville",1,1,1
+"Atlanta - Duluth","Nashville","Saint Louis",2,2,2
+"Atlanta - Duluth","Saint Louis","Chicago",2,2,3
+"Atlanta - Duluth","Chicago","Duluth",3,4,4
+"Atlanta - El Paso","Atlanta","Nashville",1,1,1
+"Atlanta - El Paso","Nashville","Little Rock",3,4,2
+"Atlanta - El Paso","Little Rock","Dallas",2,2,3
+"Atlanta - El Paso","Dallas","El Paso",4,7,4
+"Atlanta - Helena","Atlanta","Nashville",1,1,1
+"Atlanta - Helena","Nashville","Saint Louis",2,2,2
+"Atlanta - Helena","Saint Louis","Kansas City",2,2,3
+"Atlanta - Helena","Kansas City","Omaha",1,1,4
+"Atlanta - Helena","Omaha","Helena",5,10,5
+"Atlanta - Houston","Atlanta","New Orleans",4,7,1
+"Atlanta - Houston","New Orleans","Houston",2,2,2
+"Atlanta - Kansas City","Atlanta","Nashville",1,1,1
+"Atlanta - Kansas City","Nashville","Saint Louis",2,2,2
+"Atlanta - Kansas City","Saint Louis","Kansas City",2,2,3
+"Atlanta - Las Vegas","Atlanta","Nashville",1,1,1
+"Atlanta - Las Vegas","Nashville","Saint Louis",2,2,2
+"Atlanta - Las Vegas","Saint Louis","Kansas City",2,2,3
+"Atlanta - Las Vegas","Kansas City","Denver",4,7,4
+"Atlanta - Las Vegas","Denver","Salt Lake City",3,4,5
+"Atlanta - Las Vegas","Salt Lake City","Las Vegas",3,4,6
+"Atlanta - Little Rock","Atlanta","Nashville",1,1,1
+"Atlanta - Little Rock","Nashville","Little Rock",3,4,2
+"Atlanta - Los Angeles","Atlanta","Nashville",1,1,1
+"Atlanta - Los Angeles","Nashville","Little Rock",3,4,2
+"Atlanta - Los Angeles","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Los Angeles","Oklahoma City","Santa Fe",3,4,4
+"Atlanta - Los Angeles","Santa Fe","Phoenix",3,4,5
+"Atlanta - Los Angeles","Phoenix","Los Angeles",3,4,6
+"Atlanta - Miami","Atlanta","Miami",5,10,1
+"Atlanta - Montreal","Atlanta","Raleigh",2,2,1
+"Atlanta - Montreal","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Montreal","Pittsburgh","New York",2,2,3
+"Atlanta - Montreal","New York","Montreal",3,4,4
+"Atlanta - Nashville","Atlanta","Nashville",1,1,1
+"Atlanta - New Orleans","Atlanta","New Orleans",4,7,1
+"Atlanta - New York","Atlanta","Raleigh",2,2,1
+"Atlanta - New York","Raleigh","Pittsburgh",2,2,2
+"Atlanta - New York","Pittsburgh","New York",2,2,3
+"Atlanta - Oklahoma City","Atlanta","Nashville",1,1,1
+"Atlanta - Oklahoma City","Nashville","Little Rock",3,4,2
+"Atlanta - Oklahoma City","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Omaha","Atlanta","Nashville",1,1,1
+"Atlanta - Omaha","Nashville","Saint Louis",2,2,2
+"Atlanta - Omaha","Saint Louis","Kansas City",2,2,3
+"Atlanta - Omaha","Kansas City","Omaha",1,1,4
+"Atlanta - Phoenix","Atlanta","Nashville",1,1,1
+"Atlanta - Phoenix","Nashville","Little Rock",3,4,2
+"Atlanta - Phoenix","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Phoenix","Oklahoma City","Santa Fe",3,4,4
+"Atlanta - Phoenix","Santa Fe","Phoenix",3,4,5
+"Atlanta - Pittsburgh","Atlanta","Raleigh",2,2,1
+"Atlanta - Pittsburgh","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Portland","Atlanta","Nashville",1,1,1
+"Atlanta - Portland","Nashville","Saint Louis",2,2,2
+"Atlanta - Portland","Saint Louis","Kansas City",2,2,3
+"Atlanta - Portland","Kansas City","Omaha",1,1,4
+"Atlanta - Portland","Omaha","Helena",5,10,5
+"Atlanta - Portland","Helena","Seattle",6,15,6
+"Atlanta - Portland","Seattle","Portland",1,1,7
+"Atlanta - Raleigh","Atlanta","Raleigh",2,2,1
+"Atlanta - Saint Louis","Atlanta","Nashville",1,1,1
+"Atlanta - Saint Louis","Nashville","Saint Louis",2,2,2
+"Atlanta - Salt Lake City","Atlanta","Nashville",1,1,1
+"Atlanta - Salt Lake City","Nashville","Saint Louis",2,2,2
+"Atlanta - Salt Lake City","Saint Louis","Kansas City",2,2,3
+"Atlanta - Salt Lake City","Kansas City","Denver",4,7,4
+"Atlanta - Salt Lake City","Denver","Salt Lake City",3,4,5
+"Atlanta - San Francisco","Atlanta","Nashville",1,1,1
+"Atlanta - San Francisco","Nashville","Saint Louis",2,2,2
+"Atlanta - San Francisco","Saint Louis","Kansas City",2,2,3
+"Atlanta - San Francisco","Kansas City","Denver",4,7,4
+"Atlanta - San Francisco","Denver","Salt Lake City",3,4,5
+"Atlanta - San Francisco","Salt Lake City","San Francisco",5,10,6
+"Atlanta - Santa Fe","Atlanta","Nashville",1,1,1
+"Atlanta - Santa Fe","Nashville","Little Rock",3,4,2
+"Atlanta - Santa Fe","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Santa Fe","Oklahoma City","Santa Fe",3,4,4
+"Atlanta - Sault St. Marie","Atlanta","Raleigh",2,2,1
+"Atlanta - Sault St. Marie","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Sault St. Marie","Pittsburgh","Toronto",2,2,3
+"Atlanta - Sault St. Marie","Toronto","Sault St. Marie",2,2,4
+"Atlanta - Seattle","Atlanta","Nashville",1,1,1
+"Atlanta - Seattle","Nashville","Saint Louis",2,2,2
+"Atlanta - Seattle","Saint Louis","Kansas City",2,2,3
+"Atlanta - Seattle","Kansas City","Omaha",1,1,4
+"Atlanta - Seattle","Omaha","Helena",5,10,5
+"Atlanta - Seattle","Helena","Seattle",6,15,6
+"Atlanta - Toronto","Atlanta","Raleigh",2,2,1
+"Atlanta - Toronto","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Toronto","Pittsburgh","Toronto",2,2,3
+"Atlanta - Vancouver","Atlanta","Nashville",1,1,1
+"Atlanta - Vancouver","Nashville","Saint Louis",2,2,2
+"Atlanta - Vancouver","Saint Louis","Kansas City",2,2,3
+"Atlanta - Vancouver","Kansas City","Omaha",1,1,4
+"Atlanta - Vancouver","Omaha","Helena",5,10,5
+"Atlanta - Vancouver","Helena","Seattle",6,15,6
+"Atlanta - Vancouver","Seattle","Vancouver",1,1,7
+"Atlanta - Washington","Atlanta","Raleigh",2,2,1
+"Atlanta - Washington","Raleigh","Washington",2,2,2
+"Atlanta - Winnipeg","Atlanta","Nashville",1,1,1
+"Atlanta - Winnipeg","Nashville","Saint Louis",2,2,2
+"Atlanta - Winnipeg","Saint Louis","Chicago",2,2,3
+"Atlanta - Winnipeg","Chicago","Duluth",3,4,4
+"Atlanta - Winnipeg","Duluth","Winnipeg",4,7,5
+"Atlanta - Boston","Atlanta","Raleigh",2,2,1
+"Atlanta - Boston","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Boston","Pittsburgh","New York",2,2,3
+"Atlanta - Boston","New York","Boston",2,2,4
+"Atlanta - Calgary","Atlanta","Nashville",1,1,1
+"Atlanta - Calgary","Nashville","Saint Louis",2,2,2
+"Atlanta - Calgary","Saint Louis","Kansas City",2,2,3
+"Atlanta - Calgary","Kansas City","Omaha",1,1,4
+"Atlanta - Calgary","Omaha","Helena",5,10,5
+"Atlanta - Calgary","Helena","Calgary",4,7,6
+"Atlanta - Charleston","Atlanta","Charleston",2,2,1
+"Atlanta - Chicago","Atlanta","Nashville",1,1,1
+"Atlanta - Chicago","Nashville","Saint Louis",2,2,2
+"Atlanta - Chicago","Saint Louis","Chicago",2,2,3
+"Atlanta - Dallas","Atlanta","Nashville",1,1,1
+"Atlanta - Dallas","Nashville","Little Rock",3,4,2
+"Atlanta - Dallas","Little Rock","Dallas",2,2,3
+"Atlanta - Denver","Atlanta","Nashville",1,1,1
+"Atlanta - Denver","Nashville","Saint Louis",2,2,2
+"Atlanta - Denver","Saint Louis","Kansas City",2,2,3
+"Atlanta - Denver","Kansas City","Denver",4,7,4
+"Atlanta - Duluth","Atlanta","Nashville",1,1,1
+"Atlanta - Duluth","Nashville","Saint Louis",2,2,2
+"Atlanta - Duluth","Saint Louis","Chicago",2,2,3
+"Atlanta - Duluth","Chicago","Duluth",3,4,4
+"Atlanta - El Paso","Atlanta","Nashville",1,1,1
+"Atlanta - El Paso","Nashville","Little Rock",3,4,2
+"Atlanta - El Paso","Little Rock","Dallas",2,2,3
+"Atlanta - El Paso","Dallas","El Paso",4,7,4
+"Atlanta - Helena","Atlanta","Nashville",1,1,1
+"Atlanta - Helena","Nashville","Saint Louis",2,2,2
+"Atlanta - Helena","Saint Louis","Kansas City",2,2,3
+"Atlanta - Helena","Kansas City","Omaha",1,1,4
+"Atlanta - Helena","Omaha","Helena",5,10,5
+"Atlanta - Houston","Atlanta","New Orleans",4,7,1
+"Atlanta - Houston","New Orleans","Houston",2,2,2
+"Atlanta - Kansas City","Atlanta","Nashville",1,1,1
+"Atlanta - Kansas City","Nashville","Saint Louis",2,2,2
+"Atlanta - Kansas City","Saint Louis","Kansas City",2,2,3
+"Atlanta - Las Vegas","Atlanta","Nashville",1,1,1
+"Atlanta - Las Vegas","Nashville","Saint Louis",2,2,2
+"Atlanta - Las Vegas","Saint Louis","Kansas City",2,2,3
+"Atlanta - Las Vegas","Kansas City","Denver",4,7,4
+"Atlanta - Las Vegas","Denver","Salt Lake City",3,4,5
+"Atlanta - Las Vegas","Salt Lake City","Las Vegas",3,4,6
+"Atlanta - Little Rock","Atlanta","Nashville",1,1,1
+"Atlanta - Little Rock","Nashville","Little Rock",3,4,2
+"Atlanta - Los Angeles","Atlanta","Nashville",1,1,1
+"Atlanta - Los Angeles","Nashville","Little Rock",3,4,2
+"Atlanta - Los Angeles","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Los Angeles","Oklahoma City","Santa Fe",3,4,4
+"Atlanta - Los Angeles","Santa Fe","Phoenix",3,4,5
+"Atlanta - Los Angeles","Phoenix","Los Angeles",3,4,6
+"Atlanta - Miami","Atlanta","Miami",5,10,1
+"Atlanta - Montreal","Atlanta","Raleigh",2,2,1
+"Atlanta - Montreal","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Montreal","Pittsburgh","New York",2,2,3
+"Atlanta - Montreal","New York","Montreal",3,4,4
+"Atlanta - Nashville","Atlanta","Nashville",1,1,1
+"Atlanta - New Orleans","Atlanta","New Orleans",4,7,1
+"Atlanta - New York","Atlanta","Raleigh",2,2,1
+"Atlanta - New York","Raleigh","Pittsburgh",2,2,2
+"Atlanta - New York","Pittsburgh","New York",2,2,3
+"Atlanta - Oklahoma City","Atlanta","Nashville",1,1,1
+"Atlanta - Oklahoma City","Nashville","Little Rock",3,4,2
+"Atlanta - Oklahoma City","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Omaha","Atlanta","Nashville",1,1,1
+"Atlanta - Omaha","Nashville","Saint Louis",2,2,2
+"Atlanta - Omaha","Saint Louis","Kansas City",2,2,3
+"Atlanta - Omaha","Kansas City","Omaha",1,1,4
+"Atlanta - Phoenix","Atlanta","Nashville",1,1,1
+"Atlanta - Phoenix","Nashville","Little Rock",3,4,2
+"Atlanta - Phoenix","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Phoenix","Oklahoma City","Santa Fe",3,4,4
+"Atlanta - Phoenix","Santa Fe","Phoenix",3,4,5
+"Atlanta - Pittsburgh","Atlanta","Raleigh",2,2,1
+"Atlanta - Pittsburgh","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Portland","Atlanta","Nashville",1,1,1
+"Atlanta - Portland","Nashville","Saint Louis",2,2,2
+"Atlanta - Portland","Saint Louis","Kansas City",2,2,3
+"Atlanta - Portland","Kansas City","Omaha",1,1,4
+"Atlanta - Portland","Omaha","Helena",5,10,5
+"Atlanta - Portland","Helena","Seattle",6,15,6
+"Atlanta - Portland","Seattle","Portland",1,1,7
+"Atlanta - Raleigh","Atlanta","Raleigh",2,2,1
+"Atlanta - Saint Louis","Atlanta","Nashville",1,1,1
+"Atlanta - Saint Louis","Nashville","Saint Louis",2,2,2
+"Atlanta - Salt Lake City","Atlanta","Nashville",1,1,1
+"Atlanta - Salt Lake City","Nashville","Saint Louis",2,2,2
+"Atlanta - Salt Lake City","Saint Louis","Kansas City",2,2,3
+"Atlanta - Salt Lake City","Kansas City","Denver",4,7,4
+"Atlanta - Salt Lake City","Denver","Salt Lake City",3,4,5
+"Atlanta - San Francisco","Atlanta","Nashville",1,1,1
+"Atlanta - San Francisco","Nashville","Saint Louis",2,2,2
+"Atlanta - San Francisco","Saint Louis","Kansas City",2,2,3
+"Atlanta - San Francisco","Kansas City","Denver",4,7,4
+"Atlanta - San Francisco","Denver","Salt Lake City",3,4,5
+"Atlanta - San Francisco","Salt Lake City","San Francisco",5,10,6
+"Atlanta - Santa Fe","Atlanta","Nashville",1,1,1
+"Atlanta - Santa Fe","Nashville","Little Rock",3,4,2
+"Atlanta - Santa Fe","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Santa Fe","Oklahoma City","Santa Fe",3,4,4
+"Atlanta - Sault St. Marie","Atlanta","Raleigh",2,2,1
+"Atlanta - Sault St. Marie","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Sault St. Marie","Pittsburgh","Toronto",2,2,3
+"Atlanta - Sault St. Marie","Toronto","Sault St. Marie",2,2,4
+"Atlanta - Seattle","Atlanta","Nashville",1,1,1
+"Atlanta - Seattle","Nashville","Saint Louis",2,2,2
+"Atlanta - Seattle","Saint Louis","Kansas City",2,2,3
+"Atlanta - Seattle","Kansas City","Omaha",1,1,4
+"Atlanta - Seattle","Omaha","Helena",5,10,5
+"Atlanta - Seattle","Helena","Seattle",6,15,6
+"Atlanta - Toronto","Atlanta","Raleigh",2,2,1
+"Atlanta - Toronto","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Toronto","Pittsburgh","Toronto",2,2,3
+"Atlanta - Vancouver","Atlanta","Nashville",1,1,1
+"Atlanta - Vancouver","Nashville","Saint Louis",2,2,2
+"Atlanta - Vancouver","Saint Louis","Kansas City",2,2,3
+"Atlanta - Vancouver","Kansas City","Omaha",1,1,4
+"Atlanta - Vancouver","Omaha","Helena",5,10,5
+"Atlanta - Vancouver","Helena","Seattle",6,15,6
+"Atlanta - Vancouver","Seattle","Vancouver",1,1,7
+"Atlanta - Washington","Atlanta","Raleigh",2,2,1
+"Atlanta - Washington","Raleigh","Washington",2,2,2
+"Atlanta - Winnipeg","Atlanta","Nashville",1,1,1
+"Atlanta - Winnipeg","Nashville","Saint Louis",2,2,2
+"Atlanta - Winnipeg","Saint Louis","Chicago",2,2,3
+"Atlanta - Winnipeg","Chicago","Duluth",3,4,4
+"Atlanta - Winnipeg","Duluth","Winnipeg",4,7,5
+"Boston - Calgary","Boston","Montreal",2,2,1
+"Boston - Calgary","Montreal","Sault St. Marie",5,10,2
+"Boston - Calgary","Sault St. Marie","Winnipeg",6,15,3
+"Boston - Calgary","Winnipeg","Calgary",6,15,4
+"Boston - Charleston","Boston","New York",2,2,1
+"Boston - Charleston","New York","Pittsburgh",2,2,2
+"Boston - Charleston","Pittsburgh","Raleigh",2,2,3
+"Boston - Charleston","Raleigh","Charleston",2,2,4
+"Boston - Chicago","Boston","New York",2,2,1
+"Boston - Chicago","New York","Pittsburgh",2,2,2
+"Boston - Chicago","Pittsburgh","Chicago",3,4,3
+"Boston - Dallas","Boston","New York",2,2,1
+"Boston - Dallas","New York","Pittsburgh",2,2,2
+"Boston - Dallas","Pittsburgh","Saint Louis",5,10,3
+"Boston - Dallas","Saint Louis","Little Rock",2,2,4
+"Boston - Dallas","Little Rock","Dallas",2,2,5
+"Boston - Denver","Boston","New York",2,2,1
+"Boston - Denver","New York","Pittsburgh",2,2,2
+"Boston - Denver","Pittsburgh","Saint Louis",5,10,3
+"Boston - Denver","Saint Louis","Kansas City",2,2,4
+"Boston - Denver","Kansas City","Denver",4,7,5
+"Boston - Duluth","Boston","Montreal",2,2,1
+"Boston - Duluth","Montreal","Sault St. Marie",5,10,2
+"Boston - Duluth","Sault St. Marie","Duluth",3,4,3
+"Boston - El Paso","Boston","New York",2,2,1
+"Boston - El Paso","New York","Pittsburgh",2,2,2
+"Boston - El Paso","Pittsburgh","Saint Louis",5,10,3
+"Boston - El Paso","Saint Louis","Little Rock",2,2,4
+"Boston - El Paso","Little Rock","Dallas",2,2,5
+"Boston - El Paso","Dallas","El Paso",4,7,6
+"Boston - Helena","Boston","Montreal",2,2,1
+"Boston - Helena","Montreal","Sault St. Marie",5,10,2
+"Boston - Helena","Sault St. Marie","Duluth",3,4,3
+"Boston - Helena","Duluth","Helena",6,15,4
+"Boston - Houston","Boston","New York",2,2,1
+"Boston - Houston","New York","Pittsburgh",2,2,2
+"Boston - Houston","Pittsburgh","Saint Louis",5,10,3
+"Boston - Houston","Saint Louis","Little Rock",2,2,4
+"Boston - Houston","Little Rock","Dallas",2,2,5
+"Boston - Houston","Dallas","Houston",1,1,6
+"Boston - Kansas City","Boston","New York",2,2,1
+"Boston - Kansas City","New York","Pittsburgh",2,2,2
+"Boston - Kansas City","Pittsburgh","Saint Louis",5,10,3
+"Boston - Kansas City","Saint Louis","Kansas City",2,2,4
+"Boston - Las Vegas","Boston","New York",2,2,1
+"Boston - Las Vegas","New York","Pittsburgh",2,2,2
+"Boston - Las Vegas","Pittsburgh","Saint Louis",5,10,3
+"Boston - Las Vegas","Saint Louis","Kansas City",2,2,4
+"Boston - Las Vegas","Kansas City","Denver",4,7,5
+"Boston - Las Vegas","Denver","Salt Lake City",3,4,6
+"Boston - Las Vegas","Salt Lake City","Las Vegas",3,4,7
+"Boston - Little Rock","Boston","New York",2,2,1
+"Boston - Little Rock","New York","Pittsburgh",2,2,2
+"Boston - Little Rock","Pittsburgh","Saint Louis",5,10,3
+"Boston - Little Rock","Saint Louis","Little Rock",2,2,4
+"Boston - Los Angeles","Boston","New York",2,2,1
+"Boston - Los Angeles","New York","Pittsburgh",2,2,2
+"Boston - Los Angeles","Pittsburgh","Saint Louis",5,10,3
+"Boston - Los Angeles","Saint Louis","Kansas City",2,2,4
+"Boston - Los Angeles","Kansas City","Oklahoma City",2,2,5
+"Boston - Los Angeles","Oklahoma City","Santa Fe",3,4,6
+"Boston - Los Angeles","Santa Fe","Phoenix",3,4,7
+"Boston - Los Angeles","Phoenix","Los Angeles",3,4,8
+"Boston - Miami","Boston","New York",2,2,1
+"Boston - Miami","New York","Pittsburgh",2,2,2
+"Boston - Miami","Pittsburgh","Raleigh",2,2,3
+"Boston - Miami","Raleigh","Charleston",2,2,4
+"Boston - Miami","Charleston","Miami",4,7,5
+"Boston - Montreal","Boston","Montreal",2,2,1
+"Boston - Nashville","Boston","New York",2,2,1
+"Boston - Nashville","New York","Pittsburgh",2,2,2
+"Boston - Nashville","Pittsburgh","Nashville",4,7,3
+"Boston - New Orleans","Boston","New York",2,2,1
+"Boston - New Orleans","New York","Pittsburgh",2,2,2
+"Boston - New Orleans","Pittsburgh","Raleigh",2,2,3
+"Boston - New Orleans","Raleigh","Atlanta",2,2,4
+"Boston - New Orleans","Atlanta","New Orleans",4,7,5
+"Boston - New York","Boston","New York",2,2,1
+"Boston - Oklahoma City","Boston","New York",2,2,1
+"Boston - Oklahoma City","New York","Pittsburgh",2,2,2
+"Boston - Oklahoma City","Pittsburgh","Saint Louis",5,10,3
+"Boston - Oklahoma City","Saint Louis","Kansas City",2,2,4
+"Boston - Oklahoma City","Kansas City","Oklahoma City",2,2,5
+"Boston - Omaha","Boston","New York",2,2,1
+"Boston - Omaha","New York","Pittsburgh",2,2,2
+"Boston - Omaha","Pittsburgh","Chicago",3,4,3
+"Boston - Omaha","Chicago","Omaha",4,7,4
+"Boston - Phoenix","Boston","New York",2,2,1
+"Boston - Phoenix","New York","Pittsburgh",2,2,2
+"Boston - Phoenix","Pittsburgh","Saint Louis",5,10,3
+"Boston - Phoenix","Saint Louis","Kansas City",2,2,4
+"Boston - Phoenix","Kansas City","Oklahoma City",2,2,5
+"Boston - Phoenix","Oklahoma City","Santa Fe",3,4,6
+"Boston - Phoenix","Santa Fe","Phoenix",3,4,7
+"Boston - Pittsburgh","Boston","New York",2,2,1
+"Boston - Pittsburgh","New York","Pittsburgh",2,2,2
+"Boston - Portland","Boston","Montreal",2,2,1
+"Boston - Portland","Montreal","Sault St. Marie",5,10,2
+"Boston - Portland","Sault St. Marie","Duluth",3,4,3
+"Boston - Portland","Duluth","Helena",6,15,4
+"Boston - Portland","Helena","Seattle",6,15,5
+"Boston - Portland","Seattle","Portland",1,1,6
+"Boston - Raleigh","Boston","New York",2,2,1
+"Boston - Raleigh","New York","Pittsburgh",2,2,2
+"Boston - Raleigh","Pittsburgh","Raleigh",2,2,3
+"Boston - Saint Louis","Boston","New York",2,2,1
+"Boston - Saint Louis","New York","Pittsburgh",2,2,2
+"Boston - Saint Louis","Pittsburgh","Saint Louis",5,10,3
+"Boston - Salt Lake City","Boston","New York",2,2,1
+"Boston - Salt Lake City","New York","Pittsburgh",2,2,2
+"Boston - Salt Lake City","Pittsburgh","Saint Louis",5,10,3
+"Boston - Salt Lake City","Saint Louis","Kansas City",2,2,4
+"Boston - Salt Lake City","Kansas City","Denver",4,7,5
+"Boston - Salt Lake City","Denver","Salt Lake City",3,4,6
+"Boston - San Francisco","Boston","New York",2,2,1
+"Boston - San Francisco","New York","Pittsburgh",2,2,2
+"Boston - San Francisco","Pittsburgh","Saint Louis",5,10,3
+"Boston - San Francisco","Saint Louis","Kansas City",2,2,4
+"Boston - San Francisco","Kansas City","Denver",4,7,5
+"Boston - San Francisco","Denver","Salt Lake City",3,4,6
+"Boston - San Francisco","Salt Lake City","San Francisco",5,10,7
+"Boston - Santa Fe","Boston","New York",2,2,1
+"Boston - Santa Fe","New York","Pittsburgh",2,2,2
+"Boston - Santa Fe","Pittsburgh","Saint Louis",5,10,3
+"Boston - Santa Fe","Saint Louis","Kansas City",2,2,4
+"Boston - Santa Fe","Kansas City","Oklahoma City",2,2,5
+"Boston - Santa Fe","Oklahoma City","Santa Fe",3,4,6
+"Boston - Sault St. Marie","Boston","Montreal",2,2,1
+"Boston - Sault St. Marie","Montreal","Sault St. Marie",5,10,2
+"Boston - Seattle","Boston","Montreal",2,2,1
+"Boston - Seattle","Montreal","Sault St. Marie",5,10,2
+"Boston - Seattle","Sault St. Marie","Duluth",3,4,3
+"Boston - Seattle","Duluth","Helena",6,15,4
+"Boston - Seattle","Helena","Seattle",6,15,5
+"Boston - Toronto","Boston","Montreal",2,2,1
+"Boston - Toronto","Montreal","Toronto",3,4,2
+"Boston - Vancouver","Boston","Montreal",2,2,1
+"Boston - Vancouver","Montreal","Sault St. Marie",5,10,2
+"Boston - Vancouver","Sault St. Marie","Winnipeg",6,15,3
+"Boston - Vancouver","Winnipeg","Calgary",6,15,4
+"Boston - Vancouver","Calgary","Vancouver",3,4,5
+"Boston - Washington","Boston","New York",2,2,1
+"Boston - Washington","New York","Washington",2,2,2
+"Boston - Winnipeg","Boston","Montreal",2,2,1
+"Boston - Winnipeg","Montreal","Sault St. Marie",5,10,2
+"Boston - Winnipeg","Sault St. Marie","Winnipeg",6,15,3
+"Calgary - Charleston","Calgary","Helena",4,7,1
+"Calgary - Charleston","Helena","Omaha",5,10,2
+"Calgary - Charleston","Omaha","Kansas City",1,1,3
+"Calgary - Charleston","Kansas City","Saint Louis",2,2,4
+"Calgary - Charleston","Saint Louis","Nashville",2,2,5
+"Calgary - Charleston","Nashville","Atlanta",1,1,6
+"Calgary - Charleston","Atlanta","Charleston",2,2,7
+"Calgary - Chicago","Calgary","Helena",4,7,1
+"Calgary - Chicago","Helena","Duluth",6,15,2
+"Calgary - Chicago","Duluth","Chicago",3,4,3
+"Calgary - Dallas","Calgary","Helena",4,7,1
+"Calgary - Dallas","Helena","Denver",4,7,2
+"Calgary - Dallas","Denver","Oklahoma City",4,7,3
+"Calgary - Dallas","Oklahoma City","Dallas",2,2,4
+"Calgary - Denver","Calgary","Helena",4,7,1
+"Calgary - Denver","Helena","Denver",4,7,2
+"Calgary - Duluth","Calgary","Helena",4,7,1
+"Calgary - Duluth","Helena","Duluth",6,15,2
+"Calgary - El Paso","Calgary","Helena",4,7,1
+"Calgary - El Paso","Helena","Denver",4,7,2
+"Calgary - El Paso","Denver","Santa Fe",2,2,3
+"Calgary - El Paso","Santa Fe","El Paso",2,2,4
+"Calgary - Helena","Calgary","Helena",4,7,1
+"Calgary - Houston","Calgary","Helena",4,7,1
+"Calgary - Houston","Helena","Denver",4,7,2
+"Calgary - Houston","Denver","Oklahoma City",4,7,3
+"Calgary - Houston","Oklahoma City","Dallas",2,2,4
+"Calgary - Houston","Dallas","Houston",1,1,5
+"Calgary - Kansas City","Calgary","Helena",4,7,1
+"Calgary - Kansas City","Helena","Omaha",5,10,2
+"Calgary - Kansas City","Omaha","Kansas City",1,1,3
+"Calgary - Las Vegas","Calgary","Helena",4,7,1
+"Calgary - Las Vegas","Helena","Salt Lake City",3,4,2
+"Calgary - Las Vegas","Salt Lake City","Las Vegas",3,4,3
+"Calgary - Little Rock","Calgary","Helena",4,7,1
+"Calgary - Little Rock","Helena","Denver",4,7,2
+"Calgary - Little Rock","Denver","Oklahoma City",4,7,3
+"Calgary - Little Rock","Oklahoma City","Little Rock",2,2,4
+"Calgary - Los Angeles","Calgary","Helena",4,7,1
+"Calgary - Los Angeles","Helena","Salt Lake City",3,4,2
+"Calgary - Los Angeles","Salt Lake City","Las Vegas",3,4,3
+"Calgary - Los Angeles","Las Vegas","Los Angeles",2,2,4
+"Calgary - Miami","Calgary","Helena",4,7,1
+"Calgary - Miami","Helena","Omaha",5,10,2
+"Calgary - Miami","Omaha","Kansas City",1,1,3
+"Calgary - Miami","Kansas City","Saint Louis",2,2,4
+"Calgary - Miami","Saint Louis","Nashville",2,2,5
+"Calgary - Miami","Nashville","Atlanta",1,1,6
+"Calgary - Miami","Atlanta","Miami",5,10,7
+"Calgary - Montreal","Calgary","Winnipeg",6,15,1
+"Calgary - Montreal","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - Montreal","Sault St. Marie","Montreal",5,10,3
+"Calgary - Nashville","Calgary","Helena",4,7,1
+"Calgary - Nashville","Helena","Omaha",5,10,2
+"Calgary - Nashville","Omaha","Kansas City",1,1,3
+"Calgary - Nashville","Kansas City","Saint Louis",2,2,4
+"Calgary - Nashville","Saint Louis","Nashville",2,2,5
+"Calgary - New Orleans","Calgary","Helena",4,7,1
+"Calgary - New Orleans","Helena","Denver",4,7,2
+"Calgary - New Orleans","Denver","Oklahoma City",4,7,3
+"Calgary - New Orleans","Oklahoma City","Little Rock",2,2,4
+"Calgary - New Orleans","Little Rock","New Orleans",3,4,5
+"Calgary - New York","Calgary","Winnipeg",6,15,1
+"Calgary - New York","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - New York","Sault St. Marie","Toronto",2,2,3
+"Calgary - New York","Toronto","Pittsburgh",2,2,4
+"Calgary - New York","Pittsburgh","New York",2,2,5
+"Calgary - Oklahoma City","Calgary","Helena",4,7,1
+"Calgary - Oklahoma City","Helena","Denver",4,7,2
+"Calgary - Oklahoma City","Denver","Oklahoma City",4,7,3
+"Calgary - Omaha","Calgary","Helena",4,7,1
+"Calgary - Omaha","Helena","Omaha",5,10,2
+"Calgary - Phoenix","Calgary","Helena",4,7,1
+"Calgary - Phoenix","Helena","Denver",4,7,2
+"Calgary - Phoenix","Denver","Phoenix",5,10,3
+"Calgary - Pittsburgh","Calgary","Winnipeg",6,15,1
+"Calgary - Pittsburgh","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - Pittsburgh","Sault St. Marie","Toronto",2,2,3
+"Calgary - Pittsburgh","Toronto","Pittsburgh",2,2,4
+"Calgary - Portland","Calgary","Seattle",4,7,1
+"Calgary - Portland","Seattle","Portland",1,1,2
+"Calgary - Raleigh","Calgary","Helena",4,7,1
+"Calgary - Raleigh","Helena","Omaha",5,10,2
+"Calgary - Raleigh","Omaha","Kansas City",1,1,3
+"Calgary - Raleigh","Kansas City","Saint Louis",2,2,4
+"Calgary - Raleigh","Saint Louis","Nashville",2,2,5
+"Calgary - Raleigh","Nashville","Raleigh",3,4,6
+"Calgary - Saint Louis","Calgary","Helena",4,7,1
+"Calgary - Saint Louis","Helena","Omaha",5,10,2
+"Calgary - Saint Louis","Omaha","Kansas City",1,1,3
+"Calgary - Saint Louis","Kansas City","Saint Louis",2,2,4
+"Calgary - Salt Lake City","Calgary","Helena",4,7,1
+"Calgary - Salt Lake City","Helena","Salt Lake City",3,4,2
+"Calgary - San Francisco","Calgary","Seattle",4,7,1
+"Calgary - San Francisco","Seattle","Portland",1,1,2
+"Calgary - San Francisco","Portland","San Francisco",5,10,3
+"Calgary - Santa Fe","Calgary","Helena",4,7,1
+"Calgary - Santa Fe","Helena","Denver",4,7,2
+"Calgary - Santa Fe","Denver","Santa Fe",2,2,3
+"Calgary - Sault St. Marie","Calgary","Winnipeg",6,15,1
+"Calgary - Sault St. Marie","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - Seattle","Calgary","Seattle",4,7,1
+"Calgary - Toronto","Calgary","Winnipeg",6,15,1
+"Calgary - Toronto","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - Toronto","Sault St. Marie","Toronto",2,2,3
+"Calgary - Vancouver","Calgary","Vancouver",3,4,1
+"Atlanta - Boston","Atlanta","Raleigh",2,2,1
+"Atlanta - Boston","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Boston","Pittsburgh","New York",2,2,3
+"Atlanta - Boston","New York","Boston",2,2,4
+"Atlanta - Calgary","Atlanta","Nashville",1,1,1
+"Atlanta - Calgary","Nashville","Saint Louis",2,2,2
+"Atlanta - Calgary","Saint Louis","Kansas City",2,2,3
+"Atlanta - Calgary","Kansas City","Omaha",1,1,4
+"Atlanta - Calgary","Omaha","Helena",5,10,5
+"Atlanta - Calgary","Helena","Calgary",4,7,6
+"Atlanta - Charleston","Atlanta","Charleston",2,2,1
+"Atlanta - Chicago","Atlanta","Nashville",1,1,1
+"Atlanta - Chicago","Nashville","Saint Louis",2,2,2
+"Atlanta - Chicago","Saint Louis","Chicago",2,2,3
+"Atlanta - Dallas","Atlanta","Nashville",1,1,1
+"Atlanta - Dallas","Nashville","Little Rock",3,4,2
+"Atlanta - Dallas","Little Rock","Dallas",2,2,3
+"Atlanta - Denver","Atlanta","Nashville",1,1,1
+"Atlanta - Denver","Nashville","Saint Louis",2,2,2
+"Atlanta - Denver","Saint Louis","Kansas City",2,2,3
+"Atlanta - Denver","Kansas City","Denver",4,7,4
+"Atlanta - Duluth","Atlanta","Nashville",1,1,1
+"Atlanta - Duluth","Nashville","Saint Louis",2,2,2
+"Atlanta - Duluth","Saint Louis","Chicago",2,2,3
+"Atlanta - Duluth","Chicago","Duluth",3,4,4
+"Atlanta - El Paso","Atlanta","Nashville",1,1,1
+"Atlanta - El Paso","Nashville","Little Rock",3,4,2
+"Atlanta - El Paso","Little Rock","Dallas",2,2,3
+"Atlanta - El Paso","Dallas","El Paso",4,7,4
+"Atlanta - Helena","Atlanta","Nashville",1,1,1
+"Atlanta - Helena","Nashville","Saint Louis",2,2,2
+"Atlanta - Helena","Saint Louis","Kansas City",2,2,3
+"Atlanta - Helena","Kansas City","Omaha",1,1,4
+"Atlanta - Helena","Omaha","Helena",5,10,5
+"Atlanta - Houston","Atlanta","New Orleans",4,7,1
+"Atlanta - Houston","New Orleans","Houston",2,2,2
+"Atlanta - Kansas City","Atlanta","Nashville",1,1,1
+"Atlanta - Kansas City","Nashville","Saint Louis",2,2,2
+"Atlanta - Kansas City","Saint Louis","Kansas City",2,2,3
+"Atlanta - Las Vegas","Atlanta","Nashville",1,1,1
+"Atlanta - Las Vegas","Nashville","Saint Louis",2,2,2
+"Atlanta - Las Vegas","Saint Louis","Kansas City",2,2,3
+"Atlanta - Las Vegas","Kansas City","Denver",4,7,4
+"Atlanta - Las Vegas","Denver","Salt Lake City",3,4,5
+"Atlanta - Las Vegas","Salt Lake City","Las Vegas",3,4,6
+"Atlanta - Little Rock","Atlanta","Nashville",1,1,1
+"Atlanta - Little Rock","Nashville","Little Rock",3,4,2
+"Atlanta - Los Angeles","Atlanta","Nashville",1,1,1
+"Atlanta - Los Angeles","Nashville","Little Rock",3,4,2
+"Atlanta - Los Angeles","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Los Angeles","Oklahoma City","Santa Fe",3,4,4
+"Atlanta - Los Angeles","Santa Fe","Phoenix",3,4,5
+"Atlanta - Los Angeles","Phoenix","Los Angeles",3,4,6
+"Atlanta - Miami","Atlanta","Miami",5,10,1
+"Atlanta - Montreal","Atlanta","Raleigh",2,2,1
+"Atlanta - Montreal","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Montreal","Pittsburgh","New York",2,2,3
+"Atlanta - Montreal","New York","Montreal",3,4,4
+"Atlanta - Nashville","Atlanta","Nashville",1,1,1
+"Atlanta - New Orleans","Atlanta","New Orleans",4,7,1
+"Atlanta - New York","Atlanta","Raleigh",2,2,1
+"Atlanta - New York","Raleigh","Pittsburgh",2,2,2
+"Atlanta - New York","Pittsburgh","New York",2,2,3
+"Atlanta - Oklahoma City","Atlanta","Nashville",1,1,1
+"Atlanta - Oklahoma City","Nashville","Little Rock",3,4,2
+"Atlanta - Oklahoma City","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Omaha","Atlanta","Nashville",1,1,1
+"Atlanta - Omaha","Nashville","Saint Louis",2,2,2
+"Atlanta - Omaha","Saint Louis","Kansas City",2,2,3
+"Atlanta - Omaha","Kansas City","Omaha",1,1,4
+"Atlanta - Phoenix","Atlanta","Nashville",1,1,1
+"Atlanta - Phoenix","Nashville","Little Rock",3,4,2
+"Atlanta - Phoenix","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Phoenix","Oklahoma City","Santa Fe",3,4,4
+"Atlanta - Phoenix","Santa Fe","Phoenix",3,4,5
+"Atlanta - Pittsburgh","Atlanta","Raleigh",2,2,1
+"Atlanta - Pittsburgh","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Portland","Atlanta","Nashville",1,1,1
+"Atlanta - Portland","Nashville","Saint Louis",2,2,2
+"Atlanta - Portland","Saint Louis","Kansas City",2,2,3
+"Atlanta - Portland","Kansas City","Omaha",1,1,4
+"Atlanta - Portland","Omaha","Helena",5,10,5
+"Atlanta - Portland","Helena","Seattle",6,15,6
+"Atlanta - Portland","Seattle","Portland",1,1,7
+"Atlanta - Raleigh","Atlanta","Raleigh",2,2,1
+"Atlanta - Saint Louis","Atlanta","Nashville",1,1,1
+"Atlanta - Saint Louis","Nashville","Saint Louis",2,2,2
+"Atlanta - Salt Lake City","Atlanta","Nashville",1,1,1
+"Atlanta - Salt Lake City","Nashville","Saint Louis",2,2,2
+"Atlanta - Salt Lake City","Saint Louis","Kansas City",2,2,3
+"Atlanta - Salt Lake City","Kansas City","Denver",4,7,4
+"Atlanta - Salt Lake City","Denver","Salt Lake City",3,4,5
+"Atlanta - San Francisco","Atlanta","Nashville",1,1,1
+"Atlanta - San Francisco","Nashville","Saint Louis",2,2,2
+"Atlanta - San Francisco","Saint Louis","Kansas City",2,2,3
+"Atlanta - San Francisco","Kansas City","Denver",4,7,4
+"Atlanta - San Francisco","Denver","Salt Lake City",3,4,5
+"Atlanta - San Francisco","Salt Lake City","San Francisco",5,10,6
+"Atlanta - Santa Fe","Atlanta","Nashville",1,1,1
+"Atlanta - Santa Fe","Nashville","Little Rock",3,4,2
+"Atlanta - Santa Fe","Little Rock","Oklahoma City",2,2,3
+"Atlanta - Santa Fe","Oklahoma City","Santa Fe",3,4,4
+"Atlanta - Sault St. Marie","Atlanta","Raleigh",2,2,1
+"Atlanta - Sault St. Marie","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Sault St. Marie","Pittsburgh","Toronto",2,2,3
+"Atlanta - Sault St. Marie","Toronto","Sault St. Marie",2,2,4
+"Atlanta - Seattle","Atlanta","Nashville",1,1,1
+"Atlanta - Seattle","Nashville","Saint Louis",2,2,2
+"Atlanta - Seattle","Saint Louis","Kansas City",2,2,3
+"Atlanta - Seattle","Kansas City","Omaha",1,1,4
+"Atlanta - Seattle","Omaha","Helena",5,10,5
+"Atlanta - Seattle","Helena","Seattle",6,15,6
+"Atlanta - Toronto","Atlanta","Raleigh",2,2,1
+"Atlanta - Toronto","Raleigh","Pittsburgh",2,2,2
+"Atlanta - Toronto","Pittsburgh","Toronto",2,2,3
+"Atlanta - Vancouver","Atlanta","Nashville",1,1,1
+"Atlanta - Vancouver","Nashville","Saint Louis",2,2,2
+"Atlanta - Vancouver","Saint Louis","Kansas City",2,2,3
+"Atlanta - Vancouver","Kansas City","Omaha",1,1,4
+"Atlanta - Vancouver","Omaha","Helena",5,10,5
+"Atlanta - Vancouver","Helena","Seattle",6,15,6
+"Atlanta - Vancouver","Seattle","Vancouver",1,1,7
+"Atlanta - Washington","Atlanta","Raleigh",2,2,1
+"Atlanta - Washington","Raleigh","Washington",2,2,2
+"Atlanta - Winnipeg","Atlanta","Nashville",1,1,1
+"Atlanta - Winnipeg","Nashville","Saint Louis",2,2,2
+"Atlanta - Winnipeg","Saint Louis","Chicago",2,2,3
+"Atlanta - Winnipeg","Chicago","Duluth",3,4,4
+"Atlanta - Winnipeg","Duluth","Winnipeg",4,7,5
+"Boston - Calgary","Boston","Montreal",2,2,1
+"Boston - Calgary","Montreal","Sault St. Marie",5,10,2
+"Boston - Calgary","Sault St. Marie","Winnipeg",6,15,3
+"Boston - Calgary","Winnipeg","Calgary",6,15,4
+"Boston - Charleston","Boston","New York",2,2,1
+"Boston - Charleston","New York","Pittsburgh",2,2,2
+"Boston - Charleston","Pittsburgh","Raleigh",2,2,3
+"Boston - Charleston","Raleigh","Charleston",2,2,4
+"Boston - Chicago","Boston","New York",2,2,1
+"Boston - Chicago","New York","Pittsburgh",2,2,2
+"Boston - Chicago","Pittsburgh","Chicago",3,4,3
+"Boston - Dallas","Boston","New York",2,2,1
+"Boston - Dallas","New York","Pittsburgh",2,2,2
+"Boston - Dallas","Pittsburgh","Saint Louis",5,10,3
+"Boston - Dallas","Saint Louis","Little Rock",2,2,4
+"Boston - Dallas","Little Rock","Dallas",2,2,5
+"Boston - Denver","Boston","New York",2,2,1
+"Boston - Denver","New York","Pittsburgh",2,2,2
+"Boston - Denver","Pittsburgh","Saint Louis",5,10,3
+"Boston - Denver","Saint Louis","Kansas City",2,2,4
+"Boston - Denver","Kansas City","Denver",4,7,5
+"Boston - Duluth","Boston","Montreal",2,2,1
+"Boston - Duluth","Montreal","Sault St. Marie",5,10,2
+"Boston - Duluth","Sault St. Marie","Duluth",3,4,3
+"Boston - El Paso","Boston","New York",2,2,1
+"Boston - El Paso","New York","Pittsburgh",2,2,2
+"Boston - El Paso","Pittsburgh","Saint Louis",5,10,3
+"Boston - El Paso","Saint Louis","Little Rock",2,2,4
+"Boston - El Paso","Little Rock","Dallas",2,2,5
+"Boston - El Paso","Dallas","El Paso",4,7,6
+"Boston - Helena","Boston","Montreal",2,2,1
+"Boston - Helena","Montreal","Sault St. Marie",5,10,2
+"Boston - Helena","Sault St. Marie","Duluth",3,4,3
+"Boston - Helena","Duluth","Helena",6,15,4
+"Boston - Houston","Boston","New York",2,2,1
+"Boston - Houston","New York","Pittsburgh",2,2,2
+"Boston - Houston","Pittsburgh","Saint Louis",5,10,3
+"Boston - Houston","Saint Louis","Little Rock",2,2,4
+"Boston - Houston","Little Rock","Dallas",2,2,5
+"Boston - Houston","Dallas","Houston",1,1,6
+"Boston - Kansas City","Boston","New York",2,2,1
+"Boston - Kansas City","New York","Pittsburgh",2,2,2
+"Boston - Kansas City","Pittsburgh","Saint Louis",5,10,3
+"Boston - Kansas City","Saint Louis","Kansas City",2,2,4
+"Boston - Las Vegas","Boston","New York",2,2,1
+"Boston - Las Vegas","New York","Pittsburgh",2,2,2
+"Boston - Las Vegas","Pittsburgh","Saint Louis",5,10,3
+"Boston - Las Vegas","Saint Louis","Kansas City",2,2,4
+"Boston - Las Vegas","Kansas City","Denver",4,7,5
+"Boston - Las Vegas","Denver","Salt Lake City",3,4,6
+"Boston - Las Vegas","Salt Lake City","Las Vegas",3,4,7
+"Boston - Little Rock","Boston","New York",2,2,1
+"Boston - Little Rock","New York","Pittsburgh",2,2,2
+"Boston - Little Rock","Pittsburgh","Saint Louis",5,10,3
+"Boston - Little Rock","Saint Louis","Little Rock",2,2,4
+"Boston - Los Angeles","Boston","New York",2,2,1
+"Boston - Los Angeles","New York","Pittsburgh",2,2,2
+"Boston - Los Angeles","Pittsburgh","Saint Louis",5,10,3
+"Boston - Los Angeles","Saint Louis","Kansas City",2,2,4
+"Boston - Los Angeles","Kansas City","Oklahoma City",2,2,5
+"Boston - Los Angeles","Oklahoma City","Santa Fe",3,4,6
+"Boston - Los Angeles","Santa Fe","Phoenix",3,4,7
+"Boston - Los Angeles","Phoenix","Los Angeles",3,4,8
+"Boston - Miami","Boston","New York",2,2,1
+"Boston - Miami","New York","Pittsburgh",2,2,2
+"Boston - Miami","Pittsburgh","Raleigh",2,2,3
+"Boston - Miami","Raleigh","Charleston",2,2,4
+"Boston - Miami","Charleston","Miami",4,7,5
+"Boston - Montreal","Boston","Montreal",2,2,1
+"Boston - Nashville","Boston","New York",2,2,1
+"Boston - Nashville","New York","Pittsburgh",2,2,2
+"Boston - Nashville","Pittsburgh","Nashville",4,7,3
+"Boston - New Orleans","Boston","New York",2,2,1
+"Boston - New Orleans","New York","Pittsburgh",2,2,2
+"Boston - New Orleans","Pittsburgh","Raleigh",2,2,3
+"Boston - New Orleans","Raleigh","Atlanta",2,2,4
+"Boston - New Orleans","Atlanta","New Orleans",4,7,5
+"Boston - New York","Boston","New York",2,2,1
+"Boston - Oklahoma City","Boston","New York",2,2,1
+"Boston - Oklahoma City","New York","Pittsburgh",2,2,2
+"Boston - Oklahoma City","Pittsburgh","Saint Louis",5,10,3
+"Boston - Oklahoma City","Saint Louis","Kansas City",2,2,4
+"Boston - Oklahoma City","Kansas City","Oklahoma City",2,2,5
+"Boston - Omaha","Boston","New York",2,2,1
+"Boston - Omaha","New York","Pittsburgh",2,2,2
+"Boston - Omaha","Pittsburgh","Chicago",3,4,3
+"Boston - Omaha","Chicago","Omaha",4,7,4
+"Boston - Phoenix","Boston","New York",2,2,1
+"Boston - Phoenix","New York","Pittsburgh",2,2,2
+"Boston - Phoenix","Pittsburgh","Saint Louis",5,10,3
+"Boston - Phoenix","Saint Louis","Kansas City",2,2,4
+"Boston - Phoenix","Kansas City","Oklahoma City",2,2,5
+"Boston - Phoenix","Oklahoma City","Santa Fe",3,4,6
+"Boston - Phoenix","Santa Fe","Phoenix",3,4,7
+"Boston - Pittsburgh","Boston","New York",2,2,1
+"Boston - Pittsburgh","New York","Pittsburgh",2,2,2
+"Boston - Portland","Boston","Montreal",2,2,1
+"Boston - Portland","Montreal","Sault St. Marie",5,10,2
+"Boston - Portland","Sault St. Marie","Duluth",3,4,3
+"Boston - Portland","Duluth","Helena",6,15,4
+"Boston - Portland","Helena","Seattle",6,15,5
+"Boston - Portland","Seattle","Portland",1,1,6
+"Boston - Raleigh","Boston","New York",2,2,1
+"Boston - Raleigh","New York","Pittsburgh",2,2,2
+"Boston - Raleigh","Pittsburgh","Raleigh",2,2,3
+"Boston - Saint Louis","Boston","New York",2,2,1
+"Boston - Saint Louis","New York","Pittsburgh",2,2,2
+"Boston - Saint Louis","Pittsburgh","Saint Louis",5,10,3
+"Boston - Salt Lake City","Boston","New York",2,2,1
+"Boston - Salt Lake City","New York","Pittsburgh",2,2,2
+"Boston - Salt Lake City","Pittsburgh","Saint Louis",5,10,3
+"Boston - Salt Lake City","Saint Louis","Kansas City",2,2,4
+"Boston - Salt Lake City","Kansas City","Denver",4,7,5
+"Boston - Salt Lake City","Denver","Salt Lake City",3,4,6
+"Boston - San Francisco","Boston","New York",2,2,1
+"Boston - San Francisco","New York","Pittsburgh",2,2,2
+"Boston - San Francisco","Pittsburgh","Saint Louis",5,10,3
+"Boston - San Francisco","Saint Louis","Kansas City",2,2,4
+"Boston - San Francisco","Kansas City","Denver",4,7,5
+"Boston - San Francisco","Denver","Salt Lake City",3,4,6
+"Boston - San Francisco","Salt Lake City","San Francisco",5,10,7
+"Boston - Santa Fe","Boston","New York",2,2,1
+"Boston - Santa Fe","New York","Pittsburgh",2,2,2
+"Boston - Santa Fe","Pittsburgh","Saint Louis",5,10,3
+"Boston - Santa Fe","Saint Louis","Kansas City",2,2,4
+"Boston - Santa Fe","Kansas City","Oklahoma City",2,2,5
+"Boston - Santa Fe","Oklahoma City","Santa Fe",3,4,6
+"Boston - Sault St. Marie","Boston","Montreal",2,2,1
+"Boston - Sault St. Marie","Montreal","Sault St. Marie",5,10,2
+"Boston - Seattle","Boston","Montreal",2,2,1
+"Boston - Seattle","Montreal","Sault St. Marie",5,10,2
+"Boston - Seattle","Sault St. Marie","Duluth",3,4,3
+"Boston - Seattle","Duluth","Helena",6,15,4
+"Boston - Seattle","Helena","Seattle",6,15,5
+"Boston - Toronto","Boston","Montreal",2,2,1
+"Boston - Toronto","Montreal","Toronto",3,4,2
+"Boston - Vancouver","Boston","Montreal",2,2,1
+"Boston - Vancouver","Montreal","Sault St. Marie",5,10,2
+"Boston - Vancouver","Sault St. Marie","Winnipeg",6,15,3
+"Boston - Vancouver","Winnipeg","Calgary",6,15,4
+"Boston - Vancouver","Calgary","Vancouver",3,4,5
+"Boston - Washington","Boston","New York",2,2,1
+"Boston - Washington","New York","Washington",2,2,2
+"Boston - Winnipeg","Boston","Montreal",2,2,1
+"Boston - Winnipeg","Montreal","Sault St. Marie",5,10,2
+"Boston - Winnipeg","Sault St. Marie","Winnipeg",6,15,3
+"Calgary - Charleston","Calgary","Helena",4,7,1
+"Calgary - Charleston","Helena","Omaha",5,10,2
+"Calgary - Charleston","Omaha","Kansas City",1,1,3
+"Calgary - Charleston","Kansas City","Saint Louis",2,2,4
+"Calgary - Charleston","Saint Louis","Nashville",2,2,5
+"Calgary - Charleston","Nashville","Atlanta",1,1,6
+"Calgary - Charleston","Atlanta","Charleston",2,2,7
+"Calgary - Chicago","Calgary","Helena",4,7,1
+"Calgary - Chicago","Helena","Duluth",6,15,2
+"Calgary - Chicago","Duluth","Chicago",3,4,3
+"Calgary - Dallas","Calgary","Helena",4,7,1
+"Calgary - Dallas","Helena","Denver",4,7,2
+"Calgary - Dallas","Denver","Oklahoma City",4,7,3
+"Calgary - Dallas","Oklahoma City","Dallas",2,2,4
+"Calgary - Denver","Calgary","Helena",4,7,1
+"Calgary - Denver","Helena","Denver",4,7,2
+"Calgary - Duluth","Calgary","Helena",4,7,1
+"Calgary - Duluth","Helena","Duluth",6,15,2
+"Calgary - El Paso","Calgary","Helena",4,7,1
+"Calgary - El Paso","Helena","Denver",4,7,2
+"Calgary - El Paso","Denver","Santa Fe",2,2,3
+"Calgary - El Paso","Santa Fe","El Paso",2,2,4
+"Calgary - Helena","Calgary","Helena",4,7,1
+"Calgary - Houston","Calgary","Helena",4,7,1
+"Calgary - Houston","Helena","Denver",4,7,2
+"Calgary - Houston","Denver","Oklahoma City",4,7,3
+"Calgary - Houston","Oklahoma City","Dallas",2,2,4
+"Calgary - Houston","Dallas","Houston",1,1,5
+"Calgary - Kansas City","Calgary","Helena",4,7,1
+"Calgary - Kansas City","Helena","Omaha",5,10,2
+"Calgary - Kansas City","Omaha","Kansas City",1,1,3
+"Calgary - Las Vegas","Calgary","Helena",4,7,1
+"Calgary - Las Vegas","Helena","Salt Lake City",3,4,2
+"Calgary - Las Vegas","Salt Lake City","Las Vegas",3,4,3
+"Calgary - Little Rock","Calgary","Helena",4,7,1
+"Calgary - Little Rock","Helena","Denver",4,7,2
+"Calgary - Little Rock","Denver","Oklahoma City",4,7,3
+"Calgary - Little Rock","Oklahoma City","Little Rock",2,2,4
+"Calgary - Los Angeles","Calgary","Helena",4,7,1
+"Calgary - Los Angeles","Helena","Salt Lake City",3,4,2
+"Calgary - Los Angeles","Salt Lake City","Las Vegas",3,4,3
+"Calgary - Los Angeles","Las Vegas","Los Angeles",2,2,4
+"Calgary - Miami","Calgary","Helena",4,7,1
+"Calgary - Miami","Helena","Omaha",5,10,2
+"Calgary - Miami","Omaha","Kansas City",1,1,3
+"Calgary - Miami","Kansas City","Saint Louis",2,2,4
+"Calgary - Miami","Saint Louis","Nashville",2,2,5
+"Calgary - Miami","Nashville","Atlanta",1,1,6
+"Calgary - Miami","Atlanta","Miami",5,10,7
+"Calgary - Montreal","Calgary","Winnipeg",6,15,1
+"Calgary - Montreal","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - Montreal","Sault St. Marie","Montreal",5,10,3
+"Calgary - Nashville","Calgary","Helena",4,7,1
+"Calgary - Nashville","Helena","Omaha",5,10,2
+"Calgary - Nashville","Omaha","Kansas City",1,1,3
+"Calgary - Nashville","Kansas City","Saint Louis",2,2,4
+"Calgary - Nashville","Saint Louis","Nashville",2,2,5
+"Calgary - New Orleans","Calgary","Helena",4,7,1
+"Calgary - New Orleans","Helena","Denver",4,7,2
+"Calgary - New Orleans","Denver","Oklahoma City",4,7,3
+"Calgary - New Orleans","Oklahoma City","Little Rock",2,2,4
+"Calgary - New Orleans","Little Rock","New Orleans",3,4,5
+"Calgary - New York","Calgary","Winnipeg",6,15,1
+"Calgary - New York","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - New York","Sault St. Marie","Toronto",2,2,3
+"Calgary - New York","Toronto","Pittsburgh",2,2,4
+"Calgary - New York","Pittsburgh","New York",2,2,5
+"Calgary - Oklahoma City","Calgary","Helena",4,7,1
+"Calgary - Oklahoma City","Helena","Denver",4,7,2
+"Calgary - Oklahoma City","Denver","Oklahoma City",4,7,3
+"Calgary - Omaha","Calgary","Helena",4,7,1
+"Calgary - Omaha","Helena","Omaha",5,10,2
+"Calgary - Phoenix","Calgary","Helena",4,7,1
+"Calgary - Phoenix","Helena","Denver",4,7,2
+"Calgary - Phoenix","Denver","Phoenix",5,10,3
+"Calgary - Pittsburgh","Calgary","Winnipeg",6,15,1
+"Calgary - Pittsburgh","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - Pittsburgh","Sault St. Marie","Toronto",2,2,3
+"Calgary - Pittsburgh","Toronto","Pittsburgh",2,2,4
+"Calgary - Portland","Calgary","Seattle",4,7,1
+"Calgary - Portland","Seattle","Portland",1,1,2
+"Calgary - Raleigh","Calgary","Helena",4,7,1
+"Calgary - Raleigh","Helena","Omaha",5,10,2
+"Calgary - Raleigh","Omaha","Kansas City",1,1,3
+"Calgary - Raleigh","Kansas City","Saint Louis",2,2,4
+"Calgary - Raleigh","Saint Louis","Nashville",2,2,5
+"Calgary - Raleigh","Nashville","Raleigh",3,4,6
+"Calgary - Saint Louis","Calgary","Helena",4,7,1
+"Calgary - Saint Louis","Helena","Omaha",5,10,2
+"Calgary - Saint Louis","Omaha","Kansas City",1,1,3
+"Calgary - Saint Louis","Kansas City","Saint Louis",2,2,4
+"Calgary - Salt Lake City","Calgary","Helena",4,7,1
+"Calgary - Salt Lake City","Helena","Salt Lake City",3,4,2
+"Calgary - San Francisco","Calgary","Seattle",4,7,1
+"Calgary - San Francisco","Seattle","Portland",1,1,2
+"Calgary - San Francisco","Portland","San Francisco",5,10,3
+"Calgary - Santa Fe","Calgary","Helena",4,7,1
+"Calgary - Santa Fe","Helena","Denver",4,7,2
+"Calgary - Santa Fe","Denver","Santa Fe",2,2,3
+"Calgary - Sault St. Marie","Calgary","Winnipeg",6,15,1
+"Calgary - Sault St. Marie","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - Seattle","Calgary","Seattle",4,7,1
+"Calgary - Toronto","Calgary","Winnipeg",6,15,1
+"Calgary - Toronto","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - Toronto","Sault St. Marie","Toronto",2,2,3
+"Calgary - Vancouver","Calgary","Vancouver",3,4,1
+"Calgary - Washington","Calgary","Winnipeg",6,15,1
+"Calgary - Washington","Winnipeg","Sault St. Marie",6,15,2
+"Calgary - Washington","Sault St. Marie","Toronto",2,2,3
+"Calgary - Washington","Toronto","Pittsburgh",2,2,4
+"Calgary - Washington","Pittsburgh","Washington",2,2,5
+"Calgary - Winnipeg","Calgary","Winnipeg",6,15,1
+"Charleston - Chicago","Charleston","Raleigh",2,2,1
+"Charleston - Chicago","Raleigh","Pittsburgh",2,2,2
+"Charleston - Chicago","Pittsburgh","Chicago",3,4,3
+"Charleston - Dallas","Charleston","Atlanta",2,2,1
+"Charleston - Dallas","Atlanta","Nashville",1,1,2
+"Charleston - Dallas","Nashville","Little Rock",3,4,3
+"Charleston - Dallas","Little Rock","Dallas",2,2,4
+"Charleston - Denver","Charleston","Atlanta",2,2,1
+"Charleston - Denver","Atlanta","Nashville",1,1,2
+"Charleston - Denver","Nashville","Saint Louis",2,2,3
+"Charleston - Denver","Saint Louis","Kansas City",2,2,4
+"Charleston - Denver","Kansas City","Denver",4,7,5
+"Charleston - Duluth","Charleston","Raleigh",2,2,1
+"Charleston - Duluth","Raleigh","Pittsburgh",2,2,2
+"Charleston - Duluth","Pittsburgh","Chicago",3,4,3
+"Charleston - Duluth","Chicago","Duluth",3,4,4
+"Charleston - El Paso","Charleston","Atlanta",2,2,1
+"Charleston - El Paso","Atlanta","Nashville",1,1,2
+"Charleston - El Paso","Nashville","Little Rock",3,4,3
+"Charleston - El Paso","Little Rock","Dallas",2,2,4
+"Charleston - El Paso","Dallas","El Paso",4,7,5
+"Charleston - Helena","Charleston","Atlanta",2,2,1
+"Charleston - Helena","Atlanta","Nashville",1,1,2
+"Charleston - Helena","Nashville","Saint Louis",2,2,3
+"Charleston - Helena","Saint Louis","Kansas City",2,2,4
+"Charleston - Helena","Kansas City","Omaha",1,1,5
+"Charleston - Helena","Omaha","Helena",5,10,6
+"Charleston - Houston","Charleston","Atlanta",2,2,1
+"Charleston - Houston","Atlanta","New Orleans",4,7,2
+"Charleston - Houston","New Orleans","Houston",2,2,3
+"Charleston - Kansas City","Charleston","Atlanta",2,2,1
+"Charleston - Kansas City","Atlanta","Nashville",1,1,2
+"Charleston - Kansas City","Nashville","Saint Louis",2,2,3
+"Charleston - Kansas City","Saint Louis","Kansas City",2,2,4
+"Charleston - Las Vegas","Charleston","Atlanta",2,2,1
+"Charleston - Las Vegas","Atlanta","Nashville",1,1,2
+"Charleston - Las Vegas","Nashville","Saint Louis",2,2,3
+"Charleston - Las Vegas","Saint Louis","Kansas City",2,2,4
+"Charleston - Las Vegas","Kansas City","Denver",4,7,5
+"Charleston - Las Vegas","Denver","Salt Lake City",3,4,6
+"Charleston - Las Vegas","Salt Lake City","Las Vegas",3,4,7
+"Charleston - Little Rock","Charleston","Atlanta",2,2,1
+"Charleston - Little Rock","Atlanta","Nashville",1,1,2
+"Charleston - Little Rock","Nashville","Little Rock",3,4,3
+"Charleston - Los Angeles","Charleston","Atlanta",2,2,1
+"Charleston - Los Angeles","Atlanta","Nashville",1,1,2
+"Charleston - Los Angeles","Nashville","Little Rock",3,4,3
+"Charleston - Los Angeles","Little Rock","Oklahoma City",2,2,4
+"Charleston - Los Angeles","Oklahoma City","Santa Fe",3,4,5
+"Charleston - Los Angeles","Santa Fe","Phoenix",3,4,6
+"Charleston - Los Angeles","Phoenix","Los Angeles",3,4,7
+"Charleston - Miami","Charleston","Miami",4,7,1
+"Charleston - Montreal","Charleston","Raleigh",2,2,1
+"Charleston - Montreal","Raleigh","Pittsburgh",2,2,2
+"Charleston - Montreal","Pittsburgh","New York",2,2,3
+"Charleston - Montreal","New York","Montreal",3,4,4
+"Charleston - Nashville","Charleston","Atlanta",2,2,1
+"Charleston - Nashville","Atlanta","Nashville",1,1,2
+"Charleston - New Orleans","Charleston","Atlanta",2,2,1
+"Charleston - New Orleans","Atlanta","New Orleans",4,7,2
+"Charleston - New York","Charleston","Raleigh",2,2,1
+"Charleston - New York","Raleigh","Pittsburgh",2,2,2
+"Charleston - New York","Pittsburgh","New York",2,2,3
+"Charleston - Oklahoma City","Charleston","Atlanta",2,2,1
+"Charleston - Oklahoma City","Atlanta","Nashville",1,1,2
+"Charleston - Oklahoma City","Nashville","Little Rock",3,4,3
+"Charleston - Oklahoma City","Little Rock","Oklahoma City",2,2,4
+"Charleston - Omaha","Charleston","Atlanta",2,2,1
+"Charleston - Omaha","Atlanta","Nashville",1,1,2
+"Charleston - Omaha","Nashville","Saint Louis",2,2,3
+"Charleston - Omaha","Saint Louis","Kansas City",2,2,4
+"Charleston - Omaha","Kansas City","Omaha",1,1,5
+"Charleston - Phoenix","Charleston","Atlanta",2,2,1
+"Charleston - Phoenix","Atlanta","Nashville",1,1,2
+"Charleston - Phoenix","Nashville","Little Rock",3,4,3
+"Charleston - Phoenix","Little Rock","Oklahoma City",2,2,4
+"Charleston - Phoenix","Oklahoma City","Santa Fe",3,4,5
+"Charleston - Phoenix","Santa Fe","Phoenix",3,4,6
+"Charleston - Pittsburgh","Charleston","Raleigh",2,2,1
+"Charleston - Pittsburgh","Raleigh","Pittsburgh",2,2,2
+"Charleston - Portland","Charleston","Atlanta",2,2,1
+"Charleston - Portland","Atlanta","Nashville",1,1,2
+"Charleston - Portland","Nashville","Saint Louis",2,2,3
+"Charleston - Portland","Saint Louis","Kansas City",2,2,4
+"Charleston - Portland","Kansas City","Omaha",1,1,5
+"Charleston - Portland","Omaha","Helena",5,10,6
+"Charleston - Portland","Helena","Seattle",6,15,7
+"Charleston - Portland","Seattle","Portland",1,1,8
+"Charleston - Raleigh","Charleston","Raleigh",2,2,1
+"Charleston - Saint Louis","Charleston","Atlanta",2,2,1
+"Charleston - Saint Louis","Atlanta","Nashville",1,1,2
+"Charleston - Saint Louis","Nashville","Saint Louis",2,2,3
+"Charleston - Salt Lake City","Charleston","Atlanta",2,2,1
+"Charleston - Salt Lake City","Atlanta","Nashville",1,1,2
+"Charleston - Salt Lake City","Nashville","Saint Louis",2,2,3
+"Charleston - Salt Lake City","Saint Louis","Kansas City",2,2,4
+"Charleston - Salt Lake City","Kansas City","Denver",4,7,5
+"Charleston - Salt Lake City","Denver","Salt Lake City",3,4,6
+"Charleston - San Francisco","Charleston","Atlanta",2,2,1
+"Charleston - San Francisco","Atlanta","Nashville",1,1,2
+"Charleston - San Francisco","Nashville","Saint Louis",2,2,3
+"Charleston - San Francisco","Saint Louis","Kansas City",2,2,4
+"Charleston - San Francisco","Kansas City","Denver",4,7,5
+"Charleston - San Francisco","Denver","Salt Lake City",3,4,6
+"Charleston - San Francisco","Salt Lake City","San Francisco",5,10,7
+"Charleston - Santa Fe","Charleston","Atlanta",2,2,1
+"Charleston - Santa Fe","Atlanta","Nashville",1,1,2
+"Charleston - Santa Fe","Nashville","Little Rock",3,4,3
+"Charleston - Santa Fe","Little Rock","Oklahoma City",2,2,4
+"Charleston - Santa Fe","Oklahoma City","Santa Fe",3,4,5
+"Charleston - Sault St. Marie","Charleston","Raleigh",2,2,1
+"Charleston - Sault St. Marie","Raleigh","Pittsburgh",2,2,2
+"Charleston - Sault St. Marie","Pittsburgh","Toronto",2,2,3
+"Charleston - Sault St. Marie","Toronto","Sault St. Marie",2,2,4
+"Charleston - Seattle","Charleston","Atlanta",2,2,1
+"Charleston - Seattle","Atlanta","Nashville",1,1,2
+"Charleston - Seattle","Nashville","Saint Louis",2,2,3
+"Charleston - Seattle","Saint Louis","Kansas City",2,2,4
+"Charleston - Seattle","Kansas City","Omaha",1,1,5
+"Charleston - Seattle","Omaha","Helena",5,10,6
+"Charleston - Seattle","Helena","Seattle",6,15,7
+"Charleston - Toronto","Charleston","Raleigh",2,2,1
+"Charleston - Toronto","Raleigh","Pittsburgh",2,2,2
+"Charleston - Toronto","Pittsburgh","Toronto",2,2,3
+"Charleston - Vancouver","Charleston","Atlanta",2,2,1
+"Charleston - Vancouver","Atlanta","Nashville",1,1,2
+"Charleston - Vancouver","Nashville","Saint Louis",2,2,3
+"Charleston - Vancouver","Saint Louis","Kansas City",2,2,4
+"Charleston - Vancouver","Kansas City","Omaha",1,1,5
+"Charleston - Vancouver","Omaha","Helena",5,10,6
+"Charleston - Vancouver","Helena","Seattle",6,15,7
+"Charleston - Vancouver","Seattle","Vancouver",1,1,8
+"Charleston - Washington","Charleston","Raleigh",2,2,1
+"Charleston - Washington","Raleigh","Washington",2,2,2
+"Charleston - Winnipeg","Charleston","Raleigh",2,2,1
+"Charleston - Winnipeg","Raleigh","Pittsburgh",2,2,2
+"Charleston - Winnipeg","Pittsburgh","Toronto",2,2,3
+"Charleston - Winnipeg","Toronto","Sault St. Marie",2,2,4
+"Charleston - Winnipeg","Sault St. Marie","Winnipeg",6,15,5
+"Chicago - Dallas","Chicago","Saint Louis",2,2,1
+"Chicago - Dallas","Saint Louis","Little Rock",2,2,2
+"Chicago - Dallas","Little Rock","Dallas",2,2,3
+"Chicago - Denver","Chicago","Omaha",4,7,1
+"Chicago - Denver","Omaha","Denver",4,7,2
+"Chicago - Duluth","Chicago","Duluth",3,4,1
+"Chicago - El Paso","Chicago","Saint Louis",2,2,1
+"Chicago - El Paso","Saint Louis","Little Rock",2,2,2
+"Chicago - El Paso","Little Rock","Dallas",2,2,3
+"Chicago - El Paso","Dallas","El Paso",4,7,4
+"Chicago - Helena","Chicago","Duluth",3,4,1
+"Chicago - Helena","Duluth","Helena",6,15,2
+"Chicago - Houston","Chicago","Saint Louis",2,2,1
+"Chicago - Houston","Saint Louis","Little Rock",2,2,2
+"Chicago - Houston","Little Rock","Dallas",2,2,3
+"Chicago - Houston","Dallas","Houston",1,1,4
+"Chicago - Kansas City","Chicago","Saint Louis",2,2,1
+"Chicago - Kansas City","Saint Louis","Kansas City",2,2,2
+"Chicago - Las Vegas","Chicago","Omaha",4,7,1
+"Chicago - Las Vegas","Omaha","Denver",4,7,2
+"Chicago - Las Vegas","Denver","Salt Lake City",3,4,3
+"Chicago - Las Vegas","Salt Lake City","Las Vegas",3,4,4
+"Chicago - Little Rock","Chicago","Saint Louis",2,2,1
+"Chicago - Little Rock","Saint Louis","Little Rock",2,2,2
+"Chicago - Los Angeles","Chicago","Saint Louis",2,2,1
+"Chicago - Los Angeles","Saint Louis","Kansas City",2,2,2
+"Chicago - Los Angeles","Kansas City","Oklahoma City",2,2,3
+"Chicago - Los Angeles","Oklahoma City","Santa Fe",3,4,4
+"Chicago - Los Angeles","Santa Fe","Phoenix",3,4,5
+"Chicago - Los Angeles","Phoenix","Los Angeles",3,4,6
+"Chicago - Miami","Chicago","Saint Louis",2,2,1
+"Chicago - Miami","Saint Louis","Nashville",2,2,2
+"Chicago - Miami","Nashville","Atlanta",1,1,3
+"Chicago - Miami","Atlanta","Miami",5,10,4
+"Chicago - Montreal","Chicago","Toronto",4,7,1
+"Chicago - Montreal","Toronto","Montreal",3,4,2
+"Chicago - Nashville","Chicago","Saint Louis",2,2,1
+"Chicago - Nashville","Saint Louis","Nashville",2,2,2
+"Chicago - New Orleans","Chicago","Saint Louis",2,2,1
+"Chicago - New Orleans","Saint Louis","Little Rock",2,2,2
+"Chicago - New Orleans","Little Rock","New Orleans",3,4,3
+"Chicago - New York","Chicago","Pittsburgh",3,4,1
+"Chicago - New York","Pittsburgh","New York",2,2,2
+"Chicago - Oklahoma City","Chicago","Saint Louis",2,2,1
+"Chicago - Oklahoma City","Saint Louis","Kansas City",2,2,2
+"Chicago - Oklahoma City","Kansas City","Oklahoma City",2,2,3
+"Chicago - Omaha","Chicago","Omaha",4,7,1
+"Chicago - Phoenix","Chicago","Saint Louis",2,2,1
+"Chicago - Phoenix","Saint Louis","Kansas City",2,2,2
+"Chicago - Phoenix","Kansas City","Oklahoma City",2,2,3
+"Chicago - Phoenix","Oklahoma City","Santa Fe",3,4,4
+"Chicago - Phoenix","Santa Fe","Phoenix",3,4,5
+"Chicago - Pittsburgh","Chicago","Pittsburgh",3,4,1
+"Chicago - Portland","Chicago","Duluth",3,4,1
+"Chicago - Portland","Duluth","Helena",6,15,2
+"Chicago - Portland","Helena","Seattle",6,15,3
+"Chicago - Portland","Seattle","Portland",1,1,4
+"Chicago - Raleigh","Chicago","Pittsburgh",3,4,1
+"Chicago - Raleigh","Pittsburgh","Raleigh",2,2,2
+"Chicago - Saint Louis","Chicago","Saint Louis",2,2,1
+"Chicago - Salt Lake City","Chicago","Omaha",4,7,1
+"Chicago - Salt Lake City","Omaha","Denver",4,7,2
+"Chicago - Salt Lake City","Denver","Salt Lake City",3,4,3
+"Chicago - San Francisco","Chicago","Omaha",4,7,1
+"Chicago - San Francisco","Omaha","Denver",4,7,2
+"Chicago - San Francisco","Denver","Salt Lake City",3,4,3
+"Chicago - San Francisco","Salt Lake City","San Francisco",5,10,4
+"Chicago - Santa Fe","Chicago","Saint Louis",2,2,1
+"Chicago - Santa Fe","Saint Louis","Kansas City",2,2,2
+"Chicago - Santa Fe","Kansas City","Oklahoma City",2,2,3
+"Chicago - Santa Fe","Oklahoma City","Santa Fe",3,4,4
+"Chicago - Sault St. Marie","Chicago","Toronto",4,7,1
+"Chicago - Sault St. Marie","Toronto","Sault St. Marie",2,2,2
+"Chicago - Seattle","Chicago","Duluth",3,4,1
+"Chicago - Seattle","Duluth","Helena",6,15,2
+"Chicago - Seattle","Helena","Seattle",6,15,3
+"Chicago - Toronto","Chicago","Toronto",4,7,1
+"Chicago - Vancouver","Chicago","Duluth",3,4,1
+"Chicago - Vancouver","Duluth","Helena",6,15,2
+"Chicago - Vancouver","Helena","Seattle",6,15,3
+"Chicago - Vancouver","Seattle","Vancouver",1,1,4
+"Chicago - Washington","Chicago","Pittsburgh",3,4,1
+"Chicago - Washington","Pittsburgh","Washington",2,2,2
+"Chicago - Winnipeg","Chicago","Duluth",3,4,1
+"Chicago - Winnipeg","Duluth","Winnipeg",4,7,2
+"Dallas - Denver","Dallas","Oklahoma City",2,2,1
+"Dallas - Denver","Oklahoma City","Denver",4,7,2
+"Dallas - Duluth","Dallas","Oklahoma City",2,2,1
+"Dallas - Duluth","Oklahoma City","Kansas City",2,2,2
+"Dallas - Duluth","Kansas City","Omaha",1,1,3
+"Dallas - Duluth","Omaha","Duluth",2,2,4
+"Dallas - El Paso","Dallas","El Paso",4,7,1
+"Dallas - Helena","Dallas","Oklahoma City",2,2,1
+"Dallas - Helena","Oklahoma City","Denver",4,7,2
+"Dallas - Helena","Denver","Helena",4,7,3
+"Dallas - Houston","Dallas","Houston",1,1,1
+"Dallas - Kansas City","Dallas","Oklahoma City",2,2,1
+"Dallas - Kansas City","Oklahoma City","Kansas City",2,2,2
+"Dallas - Las Vegas","Dallas","El Paso",4,7,1
+"Dallas - Las Vegas","El Paso","Los Angeles",6,15,2
+"Dallas - Las Vegas","Los Angeles","Las Vegas",2,2,3
+"Dallas - Little Rock","Dallas","Little Rock",2,2,1
+"Dallas - Los Angeles","Dallas","El Paso",4,7,1
+"Dallas - Los Angeles","El Paso","Los Angeles",6,15,2
+"Dallas - Miami","Dallas","Houston",1,1,1
+"Dallas - Miami","Houston","New Orleans",2,2,2
+"Dallas - Miami","New Orleans","Miami",6,15,3
+"Dallas - Montreal","Dallas","Little Rock",2,2,1
+"Dallas - Montreal","Little Rock","Saint Louis",2,2,2
+"Dallas - Montreal","Saint Louis","Chicago",2,2,3
+"Dallas - Montreal","Chicago","Toronto",4,7,4
+"Dallas - Montreal","Toronto","Montreal",3,4,5
+"Dallas - Nashville","Dallas","Little Rock",2,2,1
+"Dallas - Nashville","Little Rock","Nashville",3,4,2
+"Dallas - New Orleans","Dallas","Houston",1,1,1
+"Dallas - New Orleans","Houston","New Orleans",2,2,2
+"Dallas - New York","Dallas","Little Rock",2,2,1
+"Dallas - New York","Little Rock","Saint Louis",2,2,2
+"Dallas - New York","Saint Louis","Pittsburgh",5,10,3
+"Dallas - New York","Pittsburgh","New York",2,2,4
+"Dallas - Oklahoma City","Dallas","Oklahoma City",2,2,1
+"Dallas - Omaha","Dallas","Oklahoma City",2,2,1
+"Dallas - Omaha","Oklahoma City","Kansas City",2,2,2
+"Dallas - Omaha","Kansas City","Omaha",1,1,3
+"Dallas - Phoenix","Dallas","El Paso",4,7,1
+"Dallas - Phoenix","El Paso","Phoenix",3,4,2
+"Dallas - Pittsburgh","Dallas","Little Rock",2,2,1
+"Dallas - Pittsburgh","Little Rock","Saint Louis",2,2,2
+"Dallas - Pittsburgh","Saint Louis","Pittsburgh",5,10,3
+"Dallas - Portland","Dallas","Oklahoma City",2,2,1
+"Dallas - Portland","Oklahoma City","Denver",4,7,2
+"Dallas - Portland","Denver","Salt Lake City",3,4,3
+"Dallas - Portland","Salt Lake City","Portland",6,15,4
+"Dallas - Raleigh","Dallas","Little Rock",2,2,1
+"Dallas - Raleigh","Little Rock","Nashville",3,4,2
+"Dallas - Raleigh","Nashville","Raleigh",3,4,3
+"Dallas - Saint Louis","Dallas","Little Rock",2,2,1
+"Dallas - Saint Louis","Little Rock","Saint Louis",2,2,2
+"Dallas - Salt Lake City","Dallas","Oklahoma City",2,2,1
+"Dallas - Salt Lake City","Oklahoma City","Denver",4,7,2
+"Dallas - Salt Lake City","Denver","Salt Lake City",3,4,3
+"Dallas - San Francisco","Dallas","El Paso",4,7,1
+"Dallas - San Francisco","El Paso","Los Angeles",6,15,2
+"Dallas - San Francisco","Los Angeles","San Francisco",3,4,3
+"Dallas - Santa Fe","Dallas","Oklahoma City",2,2,1
+"Dallas - Santa Fe","Oklahoma City","Santa Fe",3,4,2
+"Dallas - Sault St. Marie","Dallas","Oklahoma City",2,2,1
+"Dallas - Sault St. Marie","Oklahoma City","Kansas City",2,2,2
+"Dallas - Sault St. Marie","Kansas City","Omaha",1,1,3
+"Dallas - Sault St. Marie","Omaha","Duluth",2,2,4
+"Dallas - Sault St. Marie","Duluth","Sault St. Marie",3,4,5
+"Dallas - Seattle","Dallas","Oklahoma City",2,2,1
+"Dallas - Seattle","Oklahoma City","Denver",4,7,2
+"Dallas - Seattle","Denver","Helena",4,7,3
+"Dallas - Seattle","Helena","Seattle",6,15,4
+"Dallas - Toronto","Dallas","Little Rock",2,2,1
+"Dallas - Toronto","Little Rock","Saint Louis",2,2,2
+"Dallas - Toronto","Saint Louis","Chicago",2,2,3
+"Dallas - Toronto","Chicago","Toronto",4,7,4
+"Dallas - Vancouver","Dallas","Oklahoma City",2,2,1
+"Dallas - Vancouver","Oklahoma City","Denver",4,7,2
+"Dallas - Vancouver","Denver","Helena",4,7,3
+"Dallas - Vancouver","Helena","Seattle",6,15,4
+"Dallas - Vancouver","Seattle","Vancouver",1,1,5
+"Dallas - Washington","Dallas","Little Rock",2,2,1
+"Dallas - Washington","Little Rock","Nashville",3,4,2
+"Dallas - Washington","Nashville","Raleigh",3,4,3
+"Dallas - Washington","Raleigh","Washington",2,2,4
+"Dallas - Winnipeg","Dallas","Oklahoma City",2,2,1
+"Dallas - Winnipeg","Oklahoma City","Kansas City",2,2,2
+"Dallas - Winnipeg","Kansas City","Omaha",1,1,3
+"Dallas - Winnipeg","Omaha","Duluth",2,2,4
+"Dallas - Winnipeg","Duluth","Winnipeg",4,7,5
+"Denver - Duluth","Denver","Omaha",4,7,1
+"Denver - Duluth","Omaha","Duluth",2,2,2
+"Denver - El Paso","Denver","Santa Fe",2,2,1
+"Denver - El Paso","Santa Fe","El Paso",2,2,2
+"Denver - Helena","Denver","Helena",4,7,1
+"Denver - Houston","Denver","Oklahoma City",4,7,1
+"Denver - Houston","Oklahoma City","Dallas",2,2,2
+"Denver - Houston","Dallas","Houston",1,1,3
+"Denver - Kansas City","Denver","Kansas City",4,7,1
+"Denver - Las Vegas","Denver","Salt Lake City",3,4,1
+"Denver - Las Vegas","Salt Lake City","Las Vegas",3,4,2
+"Denver - Little Rock","Denver","Oklahoma City",4,7,1
+"Denver - Little Rock","Oklahoma City","Little Rock",2,2,2
+"Denver - Los Angeles","Denver","Phoenix",5,10,1
+"Denver - Los Angeles","Phoenix","Los Angeles",3,4,2
+"Denver - Miami","Denver","Kansas City",4,7,1
+"Denver - Miami","Kansas City","Saint Louis",2,2,2
+"Denver - Miami","Saint Louis","Nashville",2,2,3
+"Denver - Miami","Nashville","Atlanta",1,1,4
+"Denver - Miami","Atlanta","Miami",5,10,5
+"Denver - Montreal","Denver","Omaha",4,7,1
+"Denver - Montreal","Omaha","Duluth",2,2,2
+"Denver - Montreal","Duluth","Sault St. Marie",3,4,3
+"Denver - Montreal","Sault St. Marie","Montreal",5,10,4
+"Denver - Nashville","Denver","Kansas City",4,7,1
+"Denver - Nashville","Kansas City","Saint Louis",2,2,2
+"Denver - Nashville","Saint Louis","Nashville",2,2,3
+"Denver - New Orleans","Denver","Oklahoma City",4,7,1
+"Denver - New Orleans","Oklahoma City","Little Rock",2,2,2
+"Denver - New Orleans","Little Rock","New Orleans",3,4,3
+"Denver - New York","Denver","Kansas City",4,7,1
+"Denver - New York","Kansas City","Saint Louis",2,2,2
+"Denver - New York","Saint Louis","Pittsburgh",5,10,3
+"Denver - New York","Pittsburgh","New York",2,2,4
+"Denver - Oklahoma City","Denver","Oklahoma City",4,7,1
+"Denver - Omaha","Denver","Omaha",4,7,1
+"Denver - Phoenix","Denver","Phoenix",5,10,1
+"Denver - Pittsburgh","Denver","Kansas City",4,7,1
+"Denver - Pittsburgh","Kansas City","Saint Louis",2,2,2
+"Denver - Pittsburgh","Saint Louis","Pittsburgh",5,10,3
+"Denver - Portland","Denver","Salt Lake City",3,4,1
+"Denver - Portland","Salt Lake City","Portland",6,15,2
+"Denver - Raleigh","Denver","Kansas City",4,7,1
+"Denver - Raleigh","Kansas City","Saint Louis",2,2,2
+"Denver - Raleigh","Saint Louis","Nashville",2,2,3
+"Denver - Raleigh","Nashville","Raleigh",3,4,4
+"Denver - Saint Louis","Denver","Kansas City",4,7,1
+"Denver - Saint Louis","Kansas City","Saint Louis",2,2,2
+"Denver - Salt Lake City","Denver","Salt Lake City",3,4,1
+"Denver - San Francisco","Denver","Salt Lake City",3,4,1
+"Denver - San Francisco","Salt Lake City","San Francisco",5,10,2
+"Denver - Santa Fe","Denver","Santa Fe",2,2,1
+"Denver - Sault St. Marie","Denver","Omaha",4,7,1
+"Denver - Sault St. Marie","Omaha","Duluth",2,2,2
+"Denver - Sault St. Marie","Duluth","Sault St. Marie",3,4,3
+"Denver - Seattle","Denver","Helena",4,7,1
+"Denver - Seattle","Helena","Seattle",6,15,2
+"Denver - Toronto","Denver","Omaha",4,7,1
+"Denver - Toronto","Omaha","Duluth",2,2,2
+"Denver - Toronto","Duluth","Sault St. Marie",3,4,3
+"Denver - Toronto","Sault St. Marie","Toronto",2,2,4
+"Denver - Vancouver","Denver","Helena",4,7,1
+"Denver - Vancouver","Helena","Seattle",6,15,2
+"Denver - Vancouver","Seattle","Vancouver",1,1,3
+"Denver - Washington","Denver","Kansas City",4,7,1
+"Denver - Washington","Kansas City","Saint Louis",2,2,2
+"Denver - Washington","Saint Louis","Pittsburgh",5,10,3
+"Denver - Washington","Pittsburgh","Washington",2,2,4
+"Denver - Winnipeg","Denver","Helena",4,7,1
+"Denver - Winnipeg","Helena","Winnipeg",4,7,2
+"Duluth - El Paso","Duluth","Omaha",2,2,1
+"Duluth - El Paso","Omaha","Kansas City",1,1,2
+"Duluth - El Paso","Kansas City","Oklahoma City",2,2,3
+"Duluth - El Paso","Oklahoma City","El Paso",5,10,4
+"Duluth - Helena","Duluth","Helena",6,15,1
+"Duluth - Houston","Duluth","Omaha",2,2,1
+"Duluth - Houston","Omaha","Kansas City",1,1,2
+"Duluth - Houston","Kansas City","Oklahoma City",2,2,3
+"Duluth - Houston","Oklahoma City","Dallas",2,2,4
+"Duluth - Houston","Dallas","Houston",1,1,5
+"Duluth - Kansas City","Duluth","Omaha",2,2,1
+"Duluth - Kansas City","Omaha","Kansas City",1,1,2
+"Duluth - Las Vegas","Duluth","Helena",6,15,1
+"Duluth - Las Vegas","Helena","Salt Lake City",3,4,2
+"Duluth - Las Vegas","Salt Lake City","Las Vegas",3,4,3
+"Duluth - Little Rock","Duluth","Chicago",3,4,1
+"Duluth - Little Rock","Chicago","Saint Louis",2,2,2
+"Duluth - Little Rock","Saint Louis","Little Rock",2,2,3
+"Duluth - Los Angeles","Duluth","Helena",6,15,1
+"Duluth - Los Angeles","Helena","Salt Lake City",3,4,2
+"Duluth - Los Angeles","Salt Lake City","Las Vegas",3,4,3
+"Duluth - Los Angeles","Las Vegas","Los Angeles",2,2,4
+"Duluth - Miami","Duluth","Chicago",3,4,1
+"Duluth - Miami","Chicago","Saint Louis",2,2,2
+"Duluth - Miami","Saint Louis","Nashville",2,2,3
+"Duluth - Miami","Nashville","Atlanta",1,1,4
+"Duluth - Miami","Atlanta","Miami",5,10,5
+"Duluth - Montreal","Duluth","Sault St. Marie",3,4,1
+"Duluth - Montreal","Sault St. Marie","Montreal",5,10,2
+"Duluth - Nashville","Duluth","Chicago",3,4,1
+"Duluth - Nashville","Chicago","Saint Louis",2,2,2
+"Duluth - Nashville","Saint Louis","Nashville",2,2,3
+"Duluth - New Orleans","Duluth","Chicago",3,4,1
+"Duluth - New Orleans","Chicago","Saint Louis",2,2,2
+"Duluth - New Orleans","Saint Louis","Little Rock",2,2,3
+"Duluth - New Orleans","Little Rock","New Orleans",3,4,4
+"Duluth - New York","Duluth","Chicago",3,4,1
+"Duluth - New York","Chicago","Pittsburgh",3,4,2
+"Duluth - New York","Pittsburgh","New York",2,2,3
+"Duluth - Oklahoma City","Duluth","Omaha",2,2,1
+"Duluth - Oklahoma City","Omaha","Kansas City",1,1,2
+"Duluth - Oklahoma City","Kansas City","Oklahoma City",2,2,3
+"Duluth - Omaha","Duluth","Omaha",2,2,1
+"Duluth - Phoenix","Duluth","Omaha",2,2,1
+"Duluth - Phoenix","Omaha","Denver",4,7,2
+"Duluth - Phoenix","Denver","Phoenix",5,10,3
+"Duluth - Pittsburgh","Duluth","Chicago",3,4,1
+"Duluth - Pittsburgh","Chicago","Pittsburgh",3,4,2
+"Duluth - Portland","Duluth","Helena",6,15,1
+"Duluth - Portland","Helena","Seattle",6,15,2
+"Duluth - Portland","Seattle","Portland",1,1,3
+"Duluth - Raleigh","Duluth","Chicago",3,4,1
+"Duluth - Raleigh","Chicago","Pittsburgh",3,4,2
+"Duluth - Raleigh","Pittsburgh","Raleigh",2,2,3
+"Duluth - Saint Louis","Duluth","Chicago",3,4,1
+"Duluth - Saint Louis","Chicago","Saint Louis",2,2,2
+"Duluth - Salt Lake City","Duluth","Helena",6,15,1
+"Duluth - Salt Lake City","Helena","Salt Lake City",3,4,2
+"Duluth - San Francisco","Duluth","Helena",6,15,1
+"Duluth - San Francisco","Helena","Salt Lake City",3,4,2
+"Duluth - San Francisco","Salt Lake City","San Francisco",5,10,3
+"Duluth - Santa Fe","Duluth","Omaha",2,2,1
+"Duluth - Santa Fe","Omaha","Denver",4,7,2
+"Duluth - Santa Fe","Denver","Santa Fe",2,2,3
+"Duluth - Sault St. Marie","Duluth","Sault St. Marie",3,4,1
+"Duluth - Seattle","Duluth","Helena",6,15,1
+"Duluth - Seattle","Helena","Seattle",6,15,2
+"Duluth - Toronto","Duluth","Sault St. Marie",3,4,1
+"Duluth - Toronto","Sault St. Marie","Toronto",2,2,2
+"Duluth - Vancouver","Duluth","Helena",6,15,1
+"Duluth - Vancouver","Helena","Seattle",6,15,2
+"Duluth - Vancouver","Seattle","Vancouver",1,1,3
+"Duluth - Washington","Duluth","Chicago",3,4,1
+"Duluth - Washington","Chicago","Pittsburgh",3,4,2
+"Duluth - Washington","Pittsburgh","Washington",2,2,3
+"Duluth - Winnipeg","Duluth","Winnipeg",4,7,1
+"El Paso - Helena","El Paso","Santa Fe",2,2,1
+"El Paso - Helena","Santa Fe","Denver",2,2,2
+"El Paso - Helena","Denver","Helena",4,7,3
+"El Paso - Houston","El Paso","Dallas",4,7,1
+"El Paso - Houston","Dallas","Houston",1,1,2
+"El Paso - Kansas City","El Paso","Oklahoma City",5,10,1
+"El Paso - Kansas City","Oklahoma City","Kansas City",2,2,2
+"El Paso - Las Vegas","El Paso","Los Angeles",6,15,1
+"El Paso - Las Vegas","Los Angeles","Las Vegas",2,2,2
+"El Paso - Little Rock","El Paso","Dallas",4,7,1
+"El Paso - Little Rock","Dallas","Little Rock",2,2,2
+"El Paso - Los Angeles","El Paso","Los Angeles",6,15,1
+"El Paso - Miami","El Paso","Dallas",4,7,1
+"El Paso - Miami","Dallas","Houston",1,1,2
+"El Paso - Miami","Houston","New Orleans",2,2,3
+"El Paso - Miami","New Orleans","Miami",6,15,4
+"El Paso - Montreal","El Paso","Dallas",4,7,1
+"El Paso - Montreal","Dallas","Little Rock",2,2,2
+"El Paso - Montreal","Little Rock","Saint Louis",2,2,3
+"El Paso - Montreal","Saint Louis","Chicago",2,2,4
+"El Paso - Montreal","Chicago","Toronto",4,7,5
+"El Paso - Montreal","Toronto","Montreal",3,4,6
+"El Paso - Nashville","El Paso","Dallas",4,7,1
+"El Paso - Nashville","Dallas","Little Rock",2,2,2
+"El Paso - Nashville","Little Rock","Nashville",3,4,3
+"El Paso - New Orleans","El Paso","Dallas",4,7,1
+"El Paso - New Orleans","Dallas","Houston",1,1,2
+"El Paso - New Orleans","Houston","New Orleans",2,2,3
+"El Paso - New York","El Paso","Dallas",4,7,1
+"El Paso - New York","Dallas","Little Rock",2,2,2
+"El Paso - New York","Little Rock","Saint Louis",2,2,3
+"El Paso - New York","Saint Louis","Pittsburgh",5,10,4
+"El Paso - New York","Pittsburgh","New York",2,2,5
+"El Paso - Oklahoma City","El Paso","Oklahoma City",5,10,1
+"El Paso - Omaha","El Paso","Oklahoma City",5,10,1
+"El Paso - Omaha","Oklahoma City","Kansas City",2,2,2
+"El Paso - Omaha","Kansas City","Omaha",1,1,3
+"El Paso - Phoenix","El Paso","Phoenix",3,4,1
+"El Paso - Pittsburgh","El Paso","Dallas",4,7,1
+"El Paso - Pittsburgh","Dallas","Little Rock",2,2,2
+"El Paso - Pittsburgh","Little Rock","Saint Louis",2,2,3
+"El Paso - Pittsburgh","Saint Louis","Pittsburgh",5,10,4
+"El Paso - Portland","El Paso","Santa Fe",2,2,1
+"El Paso - Portland","Santa Fe","Denver",2,2,2
+"El Paso - Portland","Denver","Salt Lake City",3,4,3
+"El Paso - Portland","Salt Lake City","Portland",6,15,4
+"El Paso - Raleigh","El Paso","Dallas",4,7,1
+"El Paso - Raleigh","Dallas","Little Rock",2,2,2
+"El Paso - Raleigh","Little Rock","Nashville",3,4,3
+"El Paso - Raleigh","Nashville","Raleigh",3,4,4
+"El Paso - Saint Louis","El Paso","Dallas",4,7,1
+"El Paso - Saint Louis","Dallas","Little Rock",2,2,2
+"El Paso - Saint Louis","Little Rock","Saint Louis",2,2,3
+"El Paso - Salt Lake City","El Paso","Santa Fe",2,2,1
+"El Paso - Salt Lake City","Santa Fe","Denver",2,2,2
+"El Paso - Salt Lake City","Denver","Salt Lake City",3,4,3
+"El Paso - San Francisco","El Paso","Los Angeles",6,15,1
+"El Paso - San Francisco","Los Angeles","San Francisco",3,4,2
+"El Paso - Santa Fe","El Paso","Santa Fe",2,2,1
+"El Paso - Sault St. Marie","El Paso","Oklahoma City",5,10,1
+"El Paso - Sault St. Marie","Oklahoma City","Kansas City",2,2,2
+"El Paso - Sault St. Marie","Kansas City","Omaha",1,1,3
+"El Paso - Sault St. Marie","Omaha","Duluth",2,2,4
+"El Paso - Sault St. Marie","Duluth","Sault St. Marie",3,4,5
+"El Paso - Seattle","El Paso","Santa Fe",2,2,1
+"El Paso - Seattle","Santa Fe","Denver",2,2,2
+"El Paso - Seattle","Denver","Helena",4,7,3
+"El Paso - Seattle","Helena","Seattle",6,15,4
+"El Paso - Toronto","El Paso","Dallas",4,7,1
+"El Paso - Toronto","Dallas","Little Rock",2,2,2
+"El Paso - Toronto","Little Rock","Saint Louis",2,2,3
+"El Paso - Toronto","Saint Louis","Chicago",2,2,4
+"El Paso - Toronto","Chicago","Toronto",4,7,5
+"El Paso - Vancouver","El Paso","Santa Fe",2,2,1
+"El Paso - Vancouver","Santa Fe","Denver",2,2,2
+"El Paso - Vancouver","Denver","Helena",4,7,3
+"El Paso - Vancouver","Helena","Seattle",6,15,4
+"El Paso - Vancouver","Seattle","Vancouver",1,1,5
+"El Paso - Washington","El Paso","Dallas",4,7,1
+"El Paso - Washington","Dallas","Little Rock",2,2,2
+"El Paso - Washington","Little Rock","Nashville",3,4,3
+"El Paso - Washington","Nashville","Raleigh",3,4,4
+"El Paso - Washington","Raleigh","Washington",2,2,5
+"El Paso - Winnipeg","El Paso","Santa Fe",2,2,1
+"El Paso - Winnipeg","Santa Fe","Denver",2,2,2
+"El Paso - Winnipeg","Denver","Helena",4,7,3
+"El Paso - Winnipeg","Helena","Winnipeg",4,7,4
+"Helena - Houston","Helena","Denver",4,7,1
+"Helena - Houston","Denver","Oklahoma City",4,7,2
+"Helena - Houston","Oklahoma City","Dallas",2,2,3
+"Helena - Houston","Dallas","Houston",1,1,4
+"Helena - Kansas City","Helena","Omaha",5,10,1
+"Helena - Kansas City","Omaha","Kansas City",1,1,2
+"Helena - Las Vegas","Helena","Salt Lake City",3,4,1
+"Helena - Las Vegas","Salt Lake City","Las Vegas",3,4,2
+"Helena - Little Rock","Helena","Denver",4,7,1
+"Helena - Little Rock","Denver","Oklahoma City",4,7,2
+"Helena - Little Rock","Oklahoma City","Little Rock",2,2,3
+"Helena - Los Angeles","Helena","Salt Lake City",3,4,1
+"Helena - Los Angeles","Salt Lake City","Las Vegas",3,4,2
+"Helena - Los Angeles","Las Vegas","Los Angeles",2,2,3
+"Helena - Miami","Helena","Omaha",5,10,1
+"Helena - Miami","Omaha","Kansas City",1,1,2
+"Helena - Miami","Kansas City","Saint Louis",2,2,3
+"Helena - Miami","Saint Louis","Nashville",2,2,4
+"Helena - Miami","Nashville","Atlanta",1,1,5
+"Helena - Miami","Atlanta","Miami",5,10,6
+"Helena - Montreal","Helena","Duluth",6,15,1
+"Helena - Montreal","Duluth","Sault St. Marie",3,4,2
+"Helena - Montreal","Sault St. Marie","Montreal",5,10,3
+"Helena - Nashville","Helena","Omaha",5,10,1
+"Helena - Nashville","Omaha","Kansas City",1,1,2
+"Helena - Nashville","Kansas City","Saint Louis",2,2,3
+"Helena - Nashville","Saint Louis","Nashville",2,2,4
+"Helena - New Orleans","Helena","Denver",4,7,1
+"Helena - New Orleans","Denver","Oklahoma City",4,7,2
+"Helena - New Orleans","Oklahoma City","Little Rock",2,2,3
+"Helena - New Orleans","Little Rock","New Orleans",3,4,4
+"Helena - New York","Helena","Duluth",6,15,1
+"Helena - New York","Duluth","Chicago",3,4,2
+"Helena - New York","Chicago","Pittsburgh",3,4,3
+"Helena - New York","Pittsburgh","New York",2,2,4
+"Helena - Oklahoma City","Helena","Denver",4,7,1
+"Helena - Oklahoma City","Denver","Oklahoma City",4,7,2
+"Helena - Omaha","Helena","Omaha",5,10,1
+"Helena - Phoenix","Helena","Denver",4,7,1
+"Helena - Phoenix","Denver","Phoenix",5,10,2
+"Helena - Pittsburgh","Helena","Duluth",6,15,1
+"Helena - Pittsburgh","Duluth","Chicago",3,4,2
+"Helena - Pittsburgh","Chicago","Pittsburgh",3,4,3
+"Helena - Portland","Helena","Seattle",6,15,1
+"Helena - Portland","Seattle","Portland",1,1,2
+"Helena - Raleigh","Helena","Omaha",5,10,1
+"Helena - Raleigh","Omaha","Kansas City",1,1,2
+"Helena - Raleigh","Kansas City","Saint Louis",2,2,3
+"Helena - Raleigh","Saint Louis","Nashville",2,2,4
+"Helena - Raleigh","Nashville","Raleigh",3,4,5
+"Helena - Saint Louis","Helena","Omaha",5,10,1
+"Helena - Saint Louis","Omaha","Kansas City",1,1,2
+"Helena - Saint Louis","Kansas City","Saint Louis",2,2,3
+"Helena - Salt Lake City","Helena","Salt Lake City",3,4,1
+"Helena - San Francisco","Helena","Salt Lake City",3,4,1
+"Helena - San Francisco","Salt Lake City","San Francisco",5,10,2
+"Helena - Santa Fe","Helena","Denver",4,7,1
+"Helena - Santa Fe","Denver","Santa Fe",2,2,2
+"Helena - Sault St. Marie","Helena","Duluth",6,15,1
+"Helena - Sault St. Marie","Duluth","Sault St. Marie",3,4,2
+"Helena - Seattle","Helena","Seattle",6,15,1
+"Helena - Toronto","Helena","Duluth",6,15,1
+"Helena - Toronto","Duluth","Sault St. Marie",3,4,2
+"Helena - Toronto","Sault St. Marie","Toronto",2,2,3
+"Helena - Vancouver","Helena","Seattle",6,15,1
+"Helena - Vancouver","Seattle","Vancouver",1,1,2
+"Helena - Washington","Helena","Duluth",6,15,1
+"Helena - Washington","Duluth","Chicago",3,4,2
+"Helena - Washington","Chicago","Pittsburgh",3,4,3
+"Helena - Washington","Pittsburgh","Washington",2,2,4
+"Helena - Winnipeg","Helena","Winnipeg",4,7,1
+"Houston - Kansas City","Houston","Dallas",1,1,1
+"Houston - Kansas City","Dallas","Oklahoma City",2,2,2
+"Houston - Kansas City","Oklahoma City","Kansas City",2,2,3
+"Houston - Las Vegas","Houston","Dallas",1,1,1
+"Houston - Las Vegas","Dallas","El Paso",4,7,2
+"Houston - Las Vegas","El Paso","Los Angeles",6,15,3
+"Houston - Las Vegas","Los Angeles","Las Vegas",2,2,4
+"Houston - Little Rock","Houston","Dallas",1,1,1
+"Houston - Little Rock","Dallas","Little Rock",2,2,2
+"Houston - Los Angeles","Houston","Dallas",1,1,1
+"Houston - Los Angeles","Dallas","El Paso",4,7,2
+"Houston - Los Angeles","El Paso","Los Angeles",6,15,3
+"Houston - Miami","Houston","New Orleans",2,2,1
+"Houston - Miami","New Orleans","Miami",6,15,2
+"Houston - Montreal","Houston","Dallas",1,1,1
+"Houston - Montreal","Dallas","Little Rock",2,2,2
+"Houston - Montreal","Little Rock","Saint Louis",2,2,3
+"Houston - Montreal","Saint Louis","Chicago",2,2,4
+"Houston - Montreal","Chicago","Toronto",4,7,5
+"Houston - Montreal","Toronto","Montreal",3,4,6
+"Houston - Nashville","Houston","Dallas",1,1,1
+"Houston - Nashville","Dallas","Little Rock",2,2,2
+"Houston - Nashville","Little Rock","Nashville",3,4,3
+"Houston - New Orleans","Houston","New Orleans",2,2,1
+"Houston - New York","Houston","Dallas",1,1,1
+"Houston - New York","Dallas","Little Rock",2,2,2
+"Houston - New York","Little Rock","Saint Louis",2,2,3
+"Houston - New York","Saint Louis","Pittsburgh",5,10,4
+"Houston - New York","Pittsburgh","New York",2,2,5
+"Houston - Oklahoma City","Houston","Dallas",1,1,1
+"Houston - Oklahoma City","Dallas","Oklahoma City",2,2,2
+"Houston - Omaha","Houston","Dallas",1,1,1
+"Houston - Omaha","Dallas","Oklahoma City",2,2,2
+"Houston - Omaha","Oklahoma City","Kansas City",2,2,3
+"Houston - Omaha","Kansas City","Omaha",1,1,4
+"Houston - Phoenix","Houston","Dallas",1,1,1
+"Houston - Phoenix","Dallas","El Paso",4,7,2
+"Houston - Phoenix","El Paso","Phoenix",3,4,3
+"Houston - Pittsburgh","Houston","Dallas",1,1,1
+"Houston - Pittsburgh","Dallas","Little Rock",2,2,2
+"Houston - Pittsburgh","Little Rock","Saint Louis",2,2,3
+"Houston - Pittsburgh","Saint Louis","Pittsburgh",5,10,4
+"Houston - Portland","Houston","Dallas",1,1,1
+"Houston - Portland","Dallas","Oklahoma City",2,2,2
+"Houston - Portland","Oklahoma City","Denver",4,7,3
+"Houston - Portland","Denver","Salt Lake City",3,4,4
+"Houston - Portland","Salt Lake City","Portland",6,15,5
+"Houston - Raleigh","Houston","New Orleans",2,2,1
+"Houston - Raleigh","New Orleans","Atlanta",4,7,2
+"Houston - Raleigh","Atlanta","Raleigh",2,2,3
+"Houston - Saint Louis","Houston","Dallas",1,1,1
+"Houston - Saint Louis","Dallas","Little Rock",2,2,2
+"Houston - Saint Louis","Little Rock","Saint Louis",2,2,3
+"Houston - Salt Lake City","Houston","Dallas",1,1,1
+"Houston - Salt Lake City","Dallas","Oklahoma City",2,2,2
+"Houston - Salt Lake City","Oklahoma City","Denver",4,7,3
+"Houston - Salt Lake City","Denver","Salt Lake City",3,4,4
+"Houston - San Francisco","Houston","Dallas",1,1,1
+"Houston - San Francisco","Dallas","El Paso",4,7,2
+"Houston - San Francisco","El Paso","Los Angeles",6,15,3
+"Houston - San Francisco","Los Angeles","San Francisco",3,4,4
+"Houston - Santa Fe","Houston","Dallas",1,1,1
+"Houston - Santa Fe","Dallas","Oklahoma City",2,2,2
+"Houston - Santa Fe","Oklahoma City","Santa Fe",3,4,3
+"Houston - Sault St. Marie","Houston","Dallas",1,1,1
+"Houston - Sault St. Marie","Dallas","Oklahoma City",2,2,2
+"Houston - Sault St. Marie","Oklahoma City","Kansas City",2,2,3
+"Houston - Sault St. Marie","Kansas City","Omaha",1,1,4
+"Houston - Sault St. Marie","Omaha","Duluth",2,2,5
+"Houston - Sault St. Marie","Duluth","Sault St. Marie",3,4,6
+"Houston - Seattle","Houston","Dallas",1,1,1
+"Houston - Seattle","Dallas","Oklahoma City",2,2,2
+"Houston - Seattle","Oklahoma City","Denver",4,7,3
+"Houston - Seattle","Denver","Helena",4,7,4
+"Houston - Seattle","Helena","Seattle",6,15,5
+"Houston - Toronto","Houston","Dallas",1,1,1
+"Houston - Toronto","Dallas","Little Rock",2,2,2
+"Houston - Toronto","Little Rock","Saint Louis",2,2,3
+"Houston - Toronto","Saint Louis","Chicago",2,2,4
+"Houston - Toronto","Chicago","Toronto",4,7,5
+"Houston - Vancouver","Houston","Dallas",1,1,1
+"Houston - Vancouver","Dallas","Oklahoma City",2,2,2
+"Houston - Vancouver","Oklahoma City","Denver",4,7,3
+"Houston - Vancouver","Denver","Helena",4,7,4
+"Houston - Vancouver","Helena","Seattle",6,15,5
+"Houston - Vancouver","Seattle","Vancouver",1,1,6
+"Houston - Washington","Houston","New Orleans",2,2,1
+"Houston - Washington","New Orleans","Atlanta",4,7,2
+"Houston - Washington","Atlanta","Raleigh",2,2,3
+"Houston - Washington","Raleigh","Washington",2,2,4
+"Houston - Winnipeg","Houston","Dallas",1,1,1
+"Houston - Winnipeg","Dallas","Oklahoma City",2,2,2
+"Houston - Winnipeg","Oklahoma City","Kansas City",2,2,3
+"Houston - Winnipeg","Kansas City","Omaha",1,1,4
+"Houston - Winnipeg","Omaha","Duluth",2,2,5
+"Houston - Winnipeg","Duluth","Winnipeg",4,7,6
+"Kansas City - Las Vegas","Kansas City","Denver",4,7,1
+"Kansas City - Las Vegas","Denver","Salt Lake City",3,4,2
+"Kansas City - Las Vegas","Salt Lake City","Las Vegas",3,4,3
+"Kansas City - Little Rock","Kansas City","Oklahoma City",2,2,1
+"Kansas City - Little Rock","Oklahoma City","Little Rock",2,2,2
+"Kansas City - Los Angeles","Kansas City","Oklahoma City",2,2,1
+"Kansas City - Los Angeles","Oklahoma City","Santa Fe",3,4,2
+"Kansas City - Los Angeles","Santa Fe","Phoenix",3,4,3
+"Kansas City - Los Angeles","Phoenix","Los Angeles",3,4,4
+"Kansas City - Miami","Kansas City","Saint Louis",2,2,1
+"Kansas City - Miami","Saint Louis","Nashville",2,2,2
+"Kansas City - Miami","Nashville","Atlanta",1,1,3
+"Kansas City - Miami","Atlanta","Miami",5,10,4
+"Kansas City - Montreal","Kansas City","Omaha",1,1,1
+"Kansas City - Montreal","Omaha","Duluth",2,2,2
+"Kansas City - Montreal","Duluth","Sault St. Marie",3,4,3
+"Kansas City - Montreal","Sault St. Marie","Montreal",5,10,4
+"Kansas City - Nashville","Kansas City","Saint Louis",2,2,1
+"Kansas City - Nashville","Saint Louis","Nashville",2,2,2
+"Kansas City - New Orleans","Kansas City","Oklahoma City",2,2,1
+"Kansas City - New Orleans","Oklahoma City","Little Rock",2,2,2
+"Kansas City - New Orleans","Little Rock","New Orleans",3,4,3
+"Kansas City - New York","Kansas City","Saint Louis",2,2,1
+"Kansas City - New York","Saint Louis","Pittsburgh",5,10,2
+"Kansas City - New York","Pittsburgh","New York",2,2,3
+"Kansas City - Oklahoma City","Kansas City","Oklahoma City",2,2,1
+"Kansas City - Omaha","Kansas City","Omaha",1,1,1
+"Kansas City - Phoenix","Kansas City","Oklahoma City",2,2,1
+"Kansas City - Phoenix","Oklahoma City","Santa Fe",3,4,2
+"Kansas City - Phoenix","Santa Fe","Phoenix",3,4,3
+"Kansas City - Pittsburgh","Kansas City","Saint Louis",2,2,1
+"Kansas City - Pittsburgh","Saint Louis","Pittsburgh",5,10,2
+"Kansas City - Portland","Kansas City","Omaha",1,1,1
+"Kansas City - Portland","Omaha","Helena",5,10,2
+"Kansas City - Portland","Helena","Seattle",6,15,3
+"Kansas City - Portland","Seattle","Portland",1,1,4
+"Kansas City - Raleigh","Kansas City","Saint Louis",2,2,1
+"Kansas City - Raleigh","Saint Louis","Nashville",2,2,2
+"Kansas City - Raleigh","Nashville","Raleigh",3,4,3
+"Kansas City - Saint Louis","Kansas City","Saint Louis",2,2,1
+"Kansas City - Salt Lake City","Kansas City","Denver",4,7,1
+"Kansas City - Salt Lake City","Denver","Salt Lake City",3,4,2
+"Kansas City - San Francisco","Kansas City","Denver",4,7,1
+"Kansas City - San Francisco","Denver","Salt Lake City",3,4,2
+"Kansas City - San Francisco","Salt Lake City","San Francisco",5,10,3
+"Kansas City - Santa Fe","Kansas City","Oklahoma City",2,2,1
+"Kansas City - Santa Fe","Oklahoma City","Santa Fe",3,4,2
+"Kansas City - Sault St. Marie","Kansas City","Omaha",1,1,1
+"Kansas City - Sault St. Marie","Omaha","Duluth",2,2,2
+"Kansas City - Sault St. Marie","Duluth","Sault St. Marie",3,4,3
+"Kansas City - Seattle","Kansas City","Omaha",1,1,1
+"Kansas City - Seattle","Omaha","Helena",5,10,2
+"Kansas City - Seattle","Helena","Seattle",6,15,3
+"Kansas City - Toronto","Kansas City","Saint Louis",2,2,1
+"Kansas City - Toronto","Saint Louis","Chicago",2,2,2
+"Kansas City - Toronto","Chicago","Toronto",4,7,3
+"Kansas City - Vancouver","Kansas City","Omaha",1,1,1
+"Kansas City - Vancouver","Omaha","Helena",5,10,2
+"Kansas City - Vancouver","Helena","Seattle",6,15,3
+"Kansas City - Vancouver","Seattle","Vancouver",1,1,4
+"Kansas City - Washington","Kansas City","Saint Louis",2,2,1
+"Kansas City - Washington","Saint Louis","Pittsburgh",5,10,2
+"Kansas City - Washington","Pittsburgh","Washington",2,2,3
+"Kansas City - Winnipeg","Kansas City","Omaha",1,1,1
+"Kansas City - Winnipeg","Omaha","Duluth",2,2,2
+"Kansas City - Winnipeg","Duluth","Winnipeg",4,7,3
+"Las Vegas - Little Rock","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Little Rock","Salt Lake City","Denver",3,4,2
+"Las Vegas - Little Rock","Denver","Oklahoma City",4,7,3
+"Las Vegas - Little Rock","Oklahoma City","Little Rock",2,2,4
+"Las Vegas - Los Angeles","Las Vegas","Los Angeles",2,2,1
+"Las Vegas - Miami","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Miami","Salt Lake City","Denver",3,4,2
+"Las Vegas - Miami","Denver","Kansas City",4,7,3
+"Las Vegas - Miami","Kansas City","Saint Louis",2,2,4
+"Las Vegas - Miami","Saint Louis","Nashville",2,2,5
+"Las Vegas - Miami","Nashville","Atlanta",1,1,6
+"Las Vegas - Miami","Atlanta","Miami",5,10,7
+"Las Vegas - Montreal","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Montreal","Salt Lake City","Helena",3,4,2
+"Las Vegas - Montreal","Helena","Duluth",6,15,3
+"Las Vegas - Montreal","Duluth","Sault St. Marie",3,4,4
+"Las Vegas - Montreal","Sault St. Marie","Montreal",5,10,5
+"Las Vegas - Nashville","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Nashville","Salt Lake City","Denver",3,4,2
+"Las Vegas - Nashville","Denver","Kansas City",4,7,3
+"Las Vegas - Nashville","Kansas City","Saint Louis",2,2,4
+"Las Vegas - Nashville","Saint Louis","Nashville",2,2,5
+"Las Vegas - New Orleans","Las Vegas","Los Angeles",2,2,1
+"Las Vegas - New Orleans","Los Angeles","El Paso",6,15,2
+"Las Vegas - New Orleans","El Paso","Dallas",4,7,3
+"Las Vegas - New Orleans","Dallas","Houston",1,1,4
+"Las Vegas - New Orleans","Houston","New Orleans",2,2,5
+"Las Vegas - New York","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - New York","Salt Lake City","Denver",3,4,2
+"Las Vegas - New York","Denver","Kansas City",4,7,3
+"Las Vegas - New York","Kansas City","Saint Louis",2,2,4
+"Las Vegas - New York","Saint Louis","Pittsburgh",5,10,5
+"Las Vegas - New York","Pittsburgh","New York",2,2,6
+"Las Vegas - Oklahoma City","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Oklahoma City","Salt Lake City","Denver",3,4,2
+"Las Vegas - Oklahoma City","Denver","Oklahoma City",4,7,3
+"Las Vegas - Omaha","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Omaha","Salt Lake City","Denver",3,4,2
+"Las Vegas - Omaha","Denver","Omaha",4,7,3
+"Las Vegas - Phoenix","Las Vegas","Los Angeles",2,2,1
+"Las Vegas - Phoenix","Los Angeles","Phoenix",3,4,2
+"Las Vegas - Pittsburgh","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Pittsburgh","Salt Lake City","Denver",3,4,2
+"Las Vegas - Pittsburgh","Denver","Kansas City",4,7,3
+"Las Vegas - Pittsburgh","Kansas City","Saint Louis",2,2,4
+"Las Vegas - Pittsburgh","Saint Louis","Pittsburgh",5,10,5
+"Las Vegas - Portland","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Portland","Salt Lake City","Portland",6,15,2
+"Las Vegas - Raleigh","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Raleigh","Salt Lake City","Denver",3,4,2
+"Las Vegas - Raleigh","Denver","Kansas City",4,7,3
+"Las Vegas - Raleigh","Kansas City","Saint Louis",2,2,4
+"Las Vegas - Raleigh","Saint Louis","Nashville",2,2,5
+"Las Vegas - Raleigh","Nashville","Raleigh",3,4,6
+"Las Vegas - Saint Louis","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Saint Louis","Salt Lake City","Denver",3,4,2
+"Las Vegas - Saint Louis","Denver","Kansas City",4,7,3
+"Las Vegas - Saint Louis","Kansas City","Saint Louis",2,2,4
+"Las Vegas - Salt Lake City","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - San Francisco","Las Vegas","Los Angeles",2,2,1
+"Las Vegas - San Francisco","Los Angeles","San Francisco",3,4,2
+"Las Vegas - Santa Fe","Las Vegas","Los Angeles",2,2,1
+"Las Vegas - Santa Fe","Los Angeles","Phoenix",3,4,2
+"Las Vegas - Santa Fe","Phoenix","Santa Fe",3,4,3
+"Las Vegas - Sault St. Marie","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Sault St. Marie","Salt Lake City","Helena",3,4,2
+"Las Vegas - Sault St. Marie","Helena","Duluth",6,15,3
+"Las Vegas - Sault St. Marie","Duluth","Sault St. Marie",3,4,4
+"Las Vegas - Seattle","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Seattle","Salt Lake City","Portland",6,15,2
+"Las Vegas - Seattle","Portland","Seattle",1,1,3
+"Las Vegas - Toronto","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Toronto","Salt Lake City","Helena",3,4,2
+"Las Vegas - Toronto","Helena","Duluth",6,15,3
+"Las Vegas - Toronto","Duluth","Sault St. Marie",3,4,4
+"Las Vegas - Toronto","Sault St. Marie","Toronto",2,2,5
+"Las Vegas - Vancouver","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Vancouver","Salt Lake City","Portland",6,15,2
+"Las Vegas - Vancouver","Portland","Seattle",1,1,3
+"Las Vegas - Vancouver","Seattle","Vancouver",1,1,4
+"Las Vegas - Washington","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Washington","Salt Lake City","Denver",3,4,2
+"Las Vegas - Washington","Denver","Kansas City",4,7,3
+"Las Vegas - Washington","Kansas City","Saint Louis",2,2,4
+"Las Vegas - Washington","Saint Louis","Pittsburgh",5,10,5
+"Las Vegas - Washington","Pittsburgh","Washington",2,2,6
+"Las Vegas - Winnipeg","Las Vegas","Salt Lake City",3,4,1
+"Las Vegas - Winnipeg","Salt Lake City","Helena",3,4,2
+"Las Vegas - Winnipeg","Helena","Winnipeg",4,7,3
+"Little Rock - Los Angeles","Little Rock","Oklahoma City",2,2,1
+"Little Rock - Los Angeles","Oklahoma City","Santa Fe",3,4,2
+"Little Rock - Los Angeles","Santa Fe","Phoenix",3,4,3
+"Little Rock - Los Angeles","Phoenix","Los Angeles",3,4,4
+"Little Rock - Miami","Little Rock","New Orleans",3,4,1
+"Little Rock - Miami","New Orleans","Miami",6,15,2
+"Little Rock - Montreal","Little Rock","Saint Louis",2,2,1
+"Little Rock - Montreal","Saint Louis","Chicago",2,2,2
+"Little Rock - Montreal","Chicago","Toronto",4,7,3
+"Little Rock - Montreal","Toronto","Montreal",3,4,4
+"Little Rock - Nashville","Little Rock","Nashville",3,4,1
+"Little Rock - New Orleans","Little Rock","New Orleans",3,4,1
+"Little Rock - New York","Little Rock","Saint Louis",2,2,1
+"Little Rock - New York","Saint Louis","Pittsburgh",5,10,2
+"Little Rock - New York","Pittsburgh","New York",2,2,3
+"Little Rock - Oklahoma City","Little Rock","Oklahoma City",2,2,1
+"Little Rock - Omaha","Little Rock","Oklahoma City",2,2,1
+"Little Rock - Omaha","Oklahoma City","Kansas City",2,2,2
+"Little Rock - Omaha","Kansas City","Omaha",1,1,3
+"Little Rock - Phoenix","Little Rock","Oklahoma City",2,2,1
+"Little Rock - Phoenix","Oklahoma City","Santa Fe",3,4,2
+"Little Rock - Phoenix","Santa Fe","Phoenix",3,4,3
+"Little Rock - Pittsburgh","Little Rock","Saint Louis",2,2,1
+"Little Rock - Pittsburgh","Saint Louis","Pittsburgh",5,10,2
+"Little Rock - Portland","Little Rock","Oklahoma City",2,2,1
+"Little Rock - Portland","Oklahoma City","Denver",4,7,2
+"Little Rock - Portland","Denver","Salt Lake City",3,4,3
+"Little Rock - Portland","Salt Lake City","Portland",6,15,4
+"Little Rock - Raleigh","Little Rock","Nashville",3,4,1
+"Little Rock - Raleigh","Nashville","Raleigh",3,4,2
+"Little Rock - Saint Louis","Little Rock","Saint Louis",2,2,1
+"Little Rock - Salt Lake City","Little Rock","Oklahoma City",2,2,1
+"Little Rock - Salt Lake City","Oklahoma City","Denver",4,7,2
+"Little Rock - Salt Lake City","Denver","Salt Lake City",3,4,3
+"Little Rock - San Francisco","Little Rock","Oklahoma City",2,2,1
+"Little Rock - San Francisco","Oklahoma City","Denver",4,7,2
+"Little Rock - San Francisco","Denver","Salt Lake City",3,4,3
+"Little Rock - San Francisco","Salt Lake City","San Francisco",5,10,4
+"Little Rock - Santa Fe","Little Rock","Oklahoma City",2,2,1
+"Little Rock - Santa Fe","Oklahoma City","Santa Fe",3,4,2
+"Little Rock - Sault St. Marie","Little Rock","Saint Louis",2,2,1
+"Little Rock - Sault St. Marie","Saint Louis","Chicago",2,2,2
+"Little Rock - Sault St. Marie","Chicago","Toronto",4,7,3
+"Little Rock - Sault St. Marie","Toronto","Sault St. Marie",2,2,4
+"Little Rock - Seattle","Little Rock","Oklahoma City",2,2,1
+"Little Rock - Seattle","Oklahoma City","Denver",4,7,2
+"Little Rock - Seattle","Denver","Helena",4,7,3
+"Little Rock - Seattle","Helena","Seattle",6,15,4
+"Little Rock - Toronto","Little Rock","Saint Louis",2,2,1
+"Little Rock - Toronto","Saint Louis","Chicago",2,2,2
+"Little Rock - Toronto","Chicago","Toronto",4,7,3
+"Little Rock - Vancouver","Little Rock","Oklahoma City",2,2,1
+"Little Rock - Vancouver","Oklahoma City","Denver",4,7,2
+"Little Rock - Vancouver","Denver","Helena",4,7,3
+"Little Rock - Vancouver","Helena","Seattle",6,15,4
+"Little Rock - Vancouver","Seattle","Vancouver",1,1,5
+"Little Rock - Washington","Little Rock","Nashville",3,4,1
+"Little Rock - Washington","Nashville","Raleigh",3,4,2
+"Little Rock - Washington","Raleigh","Washington",2,2,3
+"Little Rock - Winnipeg","Little Rock","Saint Louis",2,2,1
+"Little Rock - Winnipeg","Saint Louis","Chicago",2,2,2
+"Little Rock - Winnipeg","Chicago","Duluth",3,4,3
+"Little Rock - Winnipeg","Duluth","Winnipeg",4,7,4
+"Los Angeles - Miami","Los Angeles","El Paso",6,15,1
+"Los Angeles - Miami","El Paso","Dallas",4,7,2
+"Los Angeles - Miami","Dallas","Houston",1,1,3
+"Los Angeles - Miami","Houston","New Orleans",2,2,4
+"Los Angeles - Miami","New Orleans","Miami",6,15,5
+"Los Angeles - Montreal","Los Angeles","Las Vegas",2,2,1
+"Los Angeles - Montreal","Las Vegas","Salt Lake City",3,4,2
+"Los Angeles - Montreal","Salt Lake City","Helena",3,4,3
+"Los Angeles - Montreal","Helena","Duluth",6,15,4
+"Los Angeles - Montreal","Duluth","Sault St. Marie",3,4,5
+"Los Angeles - Montreal","Sault St. Marie","Montreal",5,10,6
+"Los Angeles - Nashville","Los Angeles","Phoenix",3,4,1
+"Los Angeles - Nashville","Phoenix","Santa Fe",3,4,2
+"Los Angeles - Nashville","Santa Fe","Oklahoma City",3,4,3
+"Los Angeles - Nashville","Oklahoma City","Little Rock",2,2,4
+"Los Angeles - Nashville","Little Rock","Nashville",3,4,5
+"Los Angeles - New Orleans","Los Angeles","El Paso",6,15,1
+"Los Angeles - New Orleans","El Paso","Dallas",4,7,2
+"Los Angeles - New Orleans","Dallas","Houston",1,1,3
+"Los Angeles - New Orleans","Houston","New Orleans",2,2,4
+"Los Angeles - New York","Los Angeles","Phoenix",3,4,1
+"Los Angeles - New York","Phoenix","Santa Fe",3,4,2
+"Los Angeles - New York","Santa Fe","Oklahoma City",3,4,3
+"Los Angeles - New York","Oklahoma City","Kansas City",2,2,4
+"Los Angeles - New York","Kansas City","Saint Louis",2,2,5
+"Los Angeles - New York","Saint Louis","Pittsburgh",5,10,6
+"Los Angeles - New York","Pittsburgh","New York",2,2,7
+"Los Angeles - Oklahoma City","Los Angeles","Phoenix",3,4,1
+"Los Angeles - Oklahoma City","Phoenix","Santa Fe",3,4,2
+"Los Angeles - Oklahoma City","Santa Fe","Oklahoma City",3,4,3
+"Los Angeles - Omaha","Los Angeles","Phoenix",3,4,1
+"Los Angeles - Omaha","Phoenix","Denver",5,10,2
+"Los Angeles - Omaha","Denver","Omaha",4,7,3
+"Los Angeles - Phoenix","Los Angeles","Phoenix",3,4,1
+"Los Angeles - Pittsburgh","Los Angeles","Phoenix",3,4,1
+"Los Angeles - Pittsburgh","Phoenix","Santa Fe",3,4,2
+"Los Angeles - Pittsburgh","Santa Fe","Oklahoma City",3,4,3
+"Los Angeles - Pittsburgh","Oklahoma City","Kansas City",2,2,4
+"Los Angeles - Pittsburgh","Kansas City","Saint Louis",2,2,5
+"Los Angeles - Pittsburgh","Saint Louis","Pittsburgh",5,10,6
+"Los Angeles - Portland","Los Angeles","San Francisco",3,4,1
+"Los Angeles - Portland","San Francisco","Portland",5,10,2
+"Los Angeles - Raleigh","Los Angeles","Phoenix",3,4,1
+"Los Angeles - Raleigh","Phoenix","Santa Fe",3,4,2
+"Los Angeles - Raleigh","Santa Fe","Oklahoma City",3,4,3
+"Los Angeles - Raleigh","Oklahoma City","Little Rock",2,2,4
+"Los Angeles - Raleigh","Little Rock","Nashville",3,4,5
+"Los Angeles - Raleigh","Nashville","Raleigh",3,4,6
+"Los Angeles - Saint Louis","Los Angeles","Phoenix",3,4,1
+"Los Angeles - Saint Louis","Phoenix","Santa Fe",3,4,2
+"Los Angeles - Saint Louis","Santa Fe","Oklahoma City",3,4,3
+"Los Angeles - Saint Louis","Oklahoma City","Kansas City",2,2,4
+"Los Angeles - Saint Louis","Kansas City","Saint Louis",2,2,5
+"Los Angeles - Salt Lake City","Los Angeles","Las Vegas",2,2,1
+"Los Angeles - Salt Lake City","Las Vegas","Salt Lake City",3,4,2
+"Los Angeles - San Francisco","Los Angeles","San Francisco",3,4,1
+"Los Angeles - Santa Fe","Los Angeles","Phoenix",3,4,1
+"Los Angeles - Santa Fe","Phoenix","Santa Fe",3,4,2
+"Los Angeles - Sault St. Marie","Los Angeles","Las Vegas",2,2,1
+"Los Angeles - Sault St. Marie","Las Vegas","Salt Lake City",3,4,2
+"Los Angeles - Sault St. Marie","Salt Lake City","Helena",3,4,3
+"Los Angeles - Sault St. Marie","Helena","Duluth",6,15,4
+"Los Angeles - Sault St. Marie","Duluth","Sault St. Marie",3,4,5
+"Los Angeles - Seattle","Los Angeles","San Francisco",3,4,1
+"Los Angeles - Seattle","San Francisco","Portland",5,10,2
+"Los Angeles - Seattle","Portland","Seattle",1,1,3
+"Los Angeles - Toronto","Los Angeles","Las Vegas",2,2,1
+"Los Angeles - Toronto","Las Vegas","Salt Lake City",3,4,2
+"Los Angeles - Toronto","Salt Lake City","Helena",3,4,3
+"Los Angeles - Toronto","Helena","Duluth",6,15,4
+"Los Angeles - Toronto","Duluth","Sault St. Marie",3,4,5
+"Los Angeles - Toronto","Sault St. Marie","Toronto",2,2,6
+"Los Angeles - Vancouver","Los Angeles","San Francisco",3,4,1
+"Los Angeles - Vancouver","San Francisco","Portland",5,10,2
+"Los Angeles - Vancouver","Portland","Seattle",1,1,3
+"Los Angeles - Vancouver","Seattle","Vancouver",1,1,4
+"Los Angeles - Washington","Los Angeles","Phoenix",3,4,1
+"Los Angeles - Washington","Phoenix","Santa Fe",3,4,2
+"Los Angeles - Washington","Santa Fe","Oklahoma City",3,4,3
+"Los Angeles - Washington","Oklahoma City","Little Rock",2,2,4
+"Los Angeles - Washington","Little Rock","Nashville",3,4,5
+"Los Angeles - Washington","Nashville","Raleigh",3,4,6
+"Los Angeles - Washington","Raleigh","Washington",2,2,7
+"Los Angeles - Winnipeg","Los Angeles","Las Vegas",2,2,1
+"Los Angeles - Winnipeg","Las Vegas","Salt Lake City",3,4,2
+"Los Angeles - Winnipeg","Salt Lake City","Helena",3,4,3
+"Los Angeles - Winnipeg","Helena","Winnipeg",4,7,4
+"Miami - Montreal","Miami","Charleston",4,7,1
+"Miami - Montreal","Charleston","Raleigh",2,2,2
+"Miami - Montreal","Raleigh","Pittsburgh",2,2,3
+"Miami - Montreal","Pittsburgh","New York",2,2,4
+"Miami - Montreal","New York","Montreal",3,4,5
+"Miami - Nashville","Miami","Atlanta",5,10,1
+"Miami - Nashville","Atlanta","Nashville",1,1,2
+"Miami - New Orleans","Miami","New Orleans",6,15,1
+"Miami - New York","Miami","Charleston",4,7,1
+"Miami - New York","Charleston","Raleigh",2,2,2
+"Miami - New York","Raleigh","Pittsburgh",2,2,3
+"Miami - New York","Pittsburgh","New York",2,2,4
+"Miami - Oklahoma City","Miami","New Orleans",6,15,1
+"Miami - Oklahoma City","New Orleans","Little Rock",3,4,2
+"Miami - Oklahoma City","Little Rock","Oklahoma City",2,2,3
+"Miami - Omaha","Miami","Atlanta",5,10,1
+"Miami - Omaha","Atlanta","Nashville",1,1,2
+"Miami - Omaha","Nashville","Saint Louis",2,2,3
+"Miami - Omaha","Saint Louis","Kansas City",2,2,4
+"Miami - Omaha","Kansas City","Omaha",1,1,5
+"Miami - Phoenix","Miami","New Orleans",6,15,1
+"Miami - Phoenix","New Orleans","Houston",2,2,2
+"Miami - Phoenix","Houston","Dallas",1,1,3
+"Miami - Phoenix","Dallas","El Paso",4,7,4
+"Miami - Phoenix","El Paso","Phoenix",3,4,5
+"Miami - Pittsburgh","Miami","Charleston",4,7,1
+"Miami - Pittsburgh","Charleston","Raleigh",2,2,2
+"Miami - Pittsburgh","Raleigh","Pittsburgh",2,2,3
+"Miami - Portland","Miami","Atlanta",5,10,1
+"Miami - Portland","Atlanta","Nashville",1,1,2
+"Miami - Portland","Nashville","Saint Louis",2,2,3
+"Miami - Portland","Saint Louis","Kansas City",2,2,4
+"Miami - Portland","Kansas City","Omaha",1,1,5
+"Miami - Portland","Omaha","Helena",5,10,6
+"Miami - Portland","Helena","Seattle",6,15,7
+"Miami - Portland","Seattle","Portland",1,1,8
+"Miami - Raleigh","Miami","Charleston",4,7,1
+"Miami - Raleigh","Charleston","Raleigh",2,2,2
+"Miami - Saint Louis","Miami","Atlanta",5,10,1
+"Miami - Saint Louis","Atlanta","Nashville",1,1,2
+"Miami - Saint Louis","Nashville","Saint Louis",2,2,3
+"Miami - Salt Lake City","Miami","Atlanta",5,10,1
+"Miami - Salt Lake City","Atlanta","Nashville",1,1,2
+"Miami - Salt Lake City","Nashville","Saint Louis",2,2,3
+"Miami - Salt Lake City","Saint Louis","Kansas City",2,2,4
+"Miami - Salt Lake City","Kansas City","Denver",4,7,5
+"Miami - Salt Lake City","Denver","Salt Lake City",3,4,6
+"Miami - San Francisco","Miami","New Orleans",6,15,1
+"Miami - San Francisco","New Orleans","Houston",2,2,2
+"Miami - San Francisco","Houston","Dallas",1,1,3
+"Miami - San Francisco","Dallas","El Paso",4,7,4
+"Miami - San Francisco","El Paso","Los Angeles",6,15,5
+"Miami - San Francisco","Los Angeles","San Francisco",3,4,6
+"Miami - Santa Fe","Miami","New Orleans",6,15,1
+"Miami - Santa Fe","New Orleans","Little Rock",3,4,2
+"Miami - Santa Fe","Little Rock","Oklahoma City",2,2,3
+"Miami - Santa Fe","Oklahoma City","Santa Fe",3,4,4
+"Miami - Sault St. Marie","Miami","Charleston",4,7,1
+"Miami - Sault St. Marie","Charleston","Raleigh",2,2,2
+"Miami - Sault St. Marie","Raleigh","Pittsburgh",2,2,3
+"Miami - Sault St. Marie","Pittsburgh","Toronto",2,2,4
+"Miami - Sault St. Marie","Toronto","Sault St. Marie",2,2,5
+"Miami - Seattle","Miami","Atlanta",5,10,1
+"Miami - Seattle","Atlanta","Nashville",1,1,2
+"Miami - Seattle","Nashville","Saint Louis",2,2,3
+"Miami - Seattle","Saint Louis","Kansas City",2,2,4
+"Miami - Seattle","Kansas City","Omaha",1,1,5
+"Miami - Seattle","Omaha","Helena",5,10,6
+"Miami - Seattle","Helena","Seattle",6,15,7
+"Miami - Toronto","Miami","Charleston",4,7,1
+"Miami - Toronto","Charleston","Raleigh",2,2,2
+"Miami - Toronto","Raleigh","Pittsburgh",2,2,3
+"Miami - Toronto","Pittsburgh","Toronto",2,2,4
+"Miami - Vancouver","Miami","Atlanta",5,10,1
+"Miami - Vancouver","Atlanta","Nashville",1,1,2
+"Miami - Vancouver","Nashville","Saint Louis",2,2,3
+"Miami - Vancouver","Saint Louis","Kansas City",2,2,4
+"Miami - Vancouver","Kansas City","Omaha",1,1,5
+"Miami - Vancouver","Omaha","Helena",5,10,6
+"Miami - Vancouver","Helena","Seattle",6,15,7
+"Miami - Vancouver","Seattle","Vancouver",1,1,8
+"Miami - Washington","Miami","Charleston",4,7,1
+"Miami - Washington","Charleston","Raleigh",2,2,2
+"Miami - Washington","Raleigh","Washington",2,2,3
+"Miami - Winnipeg","Miami","Atlanta",5,10,1
+"Miami - Winnipeg","Atlanta","Nashville",1,1,2
+"Miami - Winnipeg","Nashville","Saint Louis",2,2,3
+"Miami - Winnipeg","Saint Louis","Chicago",2,2,4
+"Miami - Winnipeg","Chicago","Duluth",3,4,5
+"Miami - Winnipeg","Duluth","Winnipeg",4,7,6
+"Montreal - Nashville","Montreal","New York",3,4,1
+"Montreal - Nashville","New York","Pittsburgh",2,2,2
+"Montreal - Nashville","Pittsburgh","Nashville",4,7,3
+"Montreal - New Orleans","Montreal","New York",3,4,1
+"Montreal - New Orleans","New York","Pittsburgh",2,2,2
+"Montreal - New Orleans","Pittsburgh","Raleigh",2,2,3
+"Montreal - New Orleans","Raleigh","Atlanta",2,2,4
+"Montreal - New Orleans","Atlanta","New Orleans",4,7,5
+"Montreal - New York","Montreal","New York",3,4,1
+"Montreal - Oklahoma City","Montreal","Sault St. Marie",5,10,1
+"Montreal - Oklahoma City","Sault St. Marie","Duluth",3,4,2
+"Montreal - Oklahoma City","Duluth","Omaha",2,2,3
+"Montreal - Oklahoma City","Omaha","Kansas City",1,1,4
+"Montreal - Oklahoma City","Kansas City","Oklahoma City",2,2,5
+"Montreal - Omaha","Montreal","Sault St. Marie",5,10,1
+"Montreal - Omaha","Sault St. Marie","Duluth",3,4,2
+"Montreal - Omaha","Duluth","Omaha",2,2,3
+"Montreal - Phoenix","Montreal","Sault St. Marie",5,10,1
+"Montreal - Phoenix","Sault St. Marie","Duluth",3,4,2
+"Montreal - Phoenix","Duluth","Omaha",2,2,3
+"Montreal - Phoenix","Omaha","Denver",4,7,4
+"Montreal - Phoenix","Denver","Phoenix",5,10,5
+"Montreal - Pittsburgh","Montreal","New York",3,4,1
+"Montreal - Pittsburgh","New York","Pittsburgh",2,2,2
+"Montreal - Portland","Montreal","Sault St. Marie",5,10,1
+"Montreal - Portland","Sault St. Marie","Duluth",3,4,2
+"Montreal - Portland","Duluth","Helena",6,15,3
+"Montreal - Portland","Helena","Seattle",6,15,4
+"Montreal - Portland","Seattle","Portland",1,1,5
+"Montreal - Raleigh","Montreal","New York",3,4,1
+"Montreal - Raleigh","New York","Pittsburgh",2,2,2
+"Montreal - Raleigh","Pittsburgh","Raleigh",2,2,3
+"Montreal - Saint Louis","Montreal","Toronto",3,4,1
+"Montreal - Saint Louis","Toronto","Chicago",4,7,2
+"Montreal - Saint Louis","Chicago","Saint Louis",2,2,3
+"Montreal - Salt Lake City","Montreal","Sault St. Marie",5,10,1
+"Montreal - Salt Lake City","Sault St. Marie","Duluth",3,4,2
+"Montreal - Salt Lake City","Duluth","Helena",6,15,3
+"Montreal - Salt Lake City","Helena","Salt Lake City",3,4,4
+"Montreal - San Francisco","Montreal","Sault St. Marie",5,10,1
+"Montreal - San Francisco","Sault St. Marie","Duluth",3,4,2
+"Montreal - San Francisco","Duluth","Helena",6,15,3
+"Montreal - San Francisco","Helena","Salt Lake City",3,4,4
+"Montreal - San Francisco","Salt Lake City","San Francisco",5,10,5
+"Montreal - Santa Fe","Montreal","Sault St. Marie",5,10,1
+"Montreal - Santa Fe","Sault St. Marie","Duluth",3,4,2
+"Montreal - Santa Fe","Duluth","Omaha",2,2,3
+"Montreal - Santa Fe","Omaha","Denver",4,7,4
+"Montreal - Santa Fe","Denver","Santa Fe",2,2,5
+"Montreal - Sault St. Marie","Montreal","Sault St. Marie",5,10,1
+"Montreal - Seattle","Montreal","Sault St. Marie",5,10,1
+"Montreal - Seattle","Sault St. Marie","Duluth",3,4,2
+"Montreal - Seattle","Duluth","Helena",6,15,3
+"Montreal - Seattle","Helena","Seattle",6,15,4
+"Montreal - Toronto","Montreal","Toronto",3,4,1
+"Montreal - Vancouver","Montreal","Sault St. Marie",5,10,1
+"Montreal - Vancouver","Sault St. Marie","Winnipeg",6,15,2
+"Montreal - Vancouver","Winnipeg","Calgary",6,15,3
+"Montreal - Vancouver","Calgary","Vancouver",3,4,4
+"Montreal - Washington","Montreal","New York",3,4,1
+"Montreal - Washington","New York","Washington",2,2,2
+"Montreal - Winnipeg","Montreal","Sault St. Marie",5,10,1
+"Montreal - Winnipeg","Sault St. Marie","Winnipeg",6,15,2
+"Nashville - New Orleans","Nashville","Atlanta",1,1,1
+"Nashville - New Orleans","Atlanta","New Orleans",4,7,2
+"Nashville - New York","Nashville","Pittsburgh",4,7,1
+"Nashville - New York","Pittsburgh","New York",2,2,2
+"Nashville - Oklahoma City","Nashville","Little Rock",3,4,1
+"Nashville - Oklahoma City","Little Rock","Oklahoma City",2,2,2
+"Nashville - Omaha","Nashville","Saint Louis",2,2,1
+"Nashville - Omaha","Saint Louis","Kansas City",2,2,2
+"Nashville - Omaha","Kansas City","Omaha",1,1,3
+"Nashville - Phoenix","Nashville","Little Rock",3,4,1
+"Nashville - Phoenix","Little Rock","Oklahoma City",2,2,2
+"Nashville - Phoenix","Oklahoma City","Santa Fe",3,4,3
+"Nashville - Phoenix","Santa Fe","Phoenix",3,4,4
+"Nashville - Pittsburgh","Nashville","Pittsburgh",4,7,1
+"Nashville - Portland","Nashville","Saint Louis",2,2,1
+"Nashville - Portland","Saint Louis","Kansas City",2,2,2
+"Nashville - Portland","Kansas City","Omaha",1,1,3
+"Nashville - Portland","Omaha","Helena",5,10,4
+"Nashville - Portland","Helena","Seattle",6,15,5
+"Nashville - Portland","Seattle","Portland",1,1,6
+"Nashville - Raleigh","Nashville","Raleigh",3,4,1
+"Nashville - Saint Louis","Nashville","Saint Louis",2,2,1
+"Nashville - Salt Lake City","Nashville","Saint Louis",2,2,1
+"Nashville - Salt Lake City","Saint Louis","Kansas City",2,2,2
+"Nashville - Salt Lake City","Kansas City","Denver",4,7,3
+"Nashville - Salt Lake City","Denver","Salt Lake City",3,4,4
+"Nashville - San Francisco","Nashville","Saint Louis",2,2,1
+"Nashville - San Francisco","Saint Louis","Kansas City",2,2,2
+"Nashville - San Francisco","Kansas City","Denver",4,7,3
+"Nashville - San Francisco","Denver","Salt Lake City",3,4,4
+"Nashville - San Francisco","Salt Lake City","San Francisco",5,10,5
+"Nashville - Santa Fe","Nashville","Little Rock",3,4,1
+"Nashville - Santa Fe","Little Rock","Oklahoma City",2,2,2
+"Nashville - Santa Fe","Oklahoma City","Santa Fe",3,4,3
+"Nashville - Sault St. Marie","Nashville","Pittsburgh",4,7,1
+"Nashville - Sault St. Marie","Pittsburgh","Toronto",2,2,2
+"Nashville - Sault St. Marie","Toronto","Sault St. Marie",2,2,3
+"Nashville - Seattle","Nashville","Saint Louis",2,2,1
+"Nashville - Seattle","Saint Louis","Kansas City",2,2,2
+"Nashville - Seattle","Kansas City","Omaha",1,1,3
+"Nashville - Seattle","Omaha","Helena",5,10,4
+"Nashville - Seattle","Helena","Seattle",6,15,5
+"Nashville - Toronto","Nashville","Pittsburgh",4,7,1
+"Nashville - Toronto","Pittsburgh","Toronto",2,2,2
+"Nashville - Vancouver","Nashville","Saint Louis",2,2,1
+"Nashville - Vancouver","Saint Louis","Kansas City",2,2,2
+"Nashville - Vancouver","Kansas City","Omaha",1,1,3
+"Nashville - Vancouver","Omaha","Helena",5,10,4
+"Nashville - Vancouver","Helena","Seattle",6,15,5
+"Nashville - Vancouver","Seattle","Vancouver",1,1,6
+"Nashville - Washington","Nashville","Raleigh",3,4,1
+"Nashville - Washington","Raleigh","Washington",2,2,2
+"Nashville - Winnipeg","Nashville","Saint Louis",2,2,1
+"Nashville - Winnipeg","Saint Louis","Chicago",2,2,2
+"Nashville - Winnipeg","Chicago","Duluth",3,4,3
+"Nashville - Winnipeg","Duluth","Winnipeg",4,7,4
+"New Orleans - New York","New Orleans","Atlanta",4,7,1
+"New Orleans - New York","Atlanta","Raleigh",2,2,2
+"New Orleans - New York","Raleigh","Pittsburgh",2,2,3
+"New Orleans - New York","Pittsburgh","New York",2,2,4
+"New Orleans - Oklahoma City","New Orleans","Little Rock",3,4,1
+"New Orleans - Oklahoma City","Little Rock","Oklahoma City",2,2,2
+"New Orleans - Omaha","New Orleans","Little Rock",3,4,1
+"New Orleans - Omaha","Little Rock","Oklahoma City",2,2,2
+"New Orleans - Omaha","Oklahoma City","Kansas City",2,2,3
+"New Orleans - Omaha","Kansas City","Omaha",1,1,4
+"New Orleans - Phoenix","New Orleans","Houston",2,2,1
+"New Orleans - Phoenix","Houston","Dallas",1,1,2
+"New Orleans - Phoenix","Dallas","El Paso",4,7,3
+"New Orleans - Phoenix","El Paso","Phoenix",3,4,4
+"New Orleans - Pittsburgh","New Orleans","Atlanta",4,7,1
+"New Orleans - Pittsburgh","Atlanta","Raleigh",2,2,2
+"New Orleans - Pittsburgh","Raleigh","Pittsburgh",2,2,3
+"New Orleans - Portland","New Orleans","Little Rock",3,4,1
+"New Orleans - Portland","Little Rock","Oklahoma City",2,2,2
+"New Orleans - Portland","Oklahoma City","Denver",4,7,3
+"New Orleans - Portland","Denver","Salt Lake City",3,4,4
+"New Orleans - Portland","Salt Lake City","Portland",6,15,5
+"New Orleans - Raleigh","New Orleans","Atlanta",4,7,1
+"New Orleans - Raleigh","Atlanta","Raleigh",2,2,2
+"New Orleans - Saint Louis","New Orleans","Little Rock",3,4,1
+"New Orleans - Saint Louis","Little Rock","Saint Louis",2,2,2
+"New Orleans - Salt Lake City","New Orleans","Little Rock",3,4,1
+"New Orleans - Salt Lake City","Little Rock","Oklahoma City",2,2,2
+"New Orleans - Salt Lake City","Oklahoma City","Denver",4,7,3
+"New Orleans - Salt Lake City","Denver","Salt Lake City",3,4,4
+"New Orleans - San Francisco","New Orleans","Houston",2,2,1
+"New Orleans - San Francisco","Houston","Dallas",1,1,2
+"New Orleans - San Francisco","Dallas","El Paso",4,7,3
+"New Orleans - San Francisco","El Paso","Los Angeles",6,15,4
+"New Orleans - San Francisco","Los Angeles","San Francisco",3,4,5
+"New Orleans - Santa Fe","New Orleans","Little Rock",3,4,1
+"New Orleans - Santa Fe","Little Rock","Oklahoma City",2,2,2
+"New Orleans - Santa Fe","Oklahoma City","Santa Fe",3,4,3
+"New Orleans - Sault St. Marie","New Orleans","Atlanta",4,7,1
+"New Orleans - Sault St. Marie","Atlanta","Raleigh",2,2,2
+"New Orleans - Sault St. Marie","Raleigh","Pittsburgh",2,2,3
+"New Orleans - Sault St. Marie","Pittsburgh","Toronto",2,2,4
+"New Orleans - Sault St. Marie","Toronto","Sault St. Marie",2,2,5
+"New Orleans - Seattle","New Orleans","Little Rock",3,4,1
+"New Orleans - Seattle","Little Rock","Oklahoma City",2,2,2
+"New Orleans - Seattle","Oklahoma City","Denver",4,7,3
+"New Orleans - Seattle","Denver","Helena",4,7,4
+"New Orleans - Seattle","Helena","Seattle",6,15,5
+"New Orleans - Toronto","New Orleans","Atlanta",4,7,1
+"New Orleans - Toronto","Atlanta","Raleigh",2,2,2
+"New Orleans - Toronto","Raleigh","Pittsburgh",2,2,3
+"New Orleans - Toronto","Pittsburgh","Toronto",2,2,4
+"New Orleans - Vancouver","New Orleans","Little Rock",3,4,1
+"New Orleans - Vancouver","Little Rock","Oklahoma City",2,2,2
+"New Orleans - Vancouver","Oklahoma City","Denver",4,7,3
+"New Orleans - Vancouver","Denver","Helena",4,7,4
+"New Orleans - Vancouver","Helena","Seattle",6,15,5
+"New Orleans - Vancouver","Seattle","Vancouver",1,1,6
+"New Orleans - Washington","New Orleans","Atlanta",4,7,1
+"New Orleans - Washington","Atlanta","Raleigh",2,2,2
+"New Orleans - Washington","Raleigh","Washington",2,2,3
+"New Orleans - Winnipeg","New Orleans","Little Rock",3,4,1
+"New Orleans - Winnipeg","Little Rock","Saint Louis",2,2,2
+"New Orleans - Winnipeg","Saint Louis","Chicago",2,2,3
+"New Orleans - Winnipeg","Chicago","Duluth",3,4,4
+"New Orleans - Winnipeg","Duluth","Winnipeg",4,7,5
+"New York - Oklahoma City","New York","Pittsburgh",2,2,1
+"New York - Oklahoma City","Pittsburgh","Saint Louis",5,10,2
+"New York - Oklahoma City","Saint Louis","Kansas City",2,2,3
+"New York - Oklahoma City","Kansas City","Oklahoma City",2,2,4
+"New York - Omaha","New York","Pittsburgh",2,2,1
+"New York - Omaha","Pittsburgh","Chicago",3,4,2
+"New York - Omaha","Chicago","Omaha",4,7,3
+"New York - Phoenix","New York","Pittsburgh",2,2,1
+"New York - Phoenix","Pittsburgh","Saint Louis",5,10,2
+"New York - Phoenix","Saint Louis","Kansas City",2,2,3
+"New York - Phoenix","Kansas City","Oklahoma City",2,2,4
+"New York - Phoenix","Oklahoma City","Santa Fe",3,4,5
+"New York - Phoenix","Santa Fe","Phoenix",3,4,6
+"New York - Pittsburgh","New York","Pittsburgh",2,2,1
+"New York - Portland","New York","Pittsburgh",2,2,1
+"New York - Portland","Pittsburgh","Chicago",3,4,2
+"New York - Portland","Chicago","Duluth",3,4,3
+"New York - Portland","Duluth","Helena",6,15,4
+"New York - Portland","Helena","Seattle",6,15,5
+"New York - Portland","Seattle","Portland",1,1,6
+"New York - Raleigh","New York","Pittsburgh",2,2,1
+"New York - Raleigh","Pittsburgh","Raleigh",2,2,2
+"New York - Saint Louis","New York","Pittsburgh",2,2,1
+"New York - Saint Louis","Pittsburgh","Saint Louis",5,10,2
+"New York - Salt Lake City","New York","Pittsburgh",2,2,1
+"New York - Salt Lake City","Pittsburgh","Saint Louis",5,10,2
+"New York - Salt Lake City","Saint Louis","Kansas City",2,2,3
+"New York - Salt Lake City","Kansas City","Denver",4,7,4
+"New York - Salt Lake City","Denver","Salt Lake City",3,4,5
+"New York - San Francisco","New York","Pittsburgh",2,2,1
+"New York - San Francisco","Pittsburgh","Saint Louis",5,10,2
+"New York - San Francisco","Saint Louis","Kansas City",2,2,3
+"New York - San Francisco","Kansas City","Denver",4,7,4
+"New York - San Francisco","Denver","Salt Lake City",3,4,5
+"New York - San Francisco","Salt Lake City","San Francisco",5,10,6
+"New York - Santa Fe","New York","Pittsburgh",2,2,1
+"New York - Santa Fe","Pittsburgh","Saint Louis",5,10,2
+"New York - Santa Fe","Saint Louis","Kansas City",2,2,3
+"New York - Santa Fe","Kansas City","Oklahoma City",2,2,4
+"New York - Santa Fe","Oklahoma City","Santa Fe",3,4,5
+"New York - Sault St. Marie","New York","Pittsburgh",2,2,1
+"New York - Sault St. Marie","Pittsburgh","Toronto",2,2,2
+"New York - Sault St. Marie","Toronto","Sault St. Marie",2,2,3
+"New York - Seattle","New York","Pittsburgh",2,2,1
+"New York - Seattle","Pittsburgh","Chicago",3,4,2
+"New York - Seattle","Chicago","Duluth",3,4,3
+"New York - Seattle","Duluth","Helena",6,15,4
+"New York - Seattle","Helena","Seattle",6,15,5
+"New York - Toronto","New York","Pittsburgh",2,2,1
+"New York - Toronto","Pittsburgh","Toronto",2,2,2
+"New York - Vancouver","New York","Pittsburgh",2,2,1
+"New York - Vancouver","Pittsburgh","Chicago",3,4,2
+"New York - Vancouver","Chicago","Duluth",3,4,3
+"New York - Vancouver","Duluth","Helena",6,15,4
+"New York - Vancouver","Helena","Seattle",6,15,5
+"New York - Vancouver","Seattle","Vancouver",1,1,6
+"New York - Washington","New York","Washington",2,2,1
+"New York - Winnipeg","New York","Pittsburgh",2,2,1
+"New York - Winnipeg","Pittsburgh","Toronto",2,2,2
+"New York - Winnipeg","Toronto","Sault St. Marie",2,2,3
+"New York - Winnipeg","Sault St. Marie","Winnipeg",6,15,4
+"Oklahoma City - Omaha","Oklahoma City","Kansas City",2,2,1
+"Oklahoma City - Omaha","Kansas City","Omaha",1,1,2
+"Oklahoma City - Phoenix","Oklahoma City","Santa Fe",3,4,1
+"Oklahoma City - Phoenix","Santa Fe","Phoenix",3,4,2
+"Oklahoma City - Pittsburgh","Oklahoma City","Kansas City",2,2,1
+"Oklahoma City - Pittsburgh","Kansas City","Saint Louis",2,2,2
+"Oklahoma City - Pittsburgh","Saint Louis","Pittsburgh",5,10,3
+"Oklahoma City - Portland","Oklahoma City","Denver",4,7,1
+"Oklahoma City - Portland","Denver","Salt Lake City",3,4,2
+"Oklahoma City - Portland","Salt Lake City","Portland",6,15,3
+"Oklahoma City - Raleigh","Oklahoma City","Little Rock",2,2,1
+"Oklahoma City - Raleigh","Little Rock","Nashville",3,4,2
+"Oklahoma City - Raleigh","Nashville","Raleigh",3,4,3
+"Oklahoma City - Saint Louis","Oklahoma City","Kansas City",2,2,1
+"Oklahoma City - Saint Louis","Kansas City","Saint Louis",2,2,2
+"Oklahoma City - Salt Lake City","Oklahoma City","Denver",4,7,1
+"Oklahoma City - Salt Lake City","Denver","Salt Lake City",3,4,2
+"Oklahoma City - San Francisco","Oklahoma City","Denver",4,7,1
+"Oklahoma City - San Francisco","Denver","Salt Lake City",3,4,2
+"Oklahoma City - San Francisco","Salt Lake City","San Francisco",5,10,3
+"Oklahoma City - Santa Fe","Oklahoma City","Santa Fe",3,4,1
+"Oklahoma City - Sault St. Marie","Oklahoma City","Kansas City",2,2,1
+"Oklahoma City - Sault St. Marie","Kansas City","Omaha",1,1,2
+"Oklahoma City - Sault St. Marie","Omaha","Duluth",2,2,3
+"Oklahoma City - Sault St. Marie","Duluth","Sault St. Marie",3,4,4
+"Oklahoma City - Seattle","Oklahoma City","Denver",4,7,1
+"Oklahoma City - Seattle","Denver","Helena",4,7,2
+"Oklahoma City - Seattle","Helena","Seattle",6,15,3
+"Oklahoma City - Toronto","Oklahoma City","Kansas City",2,2,1
+"Oklahoma City - Toronto","Kansas City","Saint Louis",2,2,2
+"Oklahoma City - Toronto","Saint Louis","Chicago",2,2,3
+"Oklahoma City - Toronto","Chicago","Toronto",4,7,4
+"Oklahoma City - Vancouver","Oklahoma City","Denver",4,7,1
+"Oklahoma City - Vancouver","Denver","Helena",4,7,2
+"Oklahoma City - Vancouver","Helena","Seattle",6,15,3
+"Oklahoma City - Vancouver","Seattle","Vancouver",1,1,4
+"Oklahoma City - Washington","Oklahoma City","Little Rock",2,2,1
+"Oklahoma City - Washington","Little Rock","Nashville",3,4,2
+"Oklahoma City - Washington","Nashville","Raleigh",3,4,3
+"Oklahoma City - Washington","Raleigh","Washington",2,2,4
+"Oklahoma City - Winnipeg","Oklahoma City","Kansas City",2,2,1
+"Oklahoma City - Winnipeg","Kansas City","Omaha",1,1,2
+"Oklahoma City - Winnipeg","Omaha","Duluth",2,2,3
+"Oklahoma City - Winnipeg","Duluth","Winnipeg",4,7,4
+"Omaha - Phoenix","Omaha","Denver",4,7,1
+"Omaha - Phoenix","Denver","Phoenix",5,10,2
+"Omaha - Pittsburgh","Omaha","Chicago",4,7,1
+"Omaha - Pittsburgh","Chicago","Pittsburgh",3,4,2
+"Omaha - Portland","Omaha","Helena",5,10,1
+"Omaha - Portland","Helena","Seattle",6,15,2
+"Omaha - Portland","Seattle","Portland",1,1,3
+"Omaha - Raleigh","Omaha","Kansas City",1,1,1
+"Omaha - Raleigh","Kansas City","Saint Louis",2,2,2
+"Omaha - Raleigh","Saint Louis","Nashville",2,2,3
+"Omaha - Raleigh","Nashville","Raleigh",3,4,4
+"Omaha - Saint Louis","Omaha","Kansas City",1,1,1
+"Omaha - Saint Louis","Kansas City","Saint Louis",2,2,2
+"Omaha - Salt Lake City","Omaha","Denver",4,7,1
+"Omaha - Salt Lake City","Denver","Salt Lake City",3,4,2
+"Omaha - San Francisco","Omaha","Denver",4,7,1
+"Omaha - San Francisco","Denver","Salt Lake City",3,4,2
+"Omaha - San Francisco","Salt Lake City","San Francisco",5,10,3
+"Omaha - Santa Fe","Omaha","Denver",4,7,1
+"Omaha - Santa Fe","Denver","Santa Fe",2,2,2
+"Omaha - Sault St. Marie","Omaha","Duluth",2,2,1
+"Omaha - Sault St. Marie","Duluth","Sault St. Marie",3,4,2
+"Omaha - Seattle","Omaha","Helena",5,10,1
+"Omaha - Seattle","Helena","Seattle",6,15,2
+"Omaha - Toronto","Omaha","Duluth",2,2,1
+"Omaha - Toronto","Duluth","Sault St. Marie",3,4,2
+"Omaha - Toronto","Sault St. Marie","Toronto",2,2,3
+"Omaha - Vancouver","Omaha","Helena",5,10,1
+"Omaha - Vancouver","Helena","Seattle",6,15,2
+"Omaha - Vancouver","Seattle","Vancouver",1,1,3
+"Omaha - Washington","Omaha","Chicago",4,7,1
+"Omaha - Washington","Chicago","Pittsburgh",3,4,2
+"Omaha - Washington","Pittsburgh","Washington",2,2,3
+"Omaha - Winnipeg","Omaha","Duluth",2,2,1
+"Omaha - Winnipeg","Duluth","Winnipeg",4,7,2
+"Phoenix - Pittsburgh","Phoenix","Santa Fe",3,4,1
+"Phoenix - Pittsburgh","Santa Fe","Oklahoma City",3,4,2
+"Phoenix - Pittsburgh","Oklahoma City","Kansas City",2,2,3
+"Phoenix - Pittsburgh","Kansas City","Saint Louis",2,2,4
+"Phoenix - Pittsburgh","Saint Louis","Pittsburgh",5,10,5
+"Phoenix - Portland","Phoenix","Los Angeles",3,4,1
+"Phoenix - Portland","Los Angeles","San Francisco",3,4,2
+"Phoenix - Portland","San Francisco","Portland",5,10,3
+"Phoenix - Raleigh","Phoenix","Santa Fe",3,4,1
+"Phoenix - Raleigh","Santa Fe","Oklahoma City",3,4,2
+"Phoenix - Raleigh","Oklahoma City","Little Rock",2,2,3
+"Phoenix - Raleigh","Little Rock","Nashville",3,4,4
+"Phoenix - Raleigh","Nashville","Raleigh",3,4,5
+"Phoenix - Saint Louis","Phoenix","Santa Fe",3,4,1
+"Phoenix - Saint Louis","Santa Fe","Oklahoma City",3,4,2
+"Phoenix - Saint Louis","Oklahoma City","Kansas City",2,2,3
+"Phoenix - Saint Louis","Kansas City","Saint Louis",2,2,4
+"Phoenix - Salt Lake City","Phoenix","Denver",5,10,1
+"Phoenix - Salt Lake City","Denver","Salt Lake City",3,4,2
+"Phoenix - San Francisco","Phoenix","Los Angeles",3,4,1
+"Phoenix - San Francisco","Los Angeles","San Francisco",3,4,2
+"Phoenix - Santa Fe","Phoenix","Santa Fe",3,4,1
+"Phoenix - Sault St. Marie","Phoenix","Denver",5,10,1
+"Phoenix - Sault St. Marie","Denver","Omaha",4,7,2
+"Phoenix - Sault St. Marie","Omaha","Duluth",2,2,3
+"Phoenix - Sault St. Marie","Duluth","Sault St. Marie",3,4,4
+"Phoenix - Seattle","Phoenix","Los Angeles",3,4,1
+"Phoenix - Seattle","Los Angeles","San Francisco",3,4,2
+"Phoenix - Seattle","San Francisco","Portland",5,10,3
+"Phoenix - Seattle","Portland","Seattle",1,1,4
+"Phoenix - Toronto","Phoenix","Denver",5,10,1
+"Phoenix - Toronto","Denver","Omaha",4,7,2
+"Phoenix - Toronto","Omaha","Duluth",2,2,3
+"Phoenix - Toronto","Duluth","Sault St. Marie",3,4,4
+"Phoenix - Toronto","Sault St. Marie","Toronto",2,2,5
+"Phoenix - Vancouver","Phoenix","Los Angeles",3,4,1
+"Phoenix - Vancouver","Los Angeles","San Francisco",3,4,2
+"Phoenix - Vancouver","San Francisco","Portland",5,10,3
+"Phoenix - Vancouver","Portland","Seattle",1,1,4
+"Phoenix - Vancouver","Seattle","Vancouver",1,1,5
+"Phoenix - Washington","Phoenix","Santa Fe",3,4,1
+"Phoenix - Washington","Santa Fe","Oklahoma City",3,4,2
+"Phoenix - Washington","Oklahoma City","Little Rock",2,2,3
+"Phoenix - Washington","Little Rock","Nashville",3,4,4
+"Phoenix - Washington","Nashville","Raleigh",3,4,5
+"Phoenix - Washington","Raleigh","Washington",2,2,6
+"Phoenix - Winnipeg","Phoenix","Denver",5,10,1
+"Phoenix - Winnipeg","Denver","Helena",4,7,2
+"Phoenix - Winnipeg","Helena","Winnipeg",4,7,3
+"Pittsburgh - Portland","Pittsburgh","Chicago",3,4,1
+"Pittsburgh - Portland","Chicago","Duluth",3,4,2
+"Pittsburgh - Portland","Duluth","Helena",6,15,3
+"Pittsburgh - Portland","Helena","Seattle",6,15,4
+"Pittsburgh - Portland","Seattle","Portland",1,1,5
+"Pittsburgh - Raleigh","Pittsburgh","Raleigh",2,2,1
+"Pittsburgh - Saint Louis","Pittsburgh","Saint Louis",5,10,1
+"Pittsburgh - Salt Lake City","Pittsburgh","Saint Louis",5,10,1
+"Pittsburgh - Salt Lake City","Saint Louis","Kansas City",2,2,2
+"Pittsburgh - Salt Lake City","Kansas City","Denver",4,7,3
+"Pittsburgh - Salt Lake City","Denver","Salt Lake City",3,4,4
+"Pittsburgh - San Francisco","Pittsburgh","Saint Louis",5,10,1
+"Pittsburgh - San Francisco","Saint Louis","Kansas City",2,2,2
+"Pittsburgh - San Francisco","Kansas City","Denver",4,7,3
+"Pittsburgh - San Francisco","Denver","Salt Lake City",3,4,4
+"Pittsburgh - San Francisco","Salt Lake City","San Francisco",5,10,5
+"Pittsburgh - Santa Fe","Pittsburgh","Saint Louis",5,10,1
+"Pittsburgh - Santa Fe","Saint Louis","Kansas City",2,2,2
+"Pittsburgh - Santa Fe","Kansas City","Oklahoma City",2,2,3
+"Pittsburgh - Santa Fe","Oklahoma City","Santa Fe",3,4,4
+"Pittsburgh - Sault St. Marie","Pittsburgh","Toronto",2,2,1
+"Pittsburgh - Sault St. Marie","Toronto","Sault St. Marie",2,2,2
+"Pittsburgh - Seattle","Pittsburgh","Chicago",3,4,1
+"Pittsburgh - Seattle","Chicago","Duluth",3,4,2
+"Pittsburgh - Seattle","Duluth","Helena",6,15,3
+"Pittsburgh - Seattle","Helena","Seattle",6,15,4
+"Pittsburgh - Toronto","Pittsburgh","Toronto",2,2,1
+"Pittsburgh - Vancouver","Pittsburgh","Chicago",3,4,1
+"Pittsburgh - Vancouver","Chicago","Duluth",3,4,2
+"Pittsburgh - Vancouver","Duluth","Helena",6,15,3
+"Pittsburgh - Vancouver","Helena","Seattle",6,15,4
+"Pittsburgh - Vancouver","Seattle","Vancouver",1,1,5
+"Pittsburgh - Washington","Pittsburgh","Washington",2,2,1
+"Pittsburgh - Winnipeg","Pittsburgh","Toronto",2,2,1
+"Pittsburgh - Winnipeg","Toronto","Sault St. Marie",2,2,2
+"Pittsburgh - Winnipeg","Sault St. Marie","Winnipeg",6,15,3
+"Portland - Raleigh","Portland","Seattle",1,1,1
+"Portland - Raleigh","Seattle","Helena",6,15,2
+"Portland - Raleigh","Helena","Omaha",5,10,3
+"Portland - Raleigh","Omaha","Kansas City",1,1,4
+"Portland - Raleigh","Kansas City","Saint Louis",2,2,5
+"Portland - Raleigh","Saint Louis","Nashville",2,2,6
+"Portland - Raleigh","Nashville","Raleigh",3,4,7
+"Portland - Saint Louis","Portland","Seattle",1,1,1
+"Portland - Saint Louis","Seattle","Helena",6,15,2
+"Portland - Saint Louis","Helena","Omaha",5,10,3
+"Portland - Saint Louis","Omaha","Kansas City",1,1,4
+"Portland - Saint Louis","Kansas City","Saint Louis",2,2,5
+"Portland - Salt Lake City","Portland","Salt Lake City",6,15,1
+"Portland - San Francisco","Portland","San Francisco",5,10,1
+"Portland - Santa Fe","Portland","Salt Lake City",6,15,1
+"Portland - Santa Fe","Salt Lake City","Denver",3,4,2
+"Portland - Santa Fe","Denver","Santa Fe",2,2,3
+"Portland - Sault St. Marie","Portland","Seattle",1,1,1
+"Portland - Sault St. Marie","Seattle","Helena",6,15,2
+"Portland - Sault St. Marie","Helena","Duluth",6,15,3
+"Portland - Sault St. Marie","Duluth","Sault St. Marie",3,4,4
+"Portland - Seattle","Portland","Seattle",1,1,1
+"Portland - Toronto","Portland","Seattle",1,1,1
+"Portland - Toronto","Seattle","Helena",6,15,2
+"Portland - Toronto","Helena","Duluth",6,15,3
+"Portland - Toronto","Duluth","Sault St. Marie",3,4,4
+"Portland - Toronto","Sault St. Marie","Toronto",2,2,5
+"Portland - Vancouver","Portland","Seattle",1,1,1
+"Portland - Vancouver","Seattle","Vancouver",1,1,2
+"Portland - Washington","Portland","Seattle",1,1,1
+"Portland - Washington","Seattle","Helena",6,15,2
+"Portland - Washington","Helena","Duluth",6,15,3
+"Portland - Washington","Duluth","Chicago",3,4,4
+"Portland - Washington","Chicago","Pittsburgh",3,4,5
+"Portland - Washington","Pittsburgh","Washington",2,2,6
+"Portland - Winnipeg","Portland","Seattle",1,1,1
+"Portland - Winnipeg","Seattle","Calgary",4,7,2
+"Portland - Winnipeg","Calgary","Winnipeg",6,15,3
+"Raleigh - Saint Louis","Raleigh","Nashville",3,4,1
+"Raleigh - Saint Louis","Nashville","Saint Louis",2,2,2
+"Raleigh - Salt Lake City","Raleigh","Nashville",3,4,1
+"Raleigh - Salt Lake City","Nashville","Saint Louis",2,2,2
+"Raleigh - Salt Lake City","Saint Louis","Kansas City",2,2,3
+"Raleigh - Salt Lake City","Kansas City","Denver",4,7,4
+"Raleigh - Salt Lake City","Denver","Salt Lake City",3,4,5
+"Raleigh - San Francisco","Raleigh","Nashville",3,4,1
+"Raleigh - San Francisco","Nashville","Saint Louis",2,2,2
+"Raleigh - San Francisco","Saint Louis","Kansas City",2,2,3
+"Raleigh - San Francisco","Kansas City","Denver",4,7,4
+"Raleigh - San Francisco","Denver","Salt Lake City",3,4,5
+"Raleigh - San Francisco","Salt Lake City","San Francisco",5,10,6
+"Raleigh - Santa Fe","Raleigh","Nashville",3,4,1
+"Raleigh - Santa Fe","Nashville","Little Rock",3,4,2
+"Raleigh - Santa Fe","Little Rock","Oklahoma City",2,2,3
+"Raleigh - Santa Fe","Oklahoma City","Santa Fe",3,4,4
+"Raleigh - Sault St. Marie","Raleigh","Pittsburgh",2,2,1
+"Raleigh - Sault St. Marie","Pittsburgh","Toronto",2,2,2
+"Raleigh - Sault St. Marie","Toronto","Sault St. Marie",2,2,3
+"Raleigh - Seattle","Raleigh","Nashville",3,4,1
+"Raleigh - Seattle","Nashville","Saint Louis",2,2,2
+"Raleigh - Seattle","Saint Louis","Kansas City",2,2,3
+"Raleigh - Seattle","Kansas City","Omaha",1,1,4
+"Raleigh - Seattle","Omaha","Helena",5,10,5
+"Raleigh - Seattle","Helena","Seattle",6,15,6
+"Raleigh - Toronto","Raleigh","Pittsburgh",2,2,1
+"Raleigh - Toronto","Pittsburgh","Toronto",2,2,2
+"Raleigh - Vancouver","Raleigh","Nashville",3,4,1
+"Raleigh - Vancouver","Nashville","Saint Louis",2,2,2
+"Raleigh - Vancouver","Saint Louis","Kansas City",2,2,3
+"Raleigh - Vancouver","Kansas City","Omaha",1,1,4
+"Raleigh - Vancouver","Omaha","Helena",5,10,5
+"Raleigh - Vancouver","Helena","Seattle",6,15,6
+"Raleigh - Vancouver","Seattle","Vancouver",1,1,7
+"Raleigh - Washington","Raleigh","Washington",2,2,1
+"Raleigh - Winnipeg","Raleigh","Pittsburgh",2,2,1
+"Raleigh - Winnipeg","Pittsburgh","Toronto",2,2,2
+"Raleigh - Winnipeg","Toronto","Sault St. Marie",2,2,3
+"Raleigh - Winnipeg","Sault St. Marie","Winnipeg",6,15,4
+"Saint Louis - Salt Lake City","Saint Louis","Kansas City",2,2,1
+"Saint Louis - Salt Lake City","Kansas City","Denver",4,7,2
+"Saint Louis - Salt Lake City","Denver","Salt Lake City",3,4,3
+"Saint Louis - San Francisco","Saint Louis","Kansas City",2,2,1
+"Saint Louis - San Francisco","Kansas City","Denver",4,7,2
+"Saint Louis - San Francisco","Denver","Salt Lake City",3,4,3
+"Saint Louis - San Francisco","Salt Lake City","San Francisco",5,10,4
+"Saint Louis - Santa Fe","Saint Louis","Kansas City",2,2,1
+"Saint Louis - Santa Fe","Kansas City","Oklahoma City",2,2,2
+"Saint Louis - Santa Fe","Oklahoma City","Santa Fe",3,4,3
+"Saint Louis - Sault St. Marie","Saint Louis","Chicago",2,2,1
+"Saint Louis - Sault St. Marie","Chicago","Toronto",4,7,2
+"Saint Louis - Sault St. Marie","Toronto","Sault St. Marie",2,2,3
+"Saint Louis - Seattle","Saint Louis","Kansas City",2,2,1
+"Saint Louis - Seattle","Kansas City","Omaha",1,1,2
+"Saint Louis - Seattle","Omaha","Helena",5,10,3
+"Saint Louis - Seattle","Helena","Seattle",6,15,4
+"Saint Louis - Toronto","Saint Louis","Chicago",2,2,1
+"Saint Louis - Toronto","Chicago","Toronto",4,7,2
+"Saint Louis - Vancouver","Saint Louis","Kansas City",2,2,1
+"Saint Louis - Vancouver","Kansas City","Omaha",1,1,2
+"Saint Louis - Vancouver","Omaha","Helena",5,10,3
+"Saint Louis - Vancouver","Helena","Seattle",6,15,4
+"Saint Louis - Vancouver","Seattle","Vancouver",1,1,5
+"Saint Louis - Washington","Saint Louis","Pittsburgh",5,10,1
+"Saint Louis - Washington","Pittsburgh","Washington",2,2,2
+"Saint Louis - Winnipeg","Saint Louis","Chicago",2,2,1
+"Saint Louis - Winnipeg","Chicago","Duluth",3,4,2
+"Saint Louis - Winnipeg","Duluth","Winnipeg",4,7,3
+"Salt Lake City - San Francisco","Salt Lake City","San Francisco",5,10,1
+"Salt Lake City - Santa Fe","Salt Lake City","Denver",3,4,1
+"Salt Lake City - Santa Fe","Denver","Santa Fe",2,2,2
+"Salt Lake City - Sault St. Marie","Salt Lake City","Helena",3,4,1
+"Salt Lake City - Sault St. Marie","Helena","Duluth",6,15,2
+"Salt Lake City - Sault St. Marie","Duluth","Sault St. Marie",3,4,3
+"Salt Lake City - Seattle","Salt Lake City","Portland",6,15,1
+"Salt Lake City - Seattle","Portland","Seattle",1,1,2
+"Salt Lake City - Toronto","Salt Lake City","Helena",3,4,1
+"Salt Lake City - Toronto","Helena","Duluth",6,15,2
+"Salt Lake City - Toronto","Duluth","Sault St. Marie",3,4,3
+"Salt Lake City - Toronto","Sault St. Marie","Toronto",2,2,4
+"Salt Lake City - Vancouver","Salt Lake City","Portland",6,15,1
+"Salt Lake City - Vancouver","Portland","Seattle",1,1,2
+"Salt Lake City - Vancouver","Seattle","Vancouver",1,1,3
+"Salt Lake City - Washington","Salt Lake City","Denver",3,4,1
+"Salt Lake City - Washington","Denver","Kansas City",4,7,2
+"Salt Lake City - Washington","Kansas City","Saint Louis",2,2,3
+"Salt Lake City - Washington","Saint Louis","Pittsburgh",5,10,4
+"Salt Lake City - Washington","Pittsburgh","Washington",2,2,5
+"Salt Lake City - Winnipeg","Salt Lake City","Helena",3,4,1
+"Salt Lake City - Winnipeg","Helena","Winnipeg",4,7,2
+"San Francisco - Santa Fe","San Francisco","Los Angeles",3,4,1
+"San Francisco - Santa Fe","Los Angeles","Phoenix",3,4,2
+"San Francisco - Santa Fe","Phoenix","Santa Fe",3,4,3
+"San Francisco - Sault St. Marie","San Francisco","Salt Lake City",5,10,1
+"San Francisco - Sault St. Marie","Salt Lake City","Helena",3,4,2
+"San Francisco - Sault St. Marie","Helena","Duluth",6,15,3
+"San Francisco - Sault St. Marie","Duluth","Sault St. Marie",3,4,4
+"San Francisco - Seattle","San Francisco","Portland",5,10,1
+"San Francisco - Seattle","Portland","Seattle",1,1,2
+"San Francisco - Toronto","San Francisco","Salt Lake City",5,10,1
+"San Francisco - Toronto","Salt Lake City","Helena",3,4,2
+"San Francisco - Toronto","Helena","Duluth",6,15,3
+"San Francisco - Toronto","Duluth","Sault St. Marie",3,4,4
+"San Francisco - Toronto","Sault St. Marie","Toronto",2,2,5
+"San Francisco - Vancouver","San Francisco","Portland",5,10,1
+"San Francisco - Vancouver","Portland","Seattle",1,1,2
+"San Francisco - Vancouver","Seattle","Vancouver",1,1,3
+"San Francisco - Washington","San Francisco","Salt Lake City",5,10,1
+"San Francisco - Washington","Salt Lake City","Denver",3,4,2
+"San Francisco - Washington","Denver","Kansas City",4,7,3
+"San Francisco - Washington","Kansas City","Saint Louis",2,2,4
+"San Francisco - Washington","Saint Louis","Pittsburgh",5,10,5
+"San Francisco - Washington","Pittsburgh","Washington",2,2,6
+"San Francisco - Winnipeg","San Francisco","Salt Lake City",5,10,1
+"San Francisco - Winnipeg","Salt Lake City","Helena",3,4,2
+"San Francisco - Winnipeg","Helena","Winnipeg",4,7,3
+"Santa Fe - Sault St. Marie","Santa Fe","Denver",2,2,1
+"Santa Fe - Sault St. Marie","Denver","Omaha",4,7,2
+"Santa Fe - Sault St. Marie","Omaha","Duluth",2,2,3
+"Santa Fe - Sault St. Marie","Duluth","Sault St. Marie",3,4,4
+"Santa Fe - Seattle","Santa Fe","Denver",2,2,1
+"Santa Fe - Seattle","Denver","Helena",4,7,2
+"Santa Fe - Seattle","Helena","Seattle",6,15,3
+"Santa Fe - Toronto","Santa Fe","Oklahoma City",3,4,1
+"Santa Fe - Toronto","Oklahoma City","Kansas City",2,2,2
+"Santa Fe - Toronto","Kansas City","Saint Louis",2,2,3
+"Santa Fe - Toronto","Saint Louis","Chicago",2,2,4
+"Santa Fe - Toronto","Chicago","Toronto",4,7,5
+"Santa Fe - Vancouver","Santa Fe","Denver",2,2,1
+"Santa Fe - Vancouver","Denver","Helena",4,7,2
+"Santa Fe - Vancouver","Helena","Seattle",6,15,3
+"Santa Fe - Vancouver","Seattle","Vancouver",1,1,4
+"Santa Fe - Washington","Santa Fe","Oklahoma City",3,4,1
+"Santa Fe - Washington","Oklahoma City","Little Rock",2,2,2
+"Santa Fe - Washington","Little Rock","Nashville",3,4,3
+"Santa Fe - Washington","Nashville","Raleigh",3,4,4
+"Santa Fe - Washington","Raleigh","Washington",2,2,5
+"Santa Fe - Winnipeg","Santa Fe","Denver",2,2,1
+"Santa Fe - Winnipeg","Denver","Helena",4,7,2
+"Santa Fe - Winnipeg","Helena","Winnipeg",4,7,3
+"Sault St. Marie - Seattle","Sault St. Marie","Duluth",3,4,1
+"Sault St. Marie - Seattle","Duluth","Helena",6,15,2
+"Sault St. Marie - Seattle","Helena","Seattle",6,15,3
+"Sault St. Marie - Toronto","Sault St. Marie","Toronto",2,2,1
+"Sault St. Marie - Vancouver","Sault St. Marie","Winnipeg",6,15,1
+"Sault St. Marie - Vancouver","Winnipeg","Calgary",6,15,2
+"Sault St. Marie - Vancouver","Calgary","Vancouver",3,4,3
+"Sault St. Marie - Washington","Sault St. Marie","Toronto",2,2,1
+"Sault St. Marie - Washington","Toronto","Pittsburgh",2,2,2
+"Sault St. Marie - Washington","Pittsburgh","Washington",2,2,3
+"Sault St. Marie - Winnipeg","Sault St. Marie","Winnipeg",6,15,1
+"Seattle - Toronto","Seattle","Helena",6,15,1
+"Seattle - Toronto","Helena","Duluth",6,15,2
+"Seattle - Toronto","Duluth","Sault St. Marie",3,4,3
+"Seattle - Toronto","Sault St. Marie","Toronto",2,2,4
+"Seattle - Vancouver","Seattle","Vancouver",1,1,1
+"Seattle - Washington","Seattle","Helena",6,15,1
+"Seattle - Washington","Helena","Duluth",6,15,2
+"Seattle - Washington","Duluth","Chicago",3,4,3
+"Seattle - Washington","Chicago","Pittsburgh",3,4,4
+"Seattle - Washington","Pittsburgh","Washington",2,2,5
+"Seattle - Winnipeg","Seattle","Calgary",4,7,1
+"Seattle - Winnipeg","Calgary","Winnipeg",6,15,2
+"Toronto - Vancouver","Toronto","Sault St. Marie",2,2,1
+"Toronto - Vancouver","Sault St. Marie","Winnipeg",6,15,2
+"Toronto - Vancouver","Winnipeg","Calgary",6,15,3
+"Toronto - Vancouver","Calgary","Vancouver",3,4,4
+"Toronto - Washington","Toronto","Pittsburgh",2,2,1
+"Toronto - Washington","Pittsburgh","Washington",2,2,2
+"Toronto - Winnipeg","Toronto","Sault St. Marie",2,2,1
+"Toronto - Winnipeg","Sault St. Marie","Winnipeg",6,15,2
+"Vancouver - Washington","Vancouver","Seattle",1,1,1
+"Vancouver - Washington","Seattle","Helena",6,15,2
+"Vancouver - Washington","Helena","Duluth",6,15,3
+"Vancouver - Washington","Duluth","Chicago",3,4,4
+"Vancouver - Washington","Chicago","Pittsburgh",3,4,5
+"Vancouver - Washington","Pittsburgh","Washington",2,2,6
+"Vancouver - Winnipeg","Vancouver","Calgary",3,4,1
+"Vancouver - Winnipeg","Calgary","Winnipeg",6,15,2
+"Washington - Winnipeg","Washington","Pittsburgh",2,2,1
+"Washington - Winnipeg","Pittsburgh","Toronto",2,2,2
+"Washington - Winnipeg","Toronto","Sault St. Marie",2,2,3
+"Washington - Winnipeg","Sault St. Marie","Winnipeg",6,15,4
