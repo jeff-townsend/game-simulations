@@ -5,20 +5,19 @@ cities.file <- "https://raw.githubusercontent.com/jeff-townsend/game-simulations
 routes.file <- "https://raw.githubusercontent.com/jeff-townsend/game-simulations/main/data/Ticket%20to%20Ride%20Routes.csv"
 tickets.file <- "https://raw.githubusercontent.com/jeff-townsend/game-simulations/main/data/Ticket%20to%20Ride%20Tickets.csv"
 
-cities <- read.csv(cities.file)
-routes <- read.csv(routes.file)
-tickets <- read.csv(tickets.file)
-
-route.points <- data.frame(id = c(1:6),
-                           route_length = c(1:6),
+route.points <- data.frame(route_length = c(1:6),
                            route_points =c(1, 2, 4, 7, 10, 15))
+
+cities <- read.csv(cities.file)
+routes <- read.csv(routes.file) %>% inner_join(route.points, by = "route_length")
+tickets <- read.csv(tickets.file)
 
 calculatePath <- function(departure, arrival){
   ### use dijkstra's algorithm to find shortest possible route
   
   # set up the data
-  # departure <- "Los Angeles"
-  # arrival <- "Chicago"
+  departure <- "Los Angeles"
+  arrival <- "Miami"
   
   priority.queue <- data.frame(city = departure,
                                via = NA,
@@ -47,7 +46,12 @@ calculatePath <- function(departure, arrival){
       mutate(completed = 0)
     
     # add to queue and re-prioritize
-    priority.queue <- rbind(priority.queue, new.queue) %>% arrange(desc(completed), total_trains)
+    priority.queue <-
+      rbind(priority.queue, new.queue) %>%
+      arrange(desc(completed), total_trains) %>%
+      group_by(city) %>%
+      filter(row_number() == 1) %>%
+      ungroup()
     
     # mark city as completed
     priority.queue[iteration, 4] = 1
@@ -80,15 +84,12 @@ calculatePath <- function(departure, arrival){
     next.route <-
       collect.route %>%
       filter(order == iteration - 1) %>%
-      inner_join(priority.queue %>%
-                   group_by(city) %>%
-                   mutate(path_rank = rank(total_trains)) %>%
-                   filter(path_rank == 1),
-                 by = c("via" = "city")) %>%
+      inner_join(priority.queue, by = c("via" = "city")) %>%
       select(via, via.y) %>%
       rename(city = via,
              via = via.y) %>%
       mutate(order = iteration)
+    
     collect.route <- rbind(collect.route, next.route)
     collect.route <- collect.route %>% arrange(desc(order))
     
@@ -106,22 +107,28 @@ calculatePath <- function(departure, arrival){
     routes %>%
     inner_join(collect.route, by = c("starting_city" = "via", "ending_city" = "city")) %>%
     arrange(desc(order)) %>%
-    distinct(starting_city, ending_city, route_length)
-
-  return(sum(ticket.route$route_length))
+    distinct(starting_city, ending_city, route_length, route_points)
+  
+  return(c(sum(ticket.route$route_length), sum(ticket.route$route_points)))
 }
 
 # test a ticket
 calculatePath(departure = "Los Angeles",
-              arrival = "Chicago")
+              arrival = "Miami")[2]
 
 ticket.paths <-
   tickets %>%
-  mutate(fastest_path = NA)
+  mutate(trains = NA,
+         train_points = NA)
 
 t <- 1
 for(t in 1:nrow(ticket.paths)){
-  ticket.paths$fastest_path[t] = calculatePath(departure = ticket.paths$ticket_departure[t],
-                                               arrival = ticket.paths$ticket_arrival[t])
+  ticket.paths$trains[t] = calculatePath(departure = ticket.paths$ticket_departure[t],
+                                         arrival = ticket.paths$ticket_arrival[t])[1]
+  ticket.paths$train_points[t] = calculatePath(departure = ticket.paths$ticket_departure[t],
+                                               arrival = ticket.paths$ticket_arrival[t])[2]
   t <- t + 1
 }
+
+ticket.paths$total_points <- with(ticket.paths, ticket_points + train_points)
+ticket.paths$points_per_train <- with(ticket.paths, total_points / trains)
